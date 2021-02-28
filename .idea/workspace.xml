@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1d1db29d-9204-4e86-b43a-7b1a30bf5ac6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="78d0d652-835f-445c-b459-6263eaa65ccd" name="localServer" />
+    </servers>
+  </component>
+  <component name="ProjectId" id="1p7XlLHHlTdeZeXwE5eYsTpYmyM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\itzel\Proyectos\HTML\flawless-box" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" singleton="false" server_name="localServer" start_url="/flawless-box">
+      <method v="2" />
+    </configuration>
+    <configuration name="localhost" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="localServer" start_url="/flawless-box">
+      <method v="2">
+        <option name="FtpUpload" enabled="true">
+          <server_id>30ca522c-2cab-4293-8fa8-498020f4ca61</server_id>
+          <server_name>localServer</server_name>
+          <group_name />
+          <path>C:\Users\itzel\Proyectos\HTML\flawless-box</path>
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d1db29d-9204-4e86-b43a-7b1a30bf5ac6" name="Default Changelist" comment="" />
+      <created>1614535251855</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614535251855</updated>
+      <workItem from="1614535253100" duration="1246000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1680" y="234" key="#Deployment" timestamp="1614536389962">
+      <screen x="94" y="0" width="2658" height="1152" />
+    </state>
+    <state x="1680" y="234" key="#Deployment/94.0.2658.1152@94.0.2658.1152" timestamp="1614536389962" />
+    <state x="1668" y="231" key="#Servers" timestamp="1614536496835">
+      <screen x="94" y="0" width="2658" height="1152" />
+    </state>
+    <state x="1668" y="231" key="#Servers/94.0.2658.1152@94.0.2658.1152" timestamp="1614536496835" />
+    <state x="1890" y="365" key="#Web_Browsers" timestamp="1614536491660">
+      <screen x="94" y="0" width="2658" height="1152" />
+    </state>
+    <state x="1890" y="365" key="#Web_Browsers/94.0.2658.1152@94.0.2658.1152" timestamp="1614536491660" />
+    <state x="1543" y="231" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614536499789">
+      <screen x="94" y="0" width="2658" height="1152" />
+    </state>
+    <state x="1543" y="231" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/94.0.2658.1152@94.0.2658.1152" timestamp="1614536499789" />
+    <state x="1868" y="331" key="FileChooserDialogImpl" timestamp="1614536445050">
+      <screen x="94" y="0" width="2658" height="1152" />
+    </state>
+    <state x="1868" y="331" key="FileChooserDialogImpl/94.0.2658.1152@94.0.2658.1152" timestamp="1614536445050" />
+    <state width="642" height="380" key="GridCell.Tab.0.bottom" timestamp="1614536453523">
+      <screen x="94" y="0" width="2658" height="1152" />
+    </state>
+    <state width="642" height="380" key="GridCell.Tab.0.bottom/94.0.2658.1152@94.0.2658.1152" timestamp="1614536453523" />
+    <state width="642" height="380" key="GridCell.Tab.0.center" timestamp="1614536453523">
+      <screen x="94" y="0" width="2658" height="1152" />
+    </state>
+    <state width="642" height="380" key="GridCell.Tab.0.center/94.0.2658.1152@94.0.2658.1152" timestamp="1614536453523" />
+    <state width="642" height="380" key="GridCell.Tab.0.left" timestamp="1614536453523">
+      <screen x="94" y="0" width="2658" height="1152" />
+    </state>
+    <state width="642" height="380" key="GridCell.Tab.0.left/94.0.2658.1152@94.0.2658.1152" timestamp="1614536453523" />
+    <state width="642" height="380" key="GridCell.Tab.0.right" timestamp="1614536453523">
+      <screen x="94" y="0" width="2658" height="1152" />
+    </state>
+    <state width="642" height="380" key="GridCell.Tab.0.right/94.0.2658.1152@94.0.2658.1152" timestamp="1614536453523" />
+    <state width="642" height="380" key="GridCell.Tab.1.bottom" timestamp="1614536453231">
+      <screen x="94" y="0" width="2658" height="1152" />
+    </state>
+    <state width="642" height="380" key="GridCell.Tab.1.bottom/94.0.2658.1152@94.0.2658.1152" timestamp="1614536453231" />
+    <state width="642" height="380" key="GridCell.Tab.1.center" timestamp="1614536453230">
+      <screen x="94" y="0" width="2658" height="1152" />
+    </state>
+    <state width="642" height="380" key="GridCell.Tab.1.center/94.0.2658.1152@94.0.2658.1152" timestamp="1614536453230" />
+    <state width="642" height="380" key="GridCell.Tab.1.left" timestamp="1614536453230">
+      <screen x="94" y="0" width="2658" height="1152" />
+    </state>
+    <state width="642" height="380" key="GridCell.Tab.1.left/94.0.2658.1152@94.0.2658.1152" timestamp="1614536453230" />
+    <state width="642" height="380" key="GridCell.Tab.1.right" timestamp="1614536453230">
+      <screen x="94" y="0" width="2658" height="1152" />
+    </state>
+    <state width="642" height="380" key="GridCell.Tab.1.right/94.0.2658.1152@94.0.2658.1152" timestamp="1614536453230" />
+    <state width="642" height="380" key="GridCell.Tab.2.bottom" timestamp="1614536453231">
+      <screen x="94" y="0" width="2658" height="1152" />
+    </state>
+    <state width="642" height="380" key="GridCell.Tab.2.bottom/94.0.2658.1152@94.0.2658.1152" timestamp="1614536453231" />
+    <state width="642" height="380" key="GridCell.Tab.2.center" timestamp="1614536453231">
+      <screen x="94" y="0" width="2658" height="1152" />
+    </state>
+    <state width="642" height="380" key="GridCell.Tab.2.center/94.0.2658.1152@94.0.2658.1152" timestamp="1614536453231" />
+    <state width="642" height="380" key="GridCell.Tab.2.left" timestamp="1614536453231">
+      <screen x="94" y="0" width="2658" height="1152" />
+    </state>
+    <state width="642" height="380" key="GridCell.Tab.2.left/94.0.2658.1152@94.0.2658.1152" timestamp="1614536453231" />
+    <state width="642" height="380" key="GridCell.Tab.2.right" timestamp="1614536453231">
+      <screen x="94" y="0" width="2658" height="1152" />
+    </state>
+    <state width="642" height="380" key="GridCell.Tab.2.right/94.0.2658.1152@94.0.2658.1152" timestamp="1614536453231" />
+    <state x="1597" y="221" key="SettingsEditor" timestamp="1614536356524">
+      <screen x="94" y="0" width="2658" height="1152" />
+    </state>
+    <state x="1597" y="221" key="SettingsEditor/94.0.2658.1152@94.0.2658.1152" timestamp="1614536356524" />
+    <state x="1680" y="309" key="Vcs.Push.Dialog.v2" timestamp="1614535350842">
+      <screen x="94" y="0" width="2658" height="1152" />
+    </state>
+    <state x="1680" y="309" key="Vcs.Push.Dialog.v2/94.0.2658.1152@94.0.2658.1152" timestamp="1614535350842" />
+    <state x="1918" y="446" key="com.jetbrains.plugins.webDeployment.ui.UploadBeforeRunTaskDialog" timestamp="1614536446402">
+      <screen x="94" y="0" width="2658" height="1152" />
+    </state>
+    <state x="1918" y="446" key="com.jetbrains.plugins.webDeployment.ui.UploadBeforeRunTaskDialog/94.0.2658.1152@94.0.2658.1152" timestamp="1614536446402" />
+  </component>
+</project>
