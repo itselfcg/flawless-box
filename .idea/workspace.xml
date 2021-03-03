@@ -20,8 +20,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d1db29d-9204-4e86-b43a-7b1a30bf5ac6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/flawless-box.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flawless-box.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/style-signup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/style-wiki.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/script-signup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/script-wiki.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wiki.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wiki.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/script.babel" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,14 +70,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\itzel\Proyectos\HTML\flawless-box" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHP Web Page.localhost">
+    <configuration name="signup.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/signup.php">
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" singleton="false" server_name="localServer" start_url="/flawless-box">
       <method v="2" />
     </configuration>
@@ -75,6 +94,11 @@
         </option>
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.signup.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -129,73 +153,93 @@
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
     <state x="1890" y="365" key="#Web_Browsers/94.0.2658.1152@94.0.2658.1152" timestamp="1614536491660" />
-    <state x="1543" y="231" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614536499789">
+    <state x="385" y="170" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614731715796">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
-    <state x="1543" y="231" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/94.0.2658.1152@94.0.2658.1152" timestamp="1614536499789" />
+    <state x="385" y="170" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/94.0.2658.1152@94.0.2658.1152" timestamp="1614731715796" />
     <state x="1868" y="331" key="FileChooserDialogImpl" timestamp="1614536445050">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
     <state x="1868" y="331" key="FileChooserDialogImpl/94.0.2658.1152@94.0.2658.1152" timestamp="1614536445050" />
-    <state width="642" height="380" key="GridCell.Tab.0.bottom" timestamp="1614536861331">
+    <state width="642" height="380" key="GridCell.Tab.0.bottom" timestamp="1614731475168">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
-    <state width="642" height="380" key="GridCell.Tab.0.bottom/94.0.2658.1152@94.0.2658.1152" timestamp="1614536861331" />
-    <state width="642" height="380" key="GridCell.Tab.0.center" timestamp="1614536861331">
+    <state width="642" height="380" key="GridCell.Tab.0.bottom/94.0.2658.1152@94.0.2658.1152" timestamp="1614731475168" />
+    <state width="642" height="380" key="GridCell.Tab.0.center" timestamp="1614731475168">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
-    <state width="642" height="380" key="GridCell.Tab.0.center/94.0.2658.1152@94.0.2658.1152" timestamp="1614536861331" />
-    <state width="642" height="380" key="GridCell.Tab.0.left" timestamp="1614536861331">
+    <state width="642" height="380" key="GridCell.Tab.0.center/94.0.2658.1152@94.0.2658.1152" timestamp="1614731475168" />
+    <state width="642" height="380" key="GridCell.Tab.0.left" timestamp="1614731475168">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
-    <state width="642" height="380" key="GridCell.Tab.0.left/94.0.2658.1152@94.0.2658.1152" timestamp="1614536861331" />
-    <state width="642" height="380" key="GridCell.Tab.0.right" timestamp="1614536861331">
+    <state width="642" height="380" key="GridCell.Tab.0.left/94.0.2658.1152@94.0.2658.1152" timestamp="1614731475168" />
+    <state width="642" height="380" key="GridCell.Tab.0.right" timestamp="1614731475168">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
-    <state width="642" height="380" key="GridCell.Tab.0.right/94.0.2658.1152@94.0.2658.1152" timestamp="1614536861331" />
-    <state width="642" height="380" key="GridCell.Tab.1.bottom" timestamp="1614536861332">
+    <state width="642" height="380" key="GridCell.Tab.0.right/94.0.2658.1152@94.0.2658.1152" timestamp="1614731475168" />
+    <state width="642" height="380" key="GridCell.Tab.1.bottom" timestamp="1614731474969">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
-    <state width="642" height="380" key="GridCell.Tab.1.bottom/94.0.2658.1152@94.0.2658.1152" timestamp="1614536861332" />
-    <state width="642" height="380" key="GridCell.Tab.1.center" timestamp="1614536861331">
+    <state width="642" height="380" key="GridCell.Tab.1.bottom/94.0.2658.1152@94.0.2658.1152" timestamp="1614731474969" />
+    <state width="642" height="380" key="GridCell.Tab.1.center" timestamp="1614731474969">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
-    <state width="642" height="380" key="GridCell.Tab.1.center/94.0.2658.1152@94.0.2658.1152" timestamp="1614536861331" />
-    <state width="642" height="380" key="GridCell.Tab.1.left" timestamp="1614536861331">
+    <state width="642" height="380" key="GridCell.Tab.1.center/94.0.2658.1152@94.0.2658.1152" timestamp="1614731474969" />
+    <state width="642" height="380" key="GridCell.Tab.1.left" timestamp="1614731474969">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
-    <state width="642" height="380" key="GridCell.Tab.1.left/94.0.2658.1152@94.0.2658.1152" timestamp="1614536861331" />
-    <state width="642" height="380" key="GridCell.Tab.1.right" timestamp="1614536861331">
+    <state width="642" height="380" key="GridCell.Tab.1.left/94.0.2658.1152@94.0.2658.1152" timestamp="1614731474969" />
+    <state width="642" height="380" key="GridCell.Tab.1.right" timestamp="1614731474969">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
-    <state width="642" height="380" key="GridCell.Tab.1.right/94.0.2658.1152@94.0.2658.1152" timestamp="1614536861331" />
-    <state width="642" height="380" key="GridCell.Tab.2.bottom" timestamp="1614536861332">
+    <state width="642" height="380" key="GridCell.Tab.1.right/94.0.2658.1152@94.0.2658.1152" timestamp="1614731474969" />
+    <state width="642" height="380" key="GridCell.Tab.2.bottom" timestamp="1614731474970">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
-    <state width="642" height="380" key="GridCell.Tab.2.bottom/94.0.2658.1152@94.0.2658.1152" timestamp="1614536861332" />
-    <state width="642" height="380" key="GridCell.Tab.2.center" timestamp="1614536861332">
+    <state width="642" height="380" key="GridCell.Tab.2.bottom/94.0.2658.1152@94.0.2658.1152" timestamp="1614731474970" />
+    <state width="642" height="380" key="GridCell.Tab.2.center" timestamp="1614731474970">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
-    <state width="642" height="380" key="GridCell.Tab.2.center/94.0.2658.1152@94.0.2658.1152" timestamp="1614536861332" />
-    <state width="642" height="380" key="GridCell.Tab.2.left" timestamp="1614536861332">
+    <state width="642" height="380" key="GridCell.Tab.2.center/94.0.2658.1152@94.0.2658.1152" timestamp="1614731474970" />
+    <state width="642" height="380" key="GridCell.Tab.2.left" timestamp="1614731474970">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
-    <state width="642" height="380" key="GridCell.Tab.2.left/94.0.2658.1152@94.0.2658.1152" timestamp="1614536861332" />
-    <state width="642" height="380" key="GridCell.Tab.2.right" timestamp="1614536861332">
+    <state width="642" height="380" key="GridCell.Tab.2.left/94.0.2658.1152@94.0.2658.1152" timestamp="1614731474970" />
+    <state width="642" height="380" key="GridCell.Tab.2.right" timestamp="1614731474970">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
-    <state width="642" height="380" key="GridCell.Tab.2.right/94.0.2658.1152@94.0.2658.1152" timestamp="1614536861332" />
-    <state x="1597" y="221" key="SettingsEditor" timestamp="1614536356524">
+    <state width="642" height="380" key="GridCell.Tab.2.right/94.0.2658.1152@94.0.2658.1152" timestamp="1614731474970" />
+    <state x="596" y="500" key="NewPhpFileDialog" timestamp="1614731079071">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
-    <state x="1597" y="221" key="SettingsEditor/94.0.2658.1152@94.0.2658.1152" timestamp="1614536356524" />
-    <state x="1680" y="309" key="Vcs.Push.Dialog.v2" timestamp="1614536621601">
+    <state x="596" y="500" key="NewPhpFileDialog/94.0.2658.1152@94.0.2658.1152" timestamp="1614731079071" />
+    <state x="553" y="279" key="RollbackChangesDialog" timestamp="1614731839612">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
-    <state x="1680" y="309" key="Vcs.Push.Dialog.v2/94.0.2658.1152@94.0.2658.1152" timestamp="1614536621601" />
+    <state x="553" y="279" key="RollbackChangesDialog/94.0.2658.1152@94.0.2658.1152" timestamp="1614731839612" />
+    <state x="479" y="134" key="SettingsEditor" timestamp="1614731822317">
+      <screen x="94" y="0" width="2658" height="1152" />
+    </state>
+    <state x="479" y="134" key="SettingsEditor/94.0.2658.1152@94.0.2658.1152" timestamp="1614731822317" />
+    <state x="1680" y="309" key="Vcs.Push.Dialog.v2" timestamp="1614730378837">
+      <screen x="94" y="0" width="2658" height="1152" />
+    </state>
+    <state x="1680" y="309" key="Vcs.Push.Dialog.v2/94.0.2658.1152@94.0.2658.1152" timestamp="1614730378837" />
+    <state x="578" y="490" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614731741968">
+      <screen x="94" y="0" width="2658" height="1152" />
+    </state>
+    <state x="578" y="490" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/94.0.2658.1152@94.0.2658.1152" timestamp="1614731741968" />
     <state x="1918" y="446" key="com.jetbrains.plugins.webDeployment.ui.UploadBeforeRunTaskDialog" timestamp="1614536446402">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
     <state x="1918" y="446" key="com.jetbrains.plugins.webDeployment.ui.UploadBeforeRunTaskDialog/94.0.2658.1152@94.0.2658.1152" timestamp="1614536446402" />
+    <state x="470" y="309" width="1095" height="678" key="find.popup" timestamp="1614731546681">
+      <screen x="94" y="0" width="2658" height="1152" />
+    </state>
+    <state x="470" y="309" width="1095" height="678" key="find.popup/94.0.2658.1152@94.0.2658.1152" timestamp="1614731546681" />
+    <state x="423" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1614730851674">
+      <screen x="94" y="0" width="2658" height="1152" />
+    </state>
+    <state x="423" y="257" width="672" height="678" key="search.everywhere.popup/94.0.2658.1152@94.0.2658.1152" timestamp="1614730851674" />
   </component>
 </project>

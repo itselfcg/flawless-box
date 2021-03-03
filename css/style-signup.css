@@ -1,0 +1,211 @@
+@import "https://fonts.googleapis.com/css?family=Lato:400,700";
+
+body{
+  padding-top: 5%; 
+}
+
+.center{
+display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox;  /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+  display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+  
+  justify-content: center;
+  align-items: center;
+}
+
+
+.xs-padding{
+  padding-top:10px;
+}
+.s-padding{
+  padding-top:25px;
+}
+
+.m-padding{
+  padding-top: 50px; 
+}
+
+.l-padding{
+  padding-top:100px;
+}
+
+
+.custom-padding{
+  padding-top:100%;
+}
+
+
+
+
+.hide{
+    display: none;
+}
+
+
+
+.subtitle{
+    white-space: nowrap;
+  font-size:40px;
+  color:#1b262c;
+  font-family: 'Vidaloka', serif;
+  letter-spacing: 0px;
+  margin:0px;
+}
+
+
+p{
+  font-size:18px;
+font-weight: 300;
+
+}
+
+
+h1{
+  font-size:55px;
+  color:#1b262c;
+}
+
+h3{
+  font-size:20px;
+text-transform:uppercase;
+
+}
+
+
+
+#header-img{
+  padding-left:30px;
+   width:300px; 
+  height:auto; 
+  
+}
+
+@media only screen and (max-width: 1000px) {
+h1 {
+  font-size:30px;
+}
+  .subtitle{
+      font-size:15px;
+  }
+  .custom-padding{
+    padding-top:220%;
+  }
+p{
+  font-size:15px;
+} 
+  
+ #header-img{
+   position:relative;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+}
+
+
+@media only screen and (max-width: 770px) {
+h1{
+  font-size:20px;
+}
+  
+p{
+  font-size:10px;
+
+} 
+}
+
+
+@media only screen and (max-width: 560px) {
+
+  body{
+  padding-top: 50%; 
+}
+  #headers
+  {
+    display:hidden;
+  }
+}
+
+
+#logo-footer{
+   width:100%; 
+  height:auto; 
+}
+
+.bottom {
+ position:absolute;
+bottom:0;
+
+}
+nav img{
+padding-right:20px;
+}
+.nav-link{
+  font-size:18px;
+
+}
+
+.nav-label{
+    font-size:20px;
+        font-weight:bold;
+
+}
+
+nav a:hover{
+  text-decoration:underline!important;
+}
+
+.nav ul {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+footer{
+  background-color:#1dd3bd;
+  padding-top:35px;
+font-family: 'Barlow', sans-serif;
+  letter-spacing: 3px;
+  font-size:13px;
+
+}
+
+footer a{
+  color:#393e46;
+}
+
+footer a:hover{
+  color:#758184;
+  text-decoration:none;
+}
+
+
+#top-btn {
+  display: none;
+  position: fixed;
+  right:1%;
+  top:95%;
+  z-index: 99; 
+  cursor: pointer;
+}
+
+label{
+  font-size:14px;
+font-family: 'Barlow', sans-serif;
+}
+
+
+#submit{
+  color:white;
+  background-color:black;
+  border-style:solid;
+  border-radius: 200px;
+  width:125px;
+}
+
+#submit:hover{
+  color:white;
+  background-color:#3f4441;
+  
+}
