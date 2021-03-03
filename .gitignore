@@ -11,5 +11,5 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
-resources/images/old-version
-resources/images/psd
+public/images/old-version
+public/images/psd
