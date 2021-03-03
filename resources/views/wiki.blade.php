@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <title>Flawless Box | Wiki</title>
-  <link rel="stylesheet" href="css/style-wiki.css">
+    <link rel="stylesheet" type="text/css" href="/css/app.css">
+
+    <link rel="stylesheet" href="css/style-wiki.css">
 </head>
 <body>
 <!-- partial:index.partial.html -->

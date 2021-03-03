@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>Flawless Box | Home</title>
+  <title> Flawless Box | Home</title>
     <link rel="stylesheet" type="text/css" href="/css/app.css">
     <link rel="stylesheet" href="css/style.css">
 
@@ -11,33 +11,13 @@
 <body>
 
 
-<header id="header">
-   <nav id="nav-bar" class="navbar fixed-top navbar-expand-sm navbar-light bg-light">
-
-      <img id="header-img" src="https://www.dropbox.com/s/b5j0i6ismk1t3fb/logo.png?raw=1" alt="logo">
-      <div id="intro">
-         <ul class="navbar-nav">
-            <li class="nav-item">
-               <a class="nav-link nav-label" href="#new">NEW</a>
-            </li>
-            <li class="nav-item">
-               <a class="nav-link nav-label" href="#best">BEST</a>
-            </li>
-            <li class="nav-item">
-               <a class="nav-link" href="#brand">COMING SOON</a>
-            </li>
-            <li class="nav-item">
-               <a class="nav-link" href="wiki" target="_blank">WIKI</a>
-            </li>
-         </ul>
-      </div>
-   </nav>
+<header>
+    @include('includes.header')
 </header>
+
 <main>
 
 
-  <a  onclick="backToTop()" id="top-btn">
-<img src="https://img.icons8.com/android/24/000000/double-up.png"/></a>
 
    <section id="home" >
       <div id="headerBannerCarousel" class="carousel slide" data-ride="carousel">
@@ -308,83 +288,12 @@
 
 
 </main>
-<footer class="page-footer font-small blue">
-   <div class="container-fluid text-center text-md-left">
-      <!-- Grid row -->
-      <div class="row">
-         <!-- Grid column -->
-         <div class="col-md-4">
-            <img  id="logo-footer" src="https://www.dropbox.com/s/b5j0i6ismk1t3fb/logo.png?raw=1"/>
-            <br><br>
-            <div class="row">
-               <div class="col-md-6">
-                  <h5 class="text-uppercase">Resources</h5>
-                  <ul class="list-unstyled">
-                     <li>
-                        <a href="#!">About us</a>
-                     </li>
-                     <li>
-                        <a href="#!">FAQ</a>
-                     </li>
-                     <li>
-                        <a href="#!">Copyright</a>
-                     </li>
-                  </ul>
-               </div>
-               <div class="col-md-6">
-                  <h5 class="text-uppercase">Connect</h5>
-                  <ul class="list-unstyled">
-                     <li>
-                        <a href="#!"><i class="fa fa-codepen" aria-hidden="true"></i>Code pen</a>
-                     </li>
-                     <li>
-                        <a href="#!"><i class="fa fa-twitter" aria-hidden="true"></i>Twitter</a>
-                     </li>
-                     <li>
-                        <a href="#!"><i class="fa fa-instagram" aria-hidden="true"></i>Instagram</a>
-                     </li>
-                  </ul>
-               </div>
-            </div>
-         </div>
-         <div class="col-md-4">
-            <div class=" center">
-               <div class=" bottom">
-                  <img src="https://img.icons8.com/color/48/000000/mastercard.png"/>
-                  <img src="https://img.icons8.com/color/48/000000/visa.png"/>
-                  <img src="https://img.icons8.com/color/48/000000/amex.png"/>
-                  <img src="https://img.icons8.com/color/48/000000/paypal.png"/>
-               </div>
-            </div>
-         </div>
-         <div class="col-md-4">
-            <section id="signup" class="float-right">
-               <div class="coupon-container">
-                  <h4>EXTRA 10% OFF CODE</h4>
-                  <h6>Sign up for deals, freebies and news about our latest goodies.</h6>
-                  <br>
-                  <form id="form" action="https://www.freecodecamp.com/email-submit">
-                     <div class="email-container">
-                        <div class="input-group mb-2">
-                           <input class="form-control" name="email" id="email" type="email" placeholder="Enter email" required>
-                           <div class="input-group-append">
-                              <input id="submit" type="submit" class="btn input-group-text" value="SIGN UP"/>
-                           </div>
-                        </div>
-                     </div>
-                  </form>
-               </div>
-            </section>
-         </div>
-      </div>
-   </div>
-   <div class="footer-copyright text-center py-3">© 2020 Copyright:
-      <a href="https://codepen.io/itselfcg">Itzel Contreras</a>
-   </div>
+
+<footer>
+    @include('includes.footer')
 </footer>
-<!-- partial -->
+
 <script src="{{ mix('/js/app.js') }}" type="text/javascript"></script>
-<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
 
 </body>

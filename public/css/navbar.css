@@ -1,0 +1,24 @@
+.navbar{
+    background-color: transparent;
+}
+
+.nav-link{
+    font-family: "Trebuchet MS";
+    font-size:14px;
+    font-weight: bold;
+    color: var(--darkgray) !important;
+}
+
+nav a:hover{
+    color: var(--gray)!important;
+}
+
+nav img{
+    width: 250px;
+    height: auto;
+}
+
+li{
+    padding-right: 1em;
+}
+

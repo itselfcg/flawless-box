@@ -1,29 +1,8 @@
 @import "https://fonts.googleapis.com/css?family=Lato:400,700";
 
-body{
-  padding-top: 50px; 
-}
 
-.coupon-container{
-  width:90%;
-  background:white;
-  padding:30px;
-  border-color:#cae7b9;
-  border-style: solid;
-  border-radius: 25px;
-  border-width: thin;
 
-}
 
-.center{
-display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
-  display: -ms-flexbox;  /* TWEENER - IE 10 */
-  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
-  display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
-  
-  justify-content: center;
-  align-items: center;
-}
 
 #submit{
   background-color:#eb9486;
@@ -32,7 +11,7 @@ display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
 
 
 .img-banner{
- width:100%; 
+ width:100%;
 }
 
 .sm-padding{
@@ -41,7 +20,7 @@ display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
 
 
 .m-padding{
-  padding-top: 100px; 
+  padding-top: 100px;
 }
 
 .l-padding{
@@ -61,26 +40,6 @@ display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
   height:150px;
   width:auto;
 }
-
-footer{
-  background-color:#1dd3bd;
-  padding-top:35px;
-font-family: 'Barlow', sans-serif;
-  letter-spacing: 3px;
-  font-size:13px;
-
-}
-
-footer a{
-  color:#393e46;
-}
-
-footer a:hover{
-  color:#758184;
-  text-decoration:none;
-}
-
-
 
 .hide{
     display: none;
@@ -110,21 +69,14 @@ h6{
 }
 
 @media only screen and (max-width: 1000px) {
-h2{
-  font-size:30px;
-}
-h3{
-  font-size:15px;
+    h2 {
+        font-size: 30px;
+    }
 
-} 
-  
- #header-img{
-   position:relative;
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  }
+    h3 {
+        font-size: 15px;
+
+    }
 }
 
 
@@ -135,47 +87,7 @@ h2{
 h3{
   font-size:10px;
 
-} 
 }
-
-#header-img{
-  padding-left:30px;
-   width:300px; 
-  height:auto; 
-  
-}
-
-#logo-footer{
-   width:100%; 
-  height:auto; 
-}
-
-.bottom {
- position:absolute;
-bottom:0;
-
-}
-nav img{
-padding-right:20px;
-}
-.nav-link{
-  font-size:18px;
-
-}
-
-.nav-label{
-    font-size:20px;
-        font-weight:bold;
-
-}
-
-nav a:hover{
-  text-decoration:underline!important;
-}
-
-.nav ul {
-    display: inline-block;
-    vertical-align: middle;
 }
 
 
@@ -198,7 +110,7 @@ nav a:hover{
 
 }
 
-#bestProductsCarousel  .carousel-control-prev-icon,#bestProductsCarousel 
+#bestProductsCarousel  .carousel-control-prev-icon,#bestProductsCarousel
 .carousel-control-next-icon {
   height: 35px;
   width: 35px;
@@ -226,6 +138,6 @@ nav a:hover{
   position: fixed;
   right:1%;
   top:95%;
-  z-index: 99; 
+  z-index: 99;
   cursor: pointer;
 }
