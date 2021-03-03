@@ -20,19 +20,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d1db29d-9204-4e86-b43a-7b1a30bf5ac6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/flawless-box.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flawless-box.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpServers">
@@ -79,8 +84,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1614535251855</updated>
-      <workItem from="1614535253100" duration="1246000" />
+      <workItem from="1614535253100" duration="1607000" />
+      <workItem from="1614729190322" duration="937000" />
     </task>
+    <task id="LOCAL-00001" summary="Php configuration for project.">
+      <created>1614536616244</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614536616244</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +110,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Php configuration for project." />
+    <option name="LAST_COMMIT_MESSAGE" value="Php configuration for project." />
   </component>
   <component name="WindowStateProjectService">
     <state x="1680" y="234" key="#Deployment" timestamp="1614536389962">
@@ -118,62 +137,62 @@
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
     <state x="1868" y="331" key="FileChooserDialogImpl/94.0.2658.1152@94.0.2658.1152" timestamp="1614536445050" />
-    <state width="642" height="380" key="GridCell.Tab.0.bottom" timestamp="1614536453523">
+    <state width="642" height="380" key="GridCell.Tab.0.bottom" timestamp="1614536861331">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
-    <state width="642" height="380" key="GridCell.Tab.0.bottom/94.0.2658.1152@94.0.2658.1152" timestamp="1614536453523" />
-    <state width="642" height="380" key="GridCell.Tab.0.center" timestamp="1614536453523">
+    <state width="642" height="380" key="GridCell.Tab.0.bottom/94.0.2658.1152@94.0.2658.1152" timestamp="1614536861331" />
+    <state width="642" height="380" key="GridCell.Tab.0.center" timestamp="1614536861331">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
-    <state width="642" height="380" key="GridCell.Tab.0.center/94.0.2658.1152@94.0.2658.1152" timestamp="1614536453523" />
-    <state width="642" height="380" key="GridCell.Tab.0.left" timestamp="1614536453523">
+    <state width="642" height="380" key="GridCell.Tab.0.center/94.0.2658.1152@94.0.2658.1152" timestamp="1614536861331" />
+    <state width="642" height="380" key="GridCell.Tab.0.left" timestamp="1614536861331">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
-    <state width="642" height="380" key="GridCell.Tab.0.left/94.0.2658.1152@94.0.2658.1152" timestamp="1614536453523" />
-    <state width="642" height="380" key="GridCell.Tab.0.right" timestamp="1614536453523">
+    <state width="642" height="380" key="GridCell.Tab.0.left/94.0.2658.1152@94.0.2658.1152" timestamp="1614536861331" />
+    <state width="642" height="380" key="GridCell.Tab.0.right" timestamp="1614536861331">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
-    <state width="642" height="380" key="GridCell.Tab.0.right/94.0.2658.1152@94.0.2658.1152" timestamp="1614536453523" />
-    <state width="642" height="380" key="GridCell.Tab.1.bottom" timestamp="1614536453231">
+    <state width="642" height="380" key="GridCell.Tab.0.right/94.0.2658.1152@94.0.2658.1152" timestamp="1614536861331" />
+    <state width="642" height="380" key="GridCell.Tab.1.bottom" timestamp="1614536861332">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
-    <state width="642" height="380" key="GridCell.Tab.1.bottom/94.0.2658.1152@94.0.2658.1152" timestamp="1614536453231" />
-    <state width="642" height="380" key="GridCell.Tab.1.center" timestamp="1614536453230">
+    <state width="642" height="380" key="GridCell.Tab.1.bottom/94.0.2658.1152@94.0.2658.1152" timestamp="1614536861332" />
+    <state width="642" height="380" key="GridCell.Tab.1.center" timestamp="1614536861331">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
-    <state width="642" height="380" key="GridCell.Tab.1.center/94.0.2658.1152@94.0.2658.1152" timestamp="1614536453230" />
-    <state width="642" height="380" key="GridCell.Tab.1.left" timestamp="1614536453230">
+    <state width="642" height="380" key="GridCell.Tab.1.center/94.0.2658.1152@94.0.2658.1152" timestamp="1614536861331" />
+    <state width="642" height="380" key="GridCell.Tab.1.left" timestamp="1614536861331">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
-    <state width="642" height="380" key="GridCell.Tab.1.left/94.0.2658.1152@94.0.2658.1152" timestamp="1614536453230" />
-    <state width="642" height="380" key="GridCell.Tab.1.right" timestamp="1614536453230">
+    <state width="642" height="380" key="GridCell.Tab.1.left/94.0.2658.1152@94.0.2658.1152" timestamp="1614536861331" />
+    <state width="642" height="380" key="GridCell.Tab.1.right" timestamp="1614536861331">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
-    <state width="642" height="380" key="GridCell.Tab.1.right/94.0.2658.1152@94.0.2658.1152" timestamp="1614536453230" />
-    <state width="642" height="380" key="GridCell.Tab.2.bottom" timestamp="1614536453231">
+    <state width="642" height="380" key="GridCell.Tab.1.right/94.0.2658.1152@94.0.2658.1152" timestamp="1614536861331" />
+    <state width="642" height="380" key="GridCell.Tab.2.bottom" timestamp="1614536861332">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
-    <state width="642" height="380" key="GridCell.Tab.2.bottom/94.0.2658.1152@94.0.2658.1152" timestamp="1614536453231" />
-    <state width="642" height="380" key="GridCell.Tab.2.center" timestamp="1614536453231">
+    <state width="642" height="380" key="GridCell.Tab.2.bottom/94.0.2658.1152@94.0.2658.1152" timestamp="1614536861332" />
+    <state width="642" height="380" key="GridCell.Tab.2.center" timestamp="1614536861332">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
-    <state width="642" height="380" key="GridCell.Tab.2.center/94.0.2658.1152@94.0.2658.1152" timestamp="1614536453231" />
-    <state width="642" height="380" key="GridCell.Tab.2.left" timestamp="1614536453231">
+    <state width="642" height="380" key="GridCell.Tab.2.center/94.0.2658.1152@94.0.2658.1152" timestamp="1614536861332" />
+    <state width="642" height="380" key="GridCell.Tab.2.left" timestamp="1614536861332">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
-    <state width="642" height="380" key="GridCell.Tab.2.left/94.0.2658.1152@94.0.2658.1152" timestamp="1614536453231" />
-    <state width="642" height="380" key="GridCell.Tab.2.right" timestamp="1614536453231">
+    <state width="642" height="380" key="GridCell.Tab.2.left/94.0.2658.1152@94.0.2658.1152" timestamp="1614536861332" />
+    <state width="642" height="380" key="GridCell.Tab.2.right" timestamp="1614536861332">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
-    <state width="642" height="380" key="GridCell.Tab.2.right/94.0.2658.1152@94.0.2658.1152" timestamp="1614536453231" />
+    <state width="642" height="380" key="GridCell.Tab.2.right/94.0.2658.1152@94.0.2658.1152" timestamp="1614536861332" />
     <state x="1597" y="221" key="SettingsEditor" timestamp="1614536356524">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
     <state x="1597" y="221" key="SettingsEditor/94.0.2658.1152@94.0.2658.1152" timestamp="1614536356524" />
-    <state x="1680" y="309" key="Vcs.Push.Dialog.v2" timestamp="1614535350842">
+    <state x="1680" y="309" key="Vcs.Push.Dialog.v2" timestamp="1614536621601">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
-    <state x="1680" y="309" key="Vcs.Push.Dialog.v2/94.0.2658.1152@94.0.2658.1152" timestamp="1614535350842" />
+    <state x="1680" y="309" key="Vcs.Push.Dialog.v2/94.0.2658.1152@94.0.2658.1152" timestamp="1614536621601" />
     <state x="1918" y="446" key="com.jetbrains.plugins.webDeployment.ui.UploadBeforeRunTaskDialog" timestamp="1614536446402">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
