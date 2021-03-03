@@ -3,15 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <title>Flawless Box | Home</title>
-  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'>
-   <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/app.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
+
 <body>
-<!-- partial:index.partial.html -->
-<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Vidaloka?family=Barlow:wght@300&display=swap" rel="stylesheet">
+
+
 <header id="header">
    <nav id="nav-bar" class="navbar fixed-top navbar-expand-sm navbar-light bg-light">
 
@@ -384,10 +383,9 @@
    </div>
 </footer>
 <!-- partial -->
-  <script src='https://code.jquery.com/jquery-3.0.0.min.js'></script>
-<script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js'></script>
-<script  src="js/script.js"></script>
+<script src="{{ mix('/js/app.js') }}" type="text/javascript"></script>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
 
 </body>
 </html>

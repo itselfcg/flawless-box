@@ -20,66 +20,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d1db29d-9204-4e86-b43a-7b1a30bf5ac6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Default_Changelist.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Default_Changelist/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_3_3_2021_10_12_AM_[Default_Changelist]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_3_3_2021_10_12_AM__Default_Changelist_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/flawless-box.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flawless-box.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style-signup.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style-wiki.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script-signup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script-wiki.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/page-sketches/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/page-sketches/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/page-sketches/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/page-sketches/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/page-sketches/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/page-sketches/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/page-sketches/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/page-sketches/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/page-sketches/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/page-sketches/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/pictures/carton-box.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/pictures/carton-box2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/pictures/carton-box3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/pictures/drjart-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/pictures/drjart1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/pictures/drjart2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/pictures/drjart3.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/pictures/header1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/pictures/header2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/pictures/header3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/pictures/info.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/pictures/info1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/pictures/info2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/pictures/info3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/pictures/info4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/pictures/info5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/pictures/info6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/pictures/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/pictures/products/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/pictures/products/2a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/pictures/products/2b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/pictures/products/2c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/pictures/products/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/pictures/products/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/pictures/products/4A.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/pictures/products/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/pictures/vector/cleanser.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/pictures/vector/eyecream.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/pictures/vector/heart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/pictures/vector/masksheet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/pictures/vector/moisturizer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/pictures/vector/serum.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/pictures/vector/sunscreen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/pictures/vector/toner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/signup.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/signup.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/signup.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/signup.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/wiki.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/wiki.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,6 +172,7 @@
       <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
       <path value="$PROJECT_DIR$/vendor/phar-io/version" />
       <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
     </include_path>
   </component>
   <component name="ProjectId" id="1p7XlLHHlTdeZeXwE5eYsTpYmyM" />
@@ -223,7 +185,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -253,6 +215,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.signup.php" />
         <item itemvalue="PHP Script.signup.php" />
       </list>
     </recent_temporary>
@@ -323,10 +286,10 @@
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
     <state x="385" y="170" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/94.0.2658.1152@94.0.2658.1152" timestamp="1614731715796" />
-    <state x="188" y="100" width="1144" height="670" key="DiffContextDialog" timestamp="1614794345172">
+    <state x="188" y="100" width="1144" height="670" key="DiffContextDialog" timestamp="1614799830797">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
-    <state x="188" y="100" width="1144" height="670" key="DiffContextDialog/94.0.2658.1152@94.0.2658.1152" timestamp="1614794345172" />
+    <state x="188" y="100" width="1144" height="670" key="DiffContextDialog/94.0.2658.1152@94.0.2658.1152" timestamp="1614799830797" />
     <state x="1868" y="331" key="FileChooserDialogImpl" timestamp="1614536445050">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
@@ -395,14 +358,14 @@
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
     <state x="596" y="500" key="NewPhpFileDialog/94.0.2658.1152@94.0.2658.1152" timestamp="1614731079071" />
-    <state x="553" y="279" key="RollbackChangesDialog" timestamp="1614745605917">
+    <state x="553" y="279" key="RollbackChangesDialog" timestamp="1614800007070">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
-    <state x="553" y="279" key="RollbackChangesDialog/94.0.2658.1152@94.0.2658.1152" timestamp="1614745605917" />
-    <state x="479" y="134" key="SettingsEditor" timestamp="1614731822317">
+    <state x="553" y="279" key="RollbackChangesDialog/94.0.2658.1152@94.0.2658.1152" timestamp="1614800007070" />
+    <state x="992" y="186" key="SettingsEditor" timestamp="1614798642530">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
-    <state x="479" y="134" key="SettingsEditor/94.0.2658.1152@94.0.2658.1152" timestamp="1614731822317" />
+    <state x="992" y="186" key="SettingsEditor/94.0.2658.1152@94.0.2658.1152" timestamp="1614798642530" />
     <state x="1680" y="309" key="Vcs.Push.Dialog.v2" timestamp="1614731973571">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
@@ -419,9 +382,9 @@
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
     <state x="470" y="309" width="1095" height="678" key="find.popup/94.0.2658.1152@94.0.2658.1152" timestamp="1614746785949" />
-    <state x="422" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1614747009200">
+    <state x="422" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1614799854416">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
-    <state x="422" y="257" width="672" height="678" key="search.everywhere.popup/94.0.2658.1152@94.0.2658.1152" timestamp="1614747009200" />
+    <state x="422" y="257" width="672" height="678" key="search.everywhere.popup/94.0.2658.1152@94.0.2658.1152" timestamp="1614799854416" />
   </component>
 </project>

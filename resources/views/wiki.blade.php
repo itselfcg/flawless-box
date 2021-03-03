@@ -4,17 +4,14 @@
   <meta charset="UTF-8">
   <title>Flawless Box | Wiki</title>
   <link rel="stylesheet" href="css/style-wiki.css">
-
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-<link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap" rel="stylesheet">
 <nav id="navbar">
    <header>
       <h1>
       SKINCARE WIKI
-      <h1>
+      </h1>
    </header>
    <h2><a class="link" href="{{ url('/') }}" target="_blank" >BY FLAWLESS BOX</a></h2>
    <ul>
@@ -198,6 +195,7 @@
 </main>
 <!-- partial -->
   <script  src="js/script-wiki.js"></script>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
 </body>
 </html>
