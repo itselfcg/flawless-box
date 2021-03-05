@@ -19,7 +19,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d1db29d-9204-4e86-b43a-7b1a30bf5ac6" name="Default Changelist" comment="" />
+    <list default="true" id="1d1db29d-9204-4e86-b43a-7b1a30bf5ac6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/css/about-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pictures/info7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pictures/info8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pictures/info9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/about.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/colors.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/pictures/header2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/pictures/header2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/pictures/info4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/pictures/info4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/pictures/info5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/pictures/info5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/pictures/info6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/pictures/info6.jpg" afterDir="false" />
+    </list>
     <list id="34c02487-aa28-47f2-859d-92ce06984b79" name="Browser sync" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +46,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -170,8 +183,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jsx.switch.disabled" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -209,6 +224,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.signup.php" />
+        <item itemvalue="JavaScript Debug.welcome.blade.php" />
         <item itemvalue="JavaScript Debug.welcome.blade.php" />
         <item itemvalue="PHP Script.signup.php" />
         <item itemvalue="PHP Script.signup.php" />
@@ -219,6 +236,8 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1d1db29d-9204-4e86-b43a-7b1a30bf5ac6" name="Default Changelist" comment="" />
+      <changelist id="81ebdb67-e501-48df-9ec6-772478ac97b7" name="NO COMMIT" comment="" />
+      <changelist id="34c02487-aa28-47f2-859d-92ce06984b79" name="Browser sync" comment="" />
       <created>1614535251855</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -228,6 +247,8 @@
       <workItem from="1614745558700" duration="1194000" />
       <workItem from="1614800624241" duration="3286000" />
       <workItem from="1614803936277" duration="7144000" />
+      <workItem from="1614911865783" duration="420000" />
+      <workItem from="1614912301865" duration="14228000" />
     </task>
     <task id="LOCAL-00001" summary="Php configuration for project.">
       <created>1614536616244</created>
@@ -268,7 +289,34 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="intro-page" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="intro-page" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
@@ -276,6 +324,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Php configuration for project." />
     <MESSAGE value="Project pages configuration." />
     <MESSAGE value="Bootstrap and FontAwesome have been added to the project." />
@@ -395,10 +444,14 @@
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
     <state x="1299" y="222" key="SettingsEditor/94.0.2658.1152@94.0.2658.1152" timestamp="1614804031701" />
-    <state x="1680" y="309" key="Vcs.Push.Dialog.v2" timestamp="1614800401820">
+    <state x="1918" y="446" key="VCS.EditChangelistDialog" timestamp="1614912528342">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
-    <state x="1680" y="309" key="Vcs.Push.Dialog.v2/94.0.2658.1152@94.0.2658.1152" timestamp="1614800401820" />
+    <state x="1918" y="446" key="VCS.EditChangelistDialog/94.0.2658.1152@94.0.2658.1152" timestamp="1614912528342" />
+    <state x="1680" y="309" key="Vcs.Push.Dialog.v2" timestamp="1614910654372">
+      <screen x="94" y="0" width="2658" height="1152" />
+    </state>
+    <state x="1680" y="309" key="Vcs.Push.Dialog.v2/94.0.2658.1152@94.0.2658.1152" timestamp="1614910654372" />
     <state x="578" y="490" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614731741968">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
@@ -407,14 +460,14 @@
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
     <state x="1918" y="446" key="com.jetbrains.plugins.webDeployment.ui.UploadBeforeRunTaskDialog/94.0.2658.1152@94.0.2658.1152" timestamp="1614536446402" />
-    <state x="470" y="309" width="1095" height="678" key="find.popup" timestamp="1614813618630">
+    <state x="94" y="0" width="2658" height="1152" key="find.popup" timestamp="1614913920629">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
-    <state x="470" y="309" width="1095" height="678" key="find.popup/94.0.2658.1152@94.0.2658.1152" timestamp="1614813618630" />
-    <state x="422" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1614806126692">
+    <state x="94" y="0" width="2658" height="1152" key="find.popup/94.0.2658.1152@94.0.2658.1152" timestamp="1614913920629" />
+    <state x="422" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1614975191309">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
-    <state x="422" y="257" width="672" height="678" key="search.everywhere.popup/94.0.2658.1152@94.0.2658.1152" timestamp="1614806126692" />
+    <state x="422" y="257" width="672" height="678" key="search.everywhere.popup/94.0.2658.1152@94.0.2658.1152" timestamp="1614975191309" />
     <state x="1513" y="331" key="vcs.ApplyPatchDifferentiatedDialog" timestamp="1614813263134">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
