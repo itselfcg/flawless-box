@@ -1,0 +1,61 @@
+
+ main{
+    background-color: var(--pink);
+}
+
+ #header{
+    width: auto;
+    height: 600px;
+    background-image: url("/images/pictures/header1.jpg") ;
+    background-repeat:no-repeat;
+    background-position: center center;
+}
+
+
+ #products{
+    padding: 2em 0 2em 0;
+    background-color: white;
+    width: auto;
+}
+
+ #products img{
+    text-align: center;
+    height: 150px;
+    width: auto;
+}
+
+
+ #products label{
+    text-align: center;
+    padding: 1em 0 1em 0;
+    font-family: Arial;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+ h1{
+    color: white;
+    font-weight: bold;
+    font-family:Bebas;
+    font-size: 5em;
+    line-height: .9em;
+    margin: 0px!important;
+
+}
+ h2{
+    color: white;
+    font-family: Georgia;
+    font-size: 3em;
+    margin: 0px!important;
+}
+ h3{
+    color: white;
+    font-size: 1.25em;
+    font-family: "Trebuchet MS";
+
+}
+
+ .title{
+     padding-bottom: 1em;
+     line-height: 25em!important;
+ }

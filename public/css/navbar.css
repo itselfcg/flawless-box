@@ -1,4 +1,5 @@
 .navbar{
+    position: absolute;
     background-color: transparent;
 }
 
@@ -6,19 +7,37 @@
     font-family: "Trebuchet MS";
     font-size:14px;
     font-weight: bold;
-    color: var(--darkgray) !important;
+    color: var(--lightblack) !important;
 }
 
 nav a:hover{
-    color: var(--gray)!important;
+    color: var(--darkgray)!important;
 }
 
-nav img{
+#navbar1 img{
     width: 250px;
     height: auto;
 }
 
-li{
-    padding-right: 1em;
+
+#navbar2 img{
+    width: 350px;
+    height: auto;
 }
 
+.navbar li{
+    padding-left: .5em;
+
+    padding-right: .5em;
+}
+
+.menu{
+    border-bottom: 1px solid black;
+}
+
+#promo{
+    background-color: black;
+    color: white;
+    font-family: "Trebuchet MS";
+    font-size: 12px;
+}

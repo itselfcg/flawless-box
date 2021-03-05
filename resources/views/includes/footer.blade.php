@@ -1,7 +1,7 @@
 <link href="{{ asset('css/footer.css') }}" rel="stylesheet">
 
 <hr class="pb-4">
-<div class="container ">
+<div id="footer" class="container ">
     <div class="row pb-5">
         <div class="col-lg-3">
             <label>Flawless Box</label>

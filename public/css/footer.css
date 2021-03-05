@@ -1,11 +1,11 @@
 @import url(../css/colors.css);
 
-p{
+#footer p{
     font-family: Arial;
     font-size: 13px;
 }
 
-label{
+#footer label{
     padding-bottom: .5em;
     font-family: "Trebuchet MS";
     font-size: 18px;
@@ -13,12 +13,12 @@ label{
     color:var(--gray);
 }
 
-i{
+#footer i{
     padding-right: 1em;
     color: var(--pink);
 }
 
-.btn-submit{
+#footer .btn-submit{
 background-color: var(--blue);
     border-radius: 0;
     padding: 0px 25px 0 35px;
@@ -27,7 +27,7 @@ background-color: var(--blue);
     font-weight: bold;
 }
 
-a{
+#footer a{
     color:black;
 
 }
