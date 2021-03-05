@@ -1,10 +1,11 @@
 <link href="{{ asset('css/navbar.css') }}" rel="stylesheet">
 
 
-<nav class="navbar navbar-expand-md navbar-light ">
+<nav id="navbar1" class="navbar navbar-expand-md navbar-light ">
 
-    <a class="navbar-brand" href="{{ url('/') }}"><img src="{{asset('images/pictures/logo.png')}}"
-                                                       alt="FlawlessBox"></a>
+    <a class="navbar-brand" href="{{ url('/') }}">
+        <img src="{{asset('images/pictures/logo.png')}}" alt="FlawlessBox">
+    </a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
