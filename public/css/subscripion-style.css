@@ -69,16 +69,6 @@ p {
 
 }
 
-.btn-join {
-    background-color: var(--blue);
-    width: 200px;
-    font-family: "Trebuchet MS";
-    font-weight: bold;
-}
-
-.btn-join:hover {
-    background-color: #99e5d3;
-}
 
 
 .package {
@@ -91,6 +81,29 @@ p {
 
 }
 
+
+
+#wrapper .text {
+    background: rgba(236, 236, 236, 0.85);
+    height: 94%;
+    position:absolute;
+    top:1.5rem;
+    left:1rem;
+    right: 1rem;
+    visibility:hidden;
+    text-align: justify;
+    color: black;
+    padding: 2rem 2rem 2rem 2rem;
+
+    font-size: 1.5vmin;
+
+}
+
+#wrapper:hover .text {
+    visibility:visible;
+
+
+}
 
 
 
