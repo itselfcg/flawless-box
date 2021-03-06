@@ -19,6 +19,7 @@ Route::get('/', function () {
 
 Route::view('/wiki', 'wiki');
 Route::view('/signup', 'signup');
+Route::view('/about', 'about');
 
 
 
