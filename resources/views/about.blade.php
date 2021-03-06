@@ -5,6 +5,7 @@
     <title> Flawless Box | About</title>
     <link rel="stylesheet" type="text/css" href="/css/app.css">
     <link rel="stylesheet" href="css/about-style.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 

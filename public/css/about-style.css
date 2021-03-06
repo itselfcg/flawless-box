@@ -62,50 +62,6 @@ h4{
 }
 
 
-.btn-join{
-    background-color: var(--blue);
-    width: 300px;
-    font-family: "Trebuchet MS";
-    font-weight: bold;
-    color: black;
-    font-size: 20px;
-}
-
-.btn-join:hover{
-    background-color: #99e5d3;
-}
-
-
-
-.btn-blue{
-    background-color: var(--blue);
-    width: 200px;
-    font-family: "Trebuchet MS";
-    font-weight: bold;
-}
-
-
-
-.btn-blue:hover{
-    background-color: #7bccb9;
-}
-
-
-.btn-pink{
-    background-color: var(--pink);
-    width: 200px;
-    font-family: "Trebuchet MS";
-    font-weight: bold;
-}
-
-
-
-.btn-pink:hover{
-    background-color: #fcbfc7;
-}
-
-
-
 #wrapper p {
     margin: 0px!important;
     padding: 0px!important;
