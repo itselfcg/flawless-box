@@ -1,6 +1,7 @@
 :root {
     --green:#e1e55a;
     --pink: #f2b3bb;
+    --oldpink:#e5b8bd;
     --darkpink:#e48e99;
     --purple: #b7b4e9;
     --blue: #7bccb9;
@@ -10,5 +11,6 @@
     --lightblack: #404040;
     --gray: #929292;
     --lightgray: #b5b5b5;
+    --darkwhite: #d0d0d0;
 
 }
