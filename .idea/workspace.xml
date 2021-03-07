@@ -20,26 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d1db29d-9204-4e86-b43a-7b1a30bf5ac6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/css/elements.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/intro-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/includes/header2.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/includes/links.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/includes/promo.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Default_Changelist4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Default_Changelist4/header1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Default_Changelist4/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Default_Changelist5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Default_Changelist5/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pictures/header1b.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/New_navbar_style_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/New_navbar_style_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/colors.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/intro-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/intro-style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/images/pictures/header1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/pictures/header1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/pictures/vector/eyecream.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/pictures/vector/eyecream.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/pictures/vector/heart.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/pictures/vector/heart.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/pictures/vector/masksheet.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/pictures/vector/masksheet.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/pictures/vector/moisturizer.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/pictures/vector/moisturizer.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/pictures/vector/serum.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/pictures/vector/serum.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/pictures/vector/toner.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/pictures/vector/toner.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/includes/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/includes/footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/includes/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/includes/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/includes/header2.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/includes/header2.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +52,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="develop" />
+        <entry key="$PROJECT_DIR$" value="develop-merge" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -183,6 +174,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1p7XlLHHlTdeZeXwE5eYsTpYmyM" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -288,7 +282,59 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="months-box" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="months-box" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="develop-merge" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="develop" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="about-page" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="intro-page" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="login-page" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
@@ -323,10 +369,10 @@
       <screen x="94" y="0" width="1442" height="864" />
     </state>
     <state x="933" y="237" key="#com.intellij.fileTypes.FileTypeChooser/94.0.1442.864@94.0.1442.864" timestamp="1614899837901" />
-    <state x="188" y="100" width="1144" height="670" key="DiffContextDialog" timestamp="1614813299451">
+    <state x="188" y="100" width="1144" height="670" key="DiffContextDialog" timestamp="1615151038409">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
-    <state x="188" y="100" width="1144" height="670" key="DiffContextDialog/94.0.2658.1152@94.0.2658.1152" timestamp="1614813299451" />
+    <state x="188" y="100" width="1144" height="670" key="DiffContextDialog/94.0.2658.1152@94.0.2658.1152" timestamp="1615151038409" />
     <state x="1868" y="331" key="FileChooserDialogImpl" timestamp="1614536445050">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
@@ -411,18 +457,22 @@
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
     <state x="596" y="500" key="NewPhpFileDialog/94.0.2658.1152@94.0.2658.1152" timestamp="1614731079071" />
-    <state x="553" y="279" key="RollbackChangesDialog" timestamp="1614883907322">
+    <state x="553" y="279" key="RollbackChangesDialog" timestamp="1615150732980">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
-    <state x="553" y="279" key="RollbackChangesDialog/94.0.2658.1152@94.0.2658.1152" timestamp="1614883907322" />
+    <state x="553" y="279" key="RollbackChangesDialog/94.0.2658.1152@94.0.2658.1152" timestamp="1615150732980" />
     <state x="1299" y="222" key="SettingsEditor" timestamp="1614804031701">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
     <state x="1299" y="222" key="SettingsEditor/94.0.2658.1152@94.0.2658.1152" timestamp="1614804031701" />
-    <state x="1680" y="309" key="Vcs.Push.Dialog.v2" timestamp="1614800401820">
+    <state x="1864" y="490" key="VCS.ChangelistChooser" timestamp="1615143653210">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
-    <state x="1680" y="309" key="Vcs.Push.Dialog.v2/94.0.2658.1152@94.0.2658.1152" timestamp="1614800401820" />
+    <state x="1864" y="490" key="VCS.ChangelistChooser/94.0.2658.1152@94.0.2658.1152" timestamp="1615143653210" />
+    <state x="1680" y="309" key="Vcs.Push.Dialog.v2" timestamp="1615143644928">
+      <screen x="94" y="0" width="2658" height="1152" />
+    </state>
+    <state x="1680" y="309" key="Vcs.Push.Dialog.v2/94.0.2658.1152@94.0.2658.1152" timestamp="1615143644928" />
     <state x="578" y="490" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614731741968">
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
@@ -459,7 +509,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/resources/views/welcome.blade.php</url>
-          <line>44</line>
+          <line>45</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

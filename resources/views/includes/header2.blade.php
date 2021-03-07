@@ -3,7 +3,7 @@
 <nav id="navbar2" class="w-100 navbar navbar-expand flex-column text-center mx-auto">
     <div class="menu">
         <a class="navbar-brand" href="{{ url('/') }}">
-            <img src="{{asset('images/pictures/logo.png')}}" alt="FlawlessBox">
+            <img src="{{asset('images/pictures/logo3.png')}}" alt="FlawlessBox">
         </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"

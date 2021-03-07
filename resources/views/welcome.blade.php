@@ -21,14 +21,15 @@
 
     <section id="header">
 
-        <div class="h-75 row align-items-end">
-            <div class="col justify-content-center offset-lg-6 offset-md-5 offset-sm-4 offset-3">
+        <div class="h-75 row align-content-end">
+            <div class=" col-md-4 offset-md-7 justify-content-center
+            offset-1 col-11 ">
                 <div class="title">
-                    <h1>LOVE YOURSELF,</h1>
-                    <h2>love your skin.</h2>
-                    <h3>Skincare boxes to fall in love</h3>
+                    <h1>Skincare to fall in love</h1>
+                    <h2>Chekout our new March's box. free shipping in your first box.</h2>
+
                 </div>
-                <a class="btn btn-yellow " href="about">GET STARTED</a>
+                <a class="link" href="subscription">MORE INFO</a>
 
             </div>
         </div>
@@ -43,10 +44,15 @@
                             <div class="row text-center">
                                 <div class="col-3">
                                     <div class="row">
-                                        <div class="col-9">
+                                        <div class="col-md-9 col-8">
                                             <div class="row">
                                                 <div class="col-12">
-                                                    <img src="images/pictures/vector/cleanser.png">
+
+
+                                                    <a class="wiki-link" href="wiki#cleanser">
+                                                        <img src="images/pictures/vector/cleanser.png">
+
+                                                    </a>
                                                 </div>
                                             </div>
                                             <div class="row">
@@ -55,7 +61,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-3 my-auto">
+                                        <div class="col-md-3 col-4 my-auto">
                                             <i class="fa fa-plus" aria-hidden="true"></i>
                                         </div>
                                     </div>
@@ -63,10 +69,14 @@
                                 </div>
                                 <div class="col-3">
                                     <div class="row">
-                                        <div class="col-9">
+                                        <div class="col-md-9 col-8">
                                             <div class="row">
                                                 <div class="col-12">
-                                                    <img src="images/pictures/vector/toner.png">
+
+                                                    <a class="wiki-link" href="wiki#toner">
+                                                        <img src="images/pictures/vector/toner.png">
+
+                                                    </a>
                                                 </div>
                                             </div>
                                             <div class="row">
@@ -75,7 +85,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-3 my-auto">
+                                        <div class="col-md-3 col-4 my-auto">
                                             <i class="fa fa-plus" aria-hidden="true"></i>
                                         </div>
                                     </div>
@@ -83,10 +93,13 @@
                                 </div>
                                 <div class="col-3">
                                     <div class="row">
-                                        <div class="col-9">
+                                        <div class="col-md-9 col-8">
                                             <div class="row ">
                                                 <div class="col-12">
-                                                    <img src="images/pictures/vector/serum.png">
+
+                                                    <a class="wiki-link" href="wiki#serum">
+                                                        <img src="images/pictures/vector/serum.png">
+                                                    </a>
                                                 </div>
                                             </div>
                                             <div class="row ">
@@ -95,7 +108,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-3 my-auto">
+                                        <div class="col-md-3 col-4 my-auto">
                                             <i class="fa fa-plus" aria-hidden="true"></i>
                                         </div>
                                     </div>
@@ -104,10 +117,15 @@
                                 </div>
                                 <div class="col-3">
                                     <div class="row">
-                                        <div class="col-9">
+                                        <div class="col-md-9 col-8">
                                             <div class="row ">
                                                 <div class="col-12  ">
-                                                    <img src="images/pictures/vector/masksheet.png">
+
+                                                    <a class="wiki-link" href="wiki#sheet-mask">
+                                                        <img src="images/pictures/vector/masksheet.png">
+                                                    </a>
+
+
                                                 </div>
                                             </div>
                                             <div class="row">
@@ -116,7 +134,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-3 my-auto">
+                                        <div class="col-md-3 col-4 my-auto">
                                             <i class="fa fa-plus" aria-hidden="true"></i>
                                         </div>
                                     </div>
@@ -129,10 +147,12 @@
                             <div class="row text-center">
                                 <div class="col-3 ">
                                     <div class="row">
-                                        <div class="col-9">
+                                        <div class="col-md-9 col-8">
                                             <div class="row ">
                                                 <div class="col-12">
-                                                    <img src="images/pictures/vector/eyecream.png">
+                                                    <a class="wiki-link" href="wiki#eye-cream">
+                                                        <img src="images/pictures/vector/eyecream.png">
+                                                    </a>
                                                 </div>
                                             </div>
                                             <div class="row ">
@@ -141,17 +161,19 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-3 my-auto">
+                                        <div class="col-md-3 col-4 my-auto">
                                             <i class="fa fa-plus" aria-hidden="true"></i>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-3 ">
                                     <div class="row">
-                                        <div class="col-9">
+                                        <div class="col-md-9 col-8">
                                             <div class="row ">
                                                 <div class="col-12">
-                                                    <img src="images/pictures/vector/moisturizer.png">
+                                                    <a class="wiki-link" href="wiki#moisturizer">
+                                                        <img src="images/pictures/vector/moisturizer.png">
+                                                    </a>
                                                 </div>
                                             </div>
                                             <div class="row ">
@@ -160,17 +182,19 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-3 my-auto">
+                                        <div class="col-md-3 col-4 my-auto">
                                             <i class="fa fa-plus" aria-hidden="true"></i>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-3 ">
                                     <div class="row">
-                                        <div class="col-9">
+                                        <div class="col-md-9 col-8">
                                             <div class="row ">
                                                 <div class="col-12">
-                                                    <img src="images/pictures/vector/sunscreen.png">
+                                                    <a class="wiki-link" href="wiki#sunscreen">
+                                                        <img src="images/pictures/vector/sunscreen.png">
+                                                    </a>
                                                 </div>
                                             </div>
                                             <div class="row ">
@@ -180,7 +204,7 @@
                                             </div>
 
                                         </div>
-                                        <div class="col-3 my-auto">
+                                        <div class="col-md-3 col-4 my-auto">
                                             <i class="fa fa-arrow-right" aria-hidden="true"></i>
                                         </div>
                                     </div>
@@ -201,14 +225,14 @@
 
     </section>
 
-<section id="media">
+    <section id="media">
 
-<div class="container">
-   &nbsp;
+        <div class="container">
+            &nbsp;
 
-</div>
+        </div>
 
-</section>
+    </section>
 
 </main>
 
