@@ -67,6 +67,13 @@ body{
     background-color: var(--green);
 }
 
+.bg-pink{
+    background-color: var(--pink);
+}
+.bg-gray{
+    background-color: var(--darkwhite);
+}
+
 
 .georgia{
     font-family: Georgia;
