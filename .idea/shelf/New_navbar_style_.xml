@@ -1,0 +1,19 @@
+<changelist name="New_navbar_style_" date="1615083452516" recycled="false">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/New_navbar_style_/shelved.patch" />
+  <option name="DESCRIPTION" value="New navbar style." />
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="public/images/pictures/logo2.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/New_navbar_style_/logo2.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="public/images/pictures/logo3.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/New_navbar_style_/logo3.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="public/images/pictures/logo4.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/New_navbar_style_/logo4.png" />
+  </binary>
+</changelist>
