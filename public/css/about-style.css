@@ -1,9 +1,9 @@
 #header{
     width: auto;
-    height: 600px;
+    height: 700px;
     background-image: url("/images/pictures/header2.jpg") ;
     background-repeat:no-repeat;
-    background-position: center center;
+    background-position: center bottom;
     background-color: var(--purple);
 
 }
