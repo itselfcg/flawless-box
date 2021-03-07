@@ -102,6 +102,12 @@ body{
 .bg-gray{
     background-color: var(--darkwhite);
 }
+.bg-lightgray{
+    background-color: #f8f8f8;
+}
+.bg-lightblue{
+    background-color: var(--lightblue);
+}
 
 
 .georgia{

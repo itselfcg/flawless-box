@@ -1,13 +1,21 @@
+#header{
+    padding-top: 6em;
+}
 
 #banner {
-    height: 70vh;
-    background-image: url("/images/pictures/info1.jpg");
+    height: 700px;
     background-repeat: no-repeat;
     background-position: right bottom;
     background-color: var(--lightblue);
+    background-image: url("/images/pictures/info1.jpg");
+    background-size:  80%;
+
 
 }
 
+#login{
+    padding: 5em 0 5em;
+}
 
 h1 {
     color: var(--darkgray);
