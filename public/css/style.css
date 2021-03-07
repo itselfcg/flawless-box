@@ -58,3 +58,40 @@ body{
     background-color: #fcbfc7;
 }
 
+
+.bg-yellow{
+    background-color: var(--yellow);
+}
+
+.bg-green{
+    background-color: var(--green);
+}
+
+.bg-pink{
+    background-color: var(--pink);
+}
+.bg-gray{
+    background-color: var(--darkwhite);
+}
+
+
+.georgia{
+    font-family: Georgia;
+    font-weight: normal;
+}
+
+
+.separator h2 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid var(--lightgray);
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+.separator h2 span {
+    background:#fff;
+    padding: 20px 50px 20px 50px;
+    border: 1px solid var(--lightgray);
+
+}
