@@ -1,44 +1,79 @@
-.navbar{
+.navbar {
+    top: 0px!important;
     position: absolute;
-    z-index:9;
+    width: 100%;
+    margin-bottom: 0px!important;
     background-color: transparent;
+    z-index: 9999;
+
 }
 
-.nav-link{
-    font-family: "Trebuchet MS";
-    font-size:14px;
-    font-weight: bold;
-    color: var(--lightblack) !important;
+#navbar2 {
+    position: relative !important;
+    padding: 2em;
+    background-color: #ffffff;
+
 }
 
-nav a:hover{
-    color: var(--darkgray)!important;
-}
 
-#navbar1 img{
-    width: 250px;
+#navbar1 img {
+    width: 320px;
     height: auto;
+    padding: 20px;
+}
+
+.bg-transparent {
+    border-bottom: 2px solid white;
 }
 
 
-#navbar2 img{
+
+#navbar2 img {
     width: 350px;
     height: auto;
+
 }
 
-.navbar li{
-    padding-left: .5em;
-
-    padding-right: .5em;
-}
-
-.menu{
-    border-bottom: 1px solid black;
-}
-
-#promo{
+#promo {
     background-color: black;
     color: white;
     font-family: "Trebuchet MS";
     font-size: 12px;
+}
+
+
+.navbar li a,
+.navbar .navbar-brand {
+    color: black !important;
+    font-size: 15px !important;
+    font-weight: bold;
+
+
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+    color: #2b2b2b!important;
+}
+
+
+@media only screen and (max-width: 992px) {
+
+#navbar1{
+    background-color: var(--mwhite);
+
+}
+
+    .navbar-nav li a:hover,
+    .navbar-nav li.active a {
+        color: var(--mblack) !important;
+        background-color: #efefef;
+    }
+
+}
+
+
+li{
+    margin-right: 15px;
+
 }
