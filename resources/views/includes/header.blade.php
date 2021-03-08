@@ -34,7 +34,7 @@
 
             <ul class="nav navbar-nav ml-auto my-auto">
                 <li>
-                    <a class="nav-link" href="account">MY ACCOUNT</a>
+                    <a class="nav-link" href="account">ACCOUNT</a>
                 </li>
                 <li>
                     <a class="nav-link " href="cart">
