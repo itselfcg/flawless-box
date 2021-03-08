@@ -20,7 +20,7 @@
     <section id="header">
         <div class="container">
             <div class="row">
-                <div id="banner" class="col-md-6 col-sm-12 order-last order-md-first bg-lightblue">
+                <div id="banner" class="col-md-6 col-sm-12 order-last order-md-first">
                     <div class="row align-items-center h-100">
                         <div class="col-12 ">
 
@@ -48,7 +48,7 @@
                     </div>
                 </div>
 
-                <div id="login" class="col-md-6 col-sm-12 order-first order-md-last bg-lightgray">
+                <div id="login" class="col-md-6 col-sm-12 order-first order-md-last ">
                     <div class="row align-items-center h-100">
                         <div class="col-10 offset-1 ">
                             <div>

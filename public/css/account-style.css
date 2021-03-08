@@ -1,12 +1,23 @@
 #header{
-    padding-top: 6em;
+    background: linear-gradient(90deg, rgba(217,232,239,1) 50%, rgba(248,248,248,1) 50%);
+
 }
 
+
+@media only screen and (max-width: 768px) {
+    #header{
+        padding-top: 25%;
+        background: linear-gradient(360deg, rgba(217,232,239,1) 50%, rgba(248,248,248,1) 50%);
+
+    }
+
+}
+
+
 #banner {
-    height: 700px;
+    height: 650px;
     background-repeat: no-repeat;
     background-position: right bottom;
-    background-color: var(--lightblue);
     background-image: url("/images/pictures/info1.jpg");
     background-size:  80%;
 
