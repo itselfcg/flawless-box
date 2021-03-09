@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title> Flawless Box | Home</title>
-    <link rel="stylesheet" type="text/css" href="/css/app.css">
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <title> Flawless Box | Home</title>
+    @include('includes.links')
+    <link rel="stylesheet" href="css/intro-style.css">
 
 </head>
 
@@ -12,280 +12,227 @@
 
 
 <header>
-    @include('includes.header')
+    @include('includes.promo')
+    @include('includes.header2')
 </header>
 
-<main>
+<main id="intro">
 
 
+    <section id="header">
 
-   <section id="home" >
-      <div id="headerBannerCarousel" class="carousel slide" data-ride="carousel">
-         <div class="carousel-inner">
-            <div class="carousel-item active">
-               <img class="d-block w-100" src="https://www.dropbox.com/s/d6cx2jpe26n6enk/monthbrand.png?raw=1" alt="Month's brand banner">
+        <div class="h-75 row align-content-end">
+            <div class=" col-md-4 offset-md-7 justify-content-center
+            offset-1 col-11 ">
+                <div class="title">
+                    <h1>Skincare to fall in love</h1>
+                    <h2>Chekout our new March's box. free shipping in your first box.</h2>
+
+                </div>
+                <a class="link" href="subscription">MORE INFO</a>
+
             </div>
-            <div class="carousel-item ">
-               <img class="d-block w-100" src="https://www.dropbox.com/s/ea5w0e0d88n6ffj/summercollection.png?raw=1" alt="Summer collection banner">
+        </div>
+    </section>
+    <section id="products">
+
+        <div class="container ">
+            <div class="row ">
+                <div class="col-12">
+                    <div class="row ">
+                        <div class="col-lg-6 ">
+                            <div class="row text-center">
+                                <div class="col-3">
+                                    <div class="row">
+                                        <div class="col-md-9 col-8">
+                                            <div class="row">
+                                                <div class="col-12">
+
+
+                                                    <a class="wiki-link" href="wiki#cleanser">
+                                                        <img src="images/pictures/vector/cleanser.png">
+
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <label class="products">Cleanser</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-4 my-auto">
+                                            <i class="fa fa-plus" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-3">
+                                    <div class="row">
+                                        <div class="col-md-9 col-8">
+                                            <div class="row">
+                                                <div class="col-12">
+
+                                                    <a class="wiki-link" href="wiki#toner">
+                                                        <img src="images/pictures/vector/toner.png">
+
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12 ">
+                                                    <label class="products">Toner</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-4 my-auto">
+                                            <i class="fa fa-plus" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-3">
+                                    <div class="row">
+                                        <div class="col-md-9 col-8">
+                                            <div class="row ">
+                                                <div class="col-12">
+
+                                                    <a class="wiki-link" href="wiki#serum">
+                                                        <img src="images/pictures/vector/serum.png">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="row ">
+                                                <div class="col-12">
+                                                    <label class="products">Serum</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-4 my-auto">
+                                            <i class="fa fa-plus" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div class="col-3">
+                                    <div class="row">
+                                        <div class="col-md-9 col-8">
+                                            <div class="row ">
+                                                <div class="col-12  ">
+
+                                                    <a class="wiki-link" href="wiki#sheet-mask">
+                                                        <img src="images/pictures/vector/masksheet.png">
+                                                    </a>
+
+
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <label class="products">Sheet mask</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-4 my-auto">
+                                            <i class="fa fa-plus" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 ">
+                            <div class="row text-center">
+                                <div class="col-3 ">
+                                    <div class="row">
+                                        <div class="col-md-9 col-8">
+                                            <div class="row ">
+                                                <div class="col-12">
+                                                    <a class="wiki-link" href="wiki#eye-cream">
+                                                        <img src="images/pictures/vector/eyecream.png">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="row ">
+                                                <div class="col-12">
+                                                    <label class="products">Eye cream</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-4 my-auto">
+                                            <i class="fa fa-plus" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-3 ">
+                                    <div class="row">
+                                        <div class="col-md-9 col-8">
+                                            <div class="row ">
+                                                <div class="col-12">
+                                                    <a class="wiki-link" href="wiki#moisturizer">
+                                                        <img src="images/pictures/vector/moisturizer.png">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="row ">
+                                                <div class="col-12">
+                                                    <label class="products">Moisturizer</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-4 my-auto">
+                                            <i class="fa fa-plus" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-3 ">
+                                    <div class="row">
+                                        <div class="col-md-9 col-8">
+                                            <div class="row ">
+                                                <div class="col-12">
+                                                    <a class="wiki-link" href="wiki#sunscreen">
+                                                        <img src="images/pictures/vector/sunscreen.png">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="row ">
+                                                <div class="col-12">
+                                                    <label class="products">Sunscreen</label>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-3 col-4 my-auto">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-3 my-auto">
+                                    <img src="images/pictures/vector/heart.png">
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-         </div>
-         <a class="carousel-control-prev" href="#headerBannerCarousel" role="button" data-slide="prev">
-         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-         <span class="sr-only">Previous</span>
-         </a>
-         <a class="carousel-control-next" href="#headerBannerCarousel" role="button" data-slide="next">
-         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-         <span class="sr-only">Next</span>
-         </a>
-      </div>
-   </section>
+        </div>
 
-   <div class="container">
-   <section id="intro" class="center">
-      <div class="sub m-padding ">
-         <h2>START TO LOVE YOUR SKIN </h2>
-         <h3>love yourself, take care of your skin. </h3>
-      </div>
-   </section>
 
-     <section id="new" class="center">
-      <div class="container m-padding">
-         <h2>NEW</h2>
-              <!--ROW 1 BEGIN-->
-         <div class="row">
-            <div class="col-md-3">
-               <div class="thumbnail">
-                  <img src="https://www.dropbox.com/s/8aabh0tt2cl7t6p/1.jpg?raw=1" alt="Lights" style="width:100%">
-                  <div class="caption">
-                     <div class="row">
-                        <div class="col-md-10">
-                           FOCUSPOT™ BLEMISH MICRO TIP™ PATCH WITH VITAMIN B3
-                        </div>
-                        <div class="col-md-2">
-                           <b> $22</b>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="col-md-3">
-               <div class="thumbnail">
-                  <img src="https://www.dropbox.com/s/37zan7k2h7ztquh/7.jpg?raw=1" alt="Nature" style="width:100%">
-                  <div class="caption">
-                     <div class="row">
-                        <div class="col-md-10">
-                           CICAPAIR™ TIGER GRASS COLOR CORRECTING TREATMENT SPF30
-                        </div>
-                        <div class="col-md-2">
-                           <b> $12</b>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="col-md-3">
-               <div class="thumbnail">
-                  <img src="https://www.dropbox.com/s/6v5n404kk7gzj85/8.jpg?raw=1" alt="Fjords" style="width:100%">
-                  <div class="caption">
-                     <div class="row">
-                        <div class="col-md-10">
-                           SENSITIVE SKIN SAVER SET - CICAPAIR™
-                        </div>
-                        <div class="col-md-2">
-                           <b> $8</b>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="col-md-3">
-               <div class="thumbnail">
-                  <img src="https://www.dropbox.com/s/56jsm4f6ri343br/2.jpg?raw=1" alt="Fjords" style="width:100%">
-                  <div class="caption">
-                     <div class="row">
-                        <div class="col-md-10">
-                           TEATREEMENT™ MISSION CLEAR! KIT
-                        </div>
-                        <div class="col-md-2">
-                           <b> $17</b>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-              <!--ROW 1 BEGIN-->
+    </section>
 
-      </div>
-   </section>
-   <section id="best" class="center">
-      <div class=" m-padding">
-         <h2>BEST</h2>
-              <div class="container">
+    <section id="media">
 
-         <div id="bestProductsCarousel" class="carousel carousel-multi-item" data-ride="carousel">
+        <div class="container">
+            &nbsp;
 
-            <div class="carousel-inner" role="listbox" style="overflow: visible;">
-               <!--First slide-->
-               <div class="carousel-item active">
-                  <div class="row">
-                     <div class="col-md-3" >
-                        <div class="thumbnail">
-                           <img src="https://www.dropbox.com/s/crhsxo7o3rqnpmz/3.jpg?raw=1" alt="Lights" style="width:100%">
-                           <div class="caption">
-                              <div class="row">
-                                 <div class="col-md-10">
-                                    SHAKE & SHOT™ RUBBER SOOTHING MASK
-                                 </div>
-                                 <div class="col-md-2">
-                                    <b> $10</b>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-md-3">
-                        <div class="thumbnail">
-                           <img src="https://www.dropbox.com/s/7l42cbe0f2y07sg/9.jpg?raw=1" alt="Nature" style="width:100%">
-                           <div class="caption">
-                              <div class="row">
-                                 <div class="col-md-10">
-                                    <br> ETUDE HOUSE My Beauty Tool Jellyfish Silicon Brush
-                                 </div>
-                                 <div class="col-md-2">
-                                    <b> $8</b>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-md-3">
-                        <div class="thumbnail">
-                           <img src="https://www.dropbox.com/s/u0fbxg46m3lvrsi/10.jpg?raw=1" alt="Fjords" style="width:100%">
-                           <div class="caption">
-                              <div class="row">
-                                 <div class="col-md-10">
-                                    <br>
-                                    HADALABO GOKUJUN Hyaluronic Lotion 170ml
-                                 </div>
-                                 <div class="col-md-2">
-                                    <b> $12</b>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-md-3">
-                        <div class="thumbnail">
-                           <img src="https://www.dropbox.com/s/2tzwnbz4fanf6ir/4.jpg?raw=1" alt="Fjords" style="width:100%">
-                           <div class="caption">
-                              <div class="row">
-                                 <div class="col-md-10">
-                                    GOOD BYE RED RITUALS KIT
-                                 </div>
-                                 <div class="col-md-2">
-                                    <b> $10</b>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <!--/.First slide-->
-               <!--Second slide-->
-               <div class="carousel-item">
-                  <div class="row">
-                     <div class="col-md-3" >
-                        <div class="thumbnail">
-                           <img src="https://www.dropbox.com/s/f6vzsmvhpufu24q/11.jpg?raw=1" alt="Lights" style="width:100%">
-                           <div class="caption">
-                              <div class="row">
-                                 <div class="col-md-10">
-                                    NATURE REPUBLIC Aloe Vera 92% Soothing Gel 300ml
-                                 </div>
-                                 <div class="col-md-2">
-                                    <b> $6</b>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-md-3">
-                        <div class="thumbnail">
-                           <img src="https://www.dropbox.com/s/spbuu51i133s0la/6.jpg?raw=1" alt="Nature" style="width:100%">
-                           <div class="caption">
-                              <div class="row">
-                                 <div class="col-md-10">
-                                    BB DIS-A-PORE BROAD SPECTRUM SPF 50+
-                                 </div>
-                                 <div class="col-md-2">
-                                    <b> $20</b>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-md-3">
-                        <div class="thumbnail">
-                           <img src="https://www.dropbox.com/s/y1alccyn8t47diq/5.jpg?raw=1" alt="Fjords" style="width:100%">
-                           <div class="caption">
-                              <div class="row">
-                                 <div class="col-md-10">
-                                    CRYO RUBBER™ WITH SOOTHING ALLANTOIN
-                                 </div>
-                                 <div class="col-md-2">
-                                    <b> $10</b>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-md-3">
-                        <div class="thumbnail">
-                           <img src="https://www.dropbox.com/s/uotwy8tg00c1ns5/12.jpg?raw=1" alt="Fjords" style="width:100%">
-                           <div class="caption">
-                              <div class="row">
-                                 <div class="col-md-10">
-                                    MISSHA Line Friends Edition Perfect Cover BB Cream 50ml SPF42 PA+++
-                                 </div>
-                                 <div class="col-md-2">
-                                    <b> $12</b>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <!--/.Second slide-->
-               </div>
-               <!--/.Slides-->
-               <a class="carousel-control-prev" href="#bestProductsCarousel" role="button" data-slide="prev">
-               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-               <span class="sr-only">Previous</span>
-               </a>
-               <a class="carousel-control-next" href="#bestProductsCarousel" role="button" data-slide="next">
-               <span class="carousel-control-next-icon" aria-hidden="true"></span>
-               <span class="sr-only">Next</span>
-               </a>
-            </div>
-         </div>
-         </div>
-         </div>
+        </div>
 
-        </section>
-   <section id="brand" class="center">
-   <div class="sub m-padding ">
-   <h2>NEXT MONTH BRAND</h2>
-   <img class="img-banner" id="nm-brand" src="https://www.dropbox.com/s/qdsazwsubcus6og/pixilogo.png?raw=1" alt="Newxt month brand" />
-   <div class="sm-padding ">
-   <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/ciDEVZjaVoM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-   </div>
-   </div>
-   </section>
-
-   </div>
-
+    </section>
 
 </main>
 
