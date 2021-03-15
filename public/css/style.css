@@ -56,6 +56,34 @@ body{
 }
 
 
+.btn-green{
+    background-color: var(--green);
+    width: 200px;
+    font-family: "Trebuchet MS";
+    font-weight: bold;
+}
+
+
+
+.btn-green:hover{
+    background-color: #f2f675;
+}
+
+
+.btn-orange{
+    background-color: var(--orange);
+    width: 200px;
+    font-family: "Trebuchet MS";
+    font-weight: bold;
+}
+
+
+
+.btn-orange:hover{
+    background-color: #f8756c;
+}
+
+
 .bg-yellow{
     background-color: var(--yellow);
 }
@@ -79,12 +107,14 @@ body{
 .bg-blue{
     background-color: var(--blue);
 }
-
-.bg-ligtgray{
-    background-color: var(--darkwhite);
-}
 .bg-gray{
     background-color: var(--darkwhite);
+}
+.bg-lightgray{
+    background-color: #f8f8f8;
+}
+.bg-lightblue{
+    background-color: var(--lightblue);
 }
 
 
