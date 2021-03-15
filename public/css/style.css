@@ -1,3 +1,4 @@
+@import url(../css/colors.css);
 
 body{
     overflow-x: hidden;
@@ -127,15 +128,16 @@ body{
 .separator h2 {
     width: 100%;
     text-align: center;
-    border-bottom: 1px solid var(--lightgray);
+    border-bottom: 2.5px solid var(--darkwhite);
+    color: var(--darkgray)!important;
     line-height: 0.1em;
-    margin: 10px 0 20px;
+    margin: 5em 0em 3em ;
 }
 
 .separator h2 span {
     background:#fff;
     padding: 20px 50px 20px 50px;
-    border: 1px solid var(--lightgray);
+    border: 2.5px solid var(--darkwhite);
 
 }
 

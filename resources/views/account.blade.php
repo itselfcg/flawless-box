@@ -74,7 +74,7 @@
                                 <p class="text-right">
                                     <a href="reset">Forgot password?</a>
                                 </p>
-                                <a class="btn btn-green" href="login">LOGIN</a> or <a href="subscription#packages"> Join
+                                <a class="btn btn-green" href="login">LOGIN</a> or <a href="subscription#join-now"> Join
                                     now</a>
                             </div>
                         </div>

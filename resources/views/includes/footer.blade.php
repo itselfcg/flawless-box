@@ -7,7 +7,7 @@
             <label>Flawless Box</label>
             <p>
                 <a href="#"> Help & FAQ</a><br>
-                <a href="#">Join Now</a><br>
+                <a href="subscription#join-now">Join Now</a><br>
                 <a href="#">Resources</a>
             </p>
         </div>

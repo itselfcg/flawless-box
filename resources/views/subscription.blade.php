@@ -39,7 +39,7 @@
 
                             </div>
 
-                            <a class="btn btn-join " href="#separator2">
+                            <a class="btn btn-join " href="#join-now">
                                 JOIN NOW
                             </a>
                         </div>
@@ -148,16 +148,16 @@
     </section>
     <section id="products">
         <div class="container">
-            <div class="row ">
-                <div class="col-md-4 col-12 pt-4">
+            <div class="row w-100 no-gutters">
+                <div class="col-lg-4 col-12">
 
 
-                    <div class="h-100 row align-items-center bg-green">
+                    <div class="h-100 row no-gutters align-items-center bg-green">
                         <div class="col text-center pt-4 pb-4">
                             <h4 style="color: black; line-height: 2.25em;">
                                 checkout
 
-                                <div class="georgia" style="font-size: 3.5em; ">
+                                <div class="georgia" style="font-size: 2.5em; ">
                                     March's
                                 </div>
                                 <span>PRODUCTS</span>
@@ -166,7 +166,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-6 pt-4">
+                <div class="col-lg-4 col-6">
 
                     <div id="wrapper">
                         <img class="w-100 hover" SRC="images/pictures/products/2.jpg">
@@ -184,7 +184,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-4 col-6 pt-4">
+                <div class="col-lg-4 col-6">
 
                     <div id="wrapper">
                         <img class="w-100 hover" SRC="images/pictures/products/2a.jpg">
@@ -200,7 +200,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-4 col-6 pt-4">
+                <div class="col-lg-4 col-6">
                     <div id="wrapper">
                         <img class="w-100 hover" SRC="images/pictures/products/2b.jpg">
                         <p class="text">
@@ -218,7 +218,7 @@
                     </div>
 
                 </div>
-                <div class="col-md-4 col-6 pt-4">
+                <div class="col-lg-4 col-6">
                     <div id="wrapper">
                         <img class="w-100 hover" SRC="images/pictures/products/7.jpg">
                         <p class="text">
@@ -237,7 +237,7 @@
                     </div>
 
                 </div>
-                <div class="col-md-4 col-6 pt-4">
+                <div class="col-lg-4 col-6">
                     <div id="wrapper">
                         <img class="w-100 hover" SRC="images/pictures/products/3.jpg">
                         <p class="text">
@@ -256,7 +256,7 @@
                     </div>
 
                 </div>
-                <div class="col-md-4 col-6 pt-4">
+                <div class="col-lg-4 col-6">
                     <div id="wrapper">
                         <img class="w-100 hover" SRC="images/pictures/products/4.jpg">
                         <p class="text">
@@ -275,7 +275,7 @@
                     </div>
 
                 </div>
-                <div class="col-md-4 col-6 pt-4">
+                <div class="col-lg-4 col-6">
 
                     <div id="wrapper">
                         <img class="w-100 hover" SRC="images/pictures/products/4A.jpg">
@@ -294,17 +294,17 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-4 col-6 pt-4">
+                <div class="col-lg-4 col-6">
 
-                    <div class="h-100 row align-items-center ">
+                    <div class="h-100 row no-gutters align-items-center">
                         <div class="col text-center">
 
-                            <div class="georgia pb-4"> FIND THESE<br> PRODUCTS AT
+                            <div class="georgia pb-4"> FIND THESE<br> PRODUCTS AT<br>
 
-                                <img class="w-75" src="images/pictures/logo.png">
+                                <img class="w-50" src="images/pictures/logo3.png">
 
                             </div>
-                            <a class="btn btn-join w-75" href="#separator2">JOIN NOW</a>
+                            <a class="btn btn-join w-75" href="#join-now">JOIN NOW</a>
                         </div>
                     </div>
 
@@ -312,7 +312,7 @@
             </div>
         </div>
     </section>
-    <section id="separator2" class="separator">
+    <section id="join-now" class="separator">
         <div class="container pt-5 pb-4"><h2><span>PACKAGES</span></h2>
         </div>
 
@@ -332,8 +332,8 @@
             </div>
 
             <div class="row text-center no-gutters pt-5 pb-5">
-                <div class="col-md-4 pt-2">
-                    <div class="h-100 package">
+                <div class="col-md-4 pb-5">
+                    <div class="package">
 
                         <img class="w-75" src="images/pictures/carton-box.jpg">
 
@@ -342,9 +342,11 @@
                         <h7>$25/Month</h7>
 
                         </p>
-                        <a class="btn btn-pink" href="payment">
+                        <p>
+                            <a class="btn btn-pink" href="cart">
                             SELECT
                         </a>
+                        </p>
                         <p>
                             $25 billed monthly<br><br>
 
@@ -356,8 +358,8 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-4 pt-2">
-                    <div class="h-100 package">
+                <div class="col-md-4 pb-5">
+                    <div class="package">
 
                         <img class="w-75" src="images/pictures/carton-box2.jpg">
                         <p>
@@ -365,9 +367,11 @@
                         <h7>$23.33/Month</h7>
 
                         </p>
-                        <a class="btn btn-pink" href="payment">
+                        <p>
+                            <a class="btn btn-pink" href="cart">
                             SELECT
                         </a>
+                        </p>
                         <p>
                             Prepay $70 for 3 months<br>
                             Save $5 compared to monthly!<br><br>
@@ -379,8 +383,8 @@
                     </div>
 
                 </div>
-                <div class="col-md-4 pt-2">
-                    <div class="h-100 package">
+                <div class="col-md-4 pb-5">
+                    <div class="package">
 
                         <img class="w-75" src="images/pictures/carton-box3.jpg">
                         <p>
@@ -388,9 +392,11 @@
                         <h7>$23/Month</h7>
 
                         </p>
-                        <a class="btn btn-pink" href="payment">
+                        <p>
+                            <a class="btn btn-pink" href="cart">
                             SELECT
                         </a>
+                        </p>
                         <p>
                             Prepay $138 for 6 months<br>
                             Save $12 compared to monthly!<br><br>
