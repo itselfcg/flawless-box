@@ -1,0 +1,88 @@
+#header{
+    width: auto;
+    height: 700px;
+    background-image: url("/images/pictures/header2.jpg") ;
+    background-repeat:no-repeat;
+    background-position: center bottom;
+    background-color: var(--purple);
+
+}
+
+#header p{
+    font-family: Arial;
+    font-size: 18px;
+    color: white;
+
+}
+
+#info p{
+    font-family: Arial;
+    font-size: 15px;
+    color: var(--lightblack);
+
+}
+
+#info .row{
+    padding-top: 6em;
+
+}
+
+
+#join{
+    height: 10em;
+}
+
+h1{
+    color: white;
+    font-weight: bold;
+    font-family:Bebas;
+    font-size: 5em;
+    line-height: .9em;
+
+}
+h2{
+    color: white;
+    text-transform: uppercase;
+    font-family: "Trebuchet MS";
+    font-size: 1.5em;
+    font-weight: bold;
+}
+h3{
+    color: #b3b3b3;
+    font-weight: bold;
+    font-family:"Trebuchet MS";
+    font-size: 5em;
+}
+
+h4{
+    color: #5b5b5b;
+    font-weight: bold;
+    font-family:"Trebuchet MS";
+    font-size: 1.5em;
+}
+
+
+#wrapper p {
+    margin: 0px!important;
+    padding: 0px!important;
+    position:absolute;
+    background-color: rgba(255, 255, 255, 0.7);
+    bottom:20px;
+    left:0px;
+    width: 50%;
+
+
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: "Trebuchet MS";
+    font-size: 8px;
+    color: #4e4e4e;
+user-select: none;
+}
+
+
+
+
+
