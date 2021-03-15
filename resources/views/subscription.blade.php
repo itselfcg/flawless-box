@@ -343,7 +343,7 @@
 
                         </p>
                         <p>
-                            <a class="btn btn-pink" href="cart">
+                            <a class="btn btn-yellow" href="cart">
                             SELECT
                         </a>
                         </p>
@@ -368,7 +368,7 @@
 
                         </p>
                         <p>
-                            <a class="btn btn-pink" href="cart">
+                            <a class="btn btn-yellow" href="cart">
                             SELECT
                         </a>
                         </p>
@@ -393,7 +393,7 @@
 
                         </p>
                         <p>
-                            <a class="btn btn-pink" href="cart">
+                            <a class="btn btn-yellow" href="cart">
                             SELECT
                         </a>
                         </p>

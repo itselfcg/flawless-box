@@ -42,7 +42,7 @@
 
                             <div class="text-light">
                                 Visit our skincare wiki to learn about 7-step skincare routine.<br>
-                                <a class="btn btn-pink " href="wiki">
+                                <a class="btn btn-yellow " href="wiki">
                                     LEARN MORE</a>
                             </div>
                         </div>
