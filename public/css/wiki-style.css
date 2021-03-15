@@ -1,0 +1,100 @@
+
+main{
+    padding: 5em 0 5em;
+}
+
+#header{
+
+    padding: 10em 0 5em;
+    background-color: white;
+}
+
+#products{
+    background-image: url("/images/pictures/header4b.png") ;
+    background-position: top center;
+    background-repeat: repeat-x;
+    padding-top: 10%;
+    background-size: 50%;
+
+
+}
+
+
+h1{
+    color: var(--darkgray);
+    font-weight: bold;
+    font-family: "Trebuchet MS";
+    font-size: 1.25em;
+
+}
+h2 {
+
+    color: var(--mblack);
+    font-family: Georgia;
+    font-size: 2.5em;
+}
+
+
+h3 {
+    color: var(--darkgray);
+    font-weight: bold;
+    font-family: "Trebuchet MS";
+    font-size: 1.25em;
+    text-transform: uppercase;
+    padding-bottom: 1em;
+}
+
+
+h4 {
+    color: var(--darkwhite);
+    font-weight: bold;
+    font-family: "Trebuchet MS";
+    font-size: 5em;
+
+}
+
+h5{
+    color: var(--lightgray);
+    font-weight: bold;
+    font-family: "Trebuchet MS";
+    font-size: 1em;
+    text-transform: uppercase;
+    padding-bottom: 1em;
+
+}
+
+
+
+
+#header img{
+    text-align: center;
+    height: 125px;
+    width: auto;
+}
+
+
+#header label{
+    text-align: center;
+    padding: 1em 0 1em 0;
+    color: var(--darkgray);
+    font-weight: bold;
+    font-family: "Trebuchet MS";
+    text-transform: uppercase;
+    font-size: 10px;
+
+}
+
+#products{
+    font-family: Arial;
+    font-size: 15px;
+    color: var(--lightblack);
+    text-align: justify;
+}
+
+#products article{
+    padding-top: 10%;
+}
+
+.wiki-link img:hover,.wiki-link:hover {
+    opacity: 50%;
+}

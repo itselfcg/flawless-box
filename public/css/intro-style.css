@@ -1,0 +1,83 @@
+
+ main{
+    background-color: #f5f5f5;
+
+}
+
+ #header{
+    width: auto;
+    height: 600px;
+    background-image: url("/images/pictures/header1.jpg") ;
+    background-repeat:no-repeat;
+    background-position: center center;
+     background-size: auto 100%;
+}
+ @media only screen and (max-width: 768px) {
+
+
+     #header{
+         width: auto;
+         height: 600px;
+         background-image: url("/images/pictures/header1b.jpg") ;
+         background-repeat:no-repeat;
+         background-position: center bottom;
+         background-size: auto 100%;
+     }
+ }
+
+
+
+ #products{
+    padding: 2em 0 2em 0;
+    background-color: white;
+    width: auto;
+}
+
+ #products img{
+    text-align: center;
+    height: 150px;
+    width: auto;
+}
+
+
+ #products label{
+    text-align: center;
+    padding: 1em 0 1em 0;
+    font-family: Arial;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+ h1{
+     font-size: 2em;
+     font-family: "Microsoft JhengHei";
+
+}
+ h2{
+     font-size: 12px;
+     font-family: "Microsoft JhengHei";
+     font-weight: lighter!important;
+
+ }
+
+
+ .title{
+     padding-bottom: 1em;
+     line-height: 25em!important;
+ }
+
+#header .link{
+     color: black;
+    text-decoration: underline;
+    font-size: 12px;
+    font-family: "Microsoft JhengHei";
+    font-weight: bold!important;
+ }
+
+
+
+ .wiki-link img:hover {
+     opacity: 50%;
+ }
+
+

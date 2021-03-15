@@ -1,0 +1,18 @@
+Index: resources/views/includes/header2.blade.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><link href=\"{{ asset('css/navbar.css') }}\" rel=\"stylesheet\">\r\n\r\n<nav id=\"navbar2\" class=\"w-100 navbar navbar-expand flex-column text-center mx-auto\">\r\n    <div class=\"menu\">\r\n        <a class=\"navbar-brand\" href=\"{{ url('/') }}\">\r\n            <img src=\"{{asset('images/pictures/logo.png')}}\" alt=\"FlawlessBox\">\r\n        </a>\r\n\r\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNav\"\r\n                aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n            <span class=\"navbar-toggler-icon\"></span>\r\n        </button>\r\n        <div class=\"collapse navbar-collapse\" id=\"navbarCollapse\">\r\n            <ul class=\"navbar-nav mx-auto\">\r\n                <li class=\"nav-item\">\r\n                    <a class=\"nav-link\" href=\"about\">ABOUT</a>\r\n                </li>\r\n                <li class=\"nav-item\">\r\n                    <a class=\"nav-link\" href=\"subscription\">THE BOX</a>\r\n                </li>\r\n                <li class=\"nav-item\">\r\n                    <a class=\"nav-link\" href=\"account\">MY ACCOUNT</a>\r\n                </li>\r\n                <li class=\"nav-item\">\r\n                    <a class=\"nav-link\" href=\"wiki\" target=\"_blank\">WIKI</a>\r\n                </li>\r\n            </ul>\r\n        </div>\r\n\r\n    </div>\r\n</nav>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- resources/views/includes/header2.blade.php	(revision bd50d3ffcbaf3366389d6f16ce60d267456cc37e)
++++ resources/views/includes/header2.blade.php	(date 1615096728612)
+@@ -3,7 +3,7 @@
+ <nav id="navbar2" class="w-100 navbar navbar-expand flex-column text-center mx-auto">
+     <div class="menu">
+         <a class="navbar-brand" href="{{ url('/') }}">
+-            <img src="{{asset('images/pictures/logo.png')}}" alt="FlawlessBox">
++            <img src="{{asset('images/pictures/logo3.png')}}" alt="FlawlessBox">
+         </a>
+ 
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
