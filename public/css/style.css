@@ -63,11 +63,27 @@ body{
 }
 
 .bg-green{
-    background-color: var(--green);
+    background-color: var(--green)!important;
 }
 
 .bg-pink{
     background-color: var(--pink);
+}
+
+.bg-purple{
+    background-color: var(--purple);
+}
+
+.bg-orange{
+    background-color: var(--orange);
+}
+
+.bg-blue{
+    background-color: var(--blue);
+}
+
+.bg-ligtgray{
+    background-color: var(--darkwhite);
 }
 .bg-gray{
     background-color: var(--darkwhite);
@@ -93,4 +109,38 @@ body{
     padding: 20px 50px 20px 50px;
     border: 1px solid var(--lightgray);
 
+}
+
+
+.center{
+    align-items: center;
+}
+
+
+
+.texture-tablecloth{
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.5) 50%, transparent 50%),
+    linear-gradient(rgba(255, 255, 255, 0.5) 50%, transparent 50%);
+    background-size:50px 50px;
+}
+
+.texture-dots{
+    background-image: radial-gradient(white 15%, transparent 16%),
+    radial-gradient(white 15%, transparent 16%);
+    background-size: 60px 60px;
+    background-position: 0 0, 30px 30px;
+}
+
+.texture-xlines{
+    background-image: linear-gradient(transparent 50%, rgba(255,255,255,.5) 50%);
+    background-size: 50px 50px;
+}
+
+.texture-45lines{
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);
+}
+
+.texture-ylines{
+    background-image: linear-gradient(90deg, transparent 50%, rgba(255,255,255,.5) 50%);
+    background-size: 50px 50px;
 }

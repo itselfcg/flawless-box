@@ -20,18 +20,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d1db29d-9204-4e86-b43a-7b1a30bf5ac6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Default_Changelist4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Default_Changelist4/header1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Default_Changelist4/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Default_Changelist5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Default_Changelist5/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/pictures/header1b.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/New_navbar_style_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/New_navbar_style_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_7_2021_4_49_PM_[Default_Changelist]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_7_2021_4_49_PM_[Default_Changelist]1/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_7_2021_4_49_PM__Default_Changelist_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_3_9_2021_3_01_PM_[Default_Changelist]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_3_9_2021_3_01_PM__Default_Changelist_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/wiki-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pictures/vector/essence.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pictures/vector/exfoliant.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pictures/vector/face-mask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pictures/vector/spot-treatment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pictures/vector/spottreatment.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Default_Changelist4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Default_Changelist4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Default_Changelist5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Default_Changelist5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_3_3_2021_10_12_AM_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_3_3_2021_10_12_AM__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/colors.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/intro-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/intro-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/pictures/header1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/pictures/header1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/includes/header2.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/includes/header2.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style-signup.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style-signup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style-wiki.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/pictures/vector/eyecream.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/pictures/vector/eyecream.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/wiki.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/wiki.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +64,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="develop-merge" />
+        <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -221,8 +233,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.welcome.blade.php" />
         <item itemvalue="PHP Script.signup.php" />
+        <item itemvalue="JavaScript Debug.welcome.blade.php" />
+        <item itemvalue="JavaScript Debug.welcome.blade.php" />
         <item itemvalue="PHP Script.signup.php" />
         <item itemvalue="PHP Script.signup.php" />
       </list>
@@ -242,6 +255,9 @@
       <workItem from="1614800624241" duration="3286000" />
       <workItem from="1614803936277" duration="7144000" />
       <workItem from="1614882262093" duration="14816000" />
+      <workItem from="1615397525004" duration="1728000" />
+      <workItem from="1615503467686" duration="14291000" />
+      <workItem from="1615831027120" duration="4040000" />
     </task>
     <task id="LOCAL-00001" summary="Php configuration for project.">
       <created>1614536616244</created>
@@ -311,17 +327,7 @@
               </RecentGroup>
               <RecentGroup>
                 <option name="FILTER_VALUES">
-                  <option value="develop-merge" />
-                </option>
-              </RecentGroup>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="develop" />
-                </option>
-              </RecentGroup>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="about-page" />
+                  <option value="login-page" />
                 </option>
               </RecentGroup>
               <RecentGroup>
@@ -331,7 +337,17 @@
               </RecentGroup>
               <RecentGroup>
                 <option name="FILTER_VALUES">
-                  <option value="login-page" />
+                  <option value="about-page" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="develop-merge" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="develop" />
                 </option>
               </RecentGroup>
             </list>
@@ -346,7 +362,8 @@
     <MESSAGE value="Project pages configuration." />
     <MESSAGE value="Bootstrap and FontAwesome have been added to the project." />
     <MESSAGE value="Images folder was move to public directory." />
-    <option name="LAST_COMMIT_MESSAGE" value="Images folder was move to public directory." />
+    <MESSAGE value="Old sign up page has been removed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Old sign up page has been removed." />
   </component>
   <component name="WindowStateProjectService">
     <state x="1680" y="234" key="#Deployment" timestamp="1614536389962">
@@ -369,9 +386,10 @@
       <screen x="94" y="0" width="1442" height="864" />
     </state>
     <state x="933" y="237" key="#com.intellij.fileTypes.FileTypeChooser/94.0.1442.864@94.0.1442.864" timestamp="1614899837901" />
-    <state x="188" y="100" width="1144" height="670" key="DiffContextDialog" timestamp="1615151038409">
-      <screen x="94" y="0" width="2658" height="1152" />
+    <state x="172" y="83" width="947" height="559" key="DiffContextDialog" timestamp="1615407374606">
+      <screen x="94" y="0" width="2199" height="960" />
     </state>
+    <state x="172" y="83" width="947" height="559" key="DiffContextDialog/94.0.2199.960@94.0.2199.960" timestamp="1615407374606" />
     <state x="188" y="100" width="1144" height="670" key="DiffContextDialog/94.0.2658.1152@94.0.2658.1152" timestamp="1615151038409" />
     <state x="1868" y="331" key="FileChooserDialogImpl" timestamp="1614536445050">
       <screen x="94" y="0" width="2658" height="1152" />
@@ -457,9 +475,10 @@
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
     <state x="596" y="500" key="NewPhpFileDialog/94.0.2658.1152@94.0.2658.1152" timestamp="1614731079071" />
-    <state x="553" y="279" key="RollbackChangesDialog" timestamp="1615150732980">
-      <screen x="94" y="0" width="2658" height="1152" />
+    <state x="474" y="233" key="RollbackChangesDialog" timestamp="1615831450558">
+      <screen x="94" y="0" width="2199" height="960" />
     </state>
+    <state x="474" y="233" key="RollbackChangesDialog/94.0.2199.960@94.0.2199.960" timestamp="1615831450558" />
     <state x="553" y="279" key="RollbackChangesDialog/94.0.2658.1152@94.0.2658.1152" timestamp="1615150732980" />
     <state x="1299" y="222" key="SettingsEditor" timestamp="1614804031701">
       <screen x="94" y="0" width="2658" height="1152" />
@@ -469,9 +488,10 @@
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
     <state x="1864" y="490" key="VCS.ChangelistChooser/94.0.2658.1152@94.0.2658.1152" timestamp="1615143653210" />
-    <state x="1680" y="309" key="Vcs.Push.Dialog.v2" timestamp="1615143644928">
-      <screen x="94" y="0" width="2658" height="1152" />
+    <state x="1406" y="258" key="Vcs.Push.Dialog.v2" timestamp="1615398748887">
+      <screen x="94" y="0" width="2199" height="960" />
     </state>
+    <state x="1406" y="258" key="Vcs.Push.Dialog.v2/94.0.2199.960@94.0.2199.960" timestamp="1615398748887" />
     <state x="1680" y="309" key="Vcs.Push.Dialog.v2/94.0.2658.1152@94.0.2658.1152" timestamp="1615143644928" />
     <state x="578" y="490" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614731741968">
       <screen x="94" y="0" width="2658" height="1152" />
@@ -481,18 +501,21 @@
       <screen x="94" y="0" width="2658" height="1152" />
     </state>
     <state x="1918" y="446" key="com.jetbrains.plugins.webDeployment.ui.UploadBeforeRunTaskDialog/94.0.2658.1152@94.0.2658.1152" timestamp="1614536446402" />
-    <state x="470" y="309" width="1095" height="678" key="find.popup" timestamp="1614892581004">
-      <screen x="94" y="0" width="2658" height="1152" />
+    <state x="405" y="257" width="906" height="703" key="find.popup" timestamp="1615834650198">
+      <screen x="94" y="0" width="2199" height="960" />
     </state>
+    <state x="405" y="257" width="906" height="703" key="find.popup/94.0.2199.960@94.0.2199.960" timestamp="1615834650198" />
     <state x="470" y="309" width="1095" height="678" key="find.popup/94.0.2658.1152@94.0.2658.1152" timestamp="1614892581004" />
-    <state x="1738" y="272" key="run.anything.popup" timestamp="1614886952805">
-      <screen x="94" y="0" width="2658" height="1152" />
+    <state x="1454" y="227" key="run.anything.popup" timestamp="1615504045874">
+      <screen x="94" y="0" width="2199" height="960" />
     </state>
+    <state x="1454" y="227" key="run.anything.popup/94.0.2199.960@94.0.2199.960" timestamp="1615504045874" />
     <state x="1738" y="272" key="run.anything.popup/94.0.2658.1152@94.0.2658.1152" timestamp="1614886952805" />
-    <state x="272" y="193" width="672" height="509" key="search.everywhere.popup" timestamp="1614898724372">
-      <screen x="94" y="0" width="1442" height="864" />
+    <state x="365" y="214" width="1025" height="566" key="search.everywhere.popup" timestamp="1615833582149">
+      <screen x="94" y="0" width="2199" height="960" />
     </state>
     <state x="272" y="193" width="672" height="509" key="search.everywhere.popup/94.0.1442.864@94.0.1442.864" timestamp="1614898724372" />
+    <state x="365" y="214" width="1025" height="566" key="search.everywhere.popup/94.0.2199.960@94.0.2199.960" timestamp="1615833582149" />
     <state x="422" y="257" width="672" height="678" key="search.everywhere.popup/94.0.2658.1152@94.0.2658.1152" timestamp="1614886241922" />
     <state x="1513" y="331" key="vcs.ApplyPatchDifferentiatedDialog" timestamp="1614813263134">
       <screen x="94" y="0" width="2658" height="1152" />
