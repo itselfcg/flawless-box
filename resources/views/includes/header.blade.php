@@ -14,7 +14,7 @@
                 </li>
 
                 <li>
-                    <a class="nav-link" href="wiki" target="_blank">WIKI</a>
+                    <a class="nav-link" href="wiki">WIKI</a>
                 </li>
             </ul>
         </div>

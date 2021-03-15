@@ -22,7 +22,7 @@
                     <a class="nav-link" href="account">MY ACCOUNT</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="wiki" target="_blank">WIKI</a>
+                    <a class="nav-link" href="wiki">WIKI</a>
                 </li>
             </ul>
         </div>

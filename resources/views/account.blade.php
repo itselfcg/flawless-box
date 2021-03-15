@@ -40,7 +40,7 @@
                                     </h2>
 
                                 </div>
-                                <a class="btn btn-orange text-light " href="wiki">
+                                <a class="btn btn-orange text-light " href="subscription">
                                     TAKE A LOOK
                                 </a>
                             </div>
