@@ -89,7 +89,7 @@ body{
 }
 
 .bg-green{
-    background-color: var(--green)!important;
+    background-color: var(--green);
 }
 
 .bg-pink{
