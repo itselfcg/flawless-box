@@ -139,17 +139,20 @@ body{
 .separator h2 {
     width: 100%;
     text-align: center;
-    border-bottom: 2.5px solid var(--darkwhite);
-    color: var(--darkgray)!important;
+    border-bottom: 2px solid var(--darkwhite);
     line-height: 0.1em;
     margin: 5em 0em 3em ;
 }
 
 .separator h2 span {
     background:#fff;
-    padding: 20px 50px 20px 50px;
-    border: 2.5px solid var(--darkwhite);
-
+    font-size: 13px;
+    font-weight: bold;
+    color: var(--gray)!important;
+    font-family: "Microsoft JhengHei";
+    border: 2px solid var(--darkwhite);
+    padding: 1.5em 3em 1.5em 3em;
+    user-select: none;
 }
 
 /* POSITION ALIGNS */

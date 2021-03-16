@@ -30,9 +30,7 @@
                                 <h1>
                                     Get<br> the skin<br> you deserve
                                 </h1>
-                                <h2>
-                                    Your skincare routine has never been this easy.
-                                </h2>
+
                                 <p class="pt-3">
                                     FlawlessBox is the simplest way to achive a perfect skin. When you subscribe to
                                     FlawlessBox, you'll recive a monthly package with a mix of skincare luxury samples
@@ -40,11 +38,11 @@
                                 </p>
                             </div>
 
-                            <div class="text-light">
-                                Visit our skincare wiki to learn about 7-step skincare routine.<br>
+                            <p style="font-size: 13px;">
+                                Visit our skincare wiki to learn about skincare products.<br>
                                 <a class="btn btn-yellow " href="wiki">
                                     LEARN MORE</a>
-                            </div>
+                            </p>
                         </div>
                     </div>
 
@@ -55,56 +53,15 @@
         </div>
 
     </section>
-    <section id="brands ">
-
-
-                <div class="row no-gutters ">
-                    <div class="col-lg-2 col-md-4 col-6">
-                        <div id="wrapper">
-                            <img class="w-100 hover" src="/images/pictures/info4.jpg">
-                            <p class="text">La Poche-Posay</p>
-
-
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-4 col-6">
-                        <div id="wrapper">
-                            <img class="w-100 hover" src="/images/pictures/info5.jpg">
-                            <p class="text">The ordinary</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-4 col-6">
-                        <div id="wrapper">
-                            <img class="w-100 hover" src="/images/pictures/info6.jpg">
-                            <p class="text">Clinique</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-4 col-6">
-                        <div id="wrapper">
-                            <img class="w-100 hover" src="/images/pictures/info7.jpg">
-                            <p class="text">Drunk Elephant</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-4 col-6">
-                        <div id="wrapper">
-                            <img class="w-100 hover" src="/images/pictures/info8.jpg">
-                            <p class="text">Cosrx</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-4 col-6">
-                        <div id="wrapper">
-                            <img class="w-100 " src="/images/pictures/info9.jpg">
-                            <p class="text">SK-II</p>
-                        </div>
-                    </div>
-                </div>
-
-
+    <section class="separator">
+        <div class="container">
+            <h2><span>HOW IT WORKS</span></h2>
+        </div>
     </section>
     <section id="info">
-        <div class="container pt-5 pb-5">
-            <div class="row">
-                <div class="col-lg-5 offset-lg-2 col-md-6">
+        <div class="container ">
+            <div class="row no-gutters">
+                <div class="col-lg-5 offset-lg-1 col-md-6">
                     <h3>01</h3>
 
                     <h4 class="pt-2 pb-2">JOIN</h4>
@@ -118,16 +75,10 @@
                     <img class="w-75" src="/images/pictures/info3.jpg">
 
                 </div>
-                <div class="col-lg-1">
-                </div>
+
             </div>
-            <div class="row">
-
-                <div class="col-lg-5 offset-lg-2 col-md-6  text-center order-md-first order-last">
-                    <img class="w-75" src="/images/pictures/info.jpg">
-
-                </div>
-                <div class="col-lg-5  col-md-6 order-md-last  order-first">
+            <div class="row no-gutters">
+                <div class="col-lg-5 offset-lg-1 col-md-6">
                     <h3>02</h3>
 
                     <h4 class="pt-2 pb-2">ENJOY</h4>
@@ -135,9 +86,14 @@
                         Enjoy exclusive, members-only offers from the best brands in beauty. Win free products through
                         BOXY-Giveaways and receive reward points redeemable in our exclusive Charm Shop!</p>
                 </div>
+                <div class="col-lg-5  col-md-6 text-center">
+                    <img class="w-75" src="/images/pictures/info.jpg">
+
+                </div>
+
             </div>
-            <div class="row">
-                <div class="col-lg-5 offset-lg-2 col-md-6">
+            <div class="row no-gutters">
+                <div class="col-lg-5 offset-lg-1 col-md-6">
                     <h3>03</h3>
 
                     <h4 class="pt-2 pb-2">SHARE LOVE</h4>
@@ -153,16 +109,121 @@
             </div>
         </div>
     </section>
-    <section id="join">
+    <section id="join" style="padding-top: 5em;">
         <div class="h-100 row align-items-center ">
             <div class="col text-center">
                 <a class="btn btn-join" href="about">JOIN NOW</a>
-
-
             </div>
 
         </div>
     </section>
+    <section class="separator">
+        <div class="container">
+            <h2><span>OUR BRANDS</span></h2>
+        </div>
+    </section>
+    <section id="brands">
+
+        <div class="container ">
+            <div class="container text-center my-3">
+                <div class="row mx-auto my-auto">
+                    <div id="myCarousel" class="carousel slide w-100" data-ride="carousel">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item py-5 active">
+                                <div class="row">
+                                    <div class="col-lg-2 col-md-4 col-6">
+                                        <a href="https://www.laroche-posay.com/" target="_blank">
+                                            <img class="w-100 hover" src="/images/pictures/info4.png">
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-2 col-md-4 col-6">
+                                        <a href="https://theordinary.deciem.com/" target="_blank">
+                                            <img class="w-100 hover" src="/images/pictures/info5.png">
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-2 col-md-4 col-6">
+                                        <a href="https://www.clinique.com/" target="_blank">
+                                            <img class="w-100 hover" src="/images/pictures/info6.png">
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-2 col-md-4 col-6">
+                                        <a href="https://www.drunkelephant.com/" target="_blank">
+                                            <img class="w-100 hover" src="/images/pictures/info7.png">
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-2 col-md-4 col-6" >
+                                        <a href="https://www.cosrx.com/" target="_blank">
+                                            <img class="w-100 hover" src="/images/pictures/info8.png">
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-2 col-md-4 col-6">
+                                        <a href="https://www.sk-ii.com/" target="_blank">
+                                            <img class="w-100 " src="/images/pictures/info9.png">
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="carousel-item py-5">
+                                <div class="row">
+                                    <div class="col-lg-2 col-md-4 col-6">
+                                        <a href="https://www.laroche-posay.com/" target="_blank">
+                                            <img class="w-100 hover" src="/images/pictures/info9.png">
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-2 col-md-4 col-6">
+                                        <a href="https://theordinary.deciem.com/" target="_blank">
+                                            <img class="w-100 hover" src="/images/pictures/info8.png">
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-2 col-md-4 col-6">
+                                        <a href="https://www.clinique.com/" target="_blank">
+                                            <img class="w-100 hover" src="/images/pictures/info7.png">
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-2 col-md-4 col-6">
+                                        <a href="https://www.drunkelephant.com/" target="_blank">
+                                            <img class="w-100 hover" src="/images/pictures/info6.png">
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-2 col-md-4 col-6" >
+                                        <a href="https://www.cosrx.com/" target="_blank">
+                                            <img class="w-100 hover" src="/images/pictures/info5.png">
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-2 col-md-4 col-6">
+                                        <a href="https://www.sk-ii.com/" target="_blank">
+                                            <img class="w-100 " src="/images/pictures/info4.png">
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <a class="carousel-control-prev text-dark" href="#myCarousel" role="button" data-slide="prev">
+                            <span class="fa fa-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next text-dark" href="#myCarousel" role="button" data-slide="next">
+                            <span class="fa fa-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+    </section>
+
 </main>
 
 <footer>

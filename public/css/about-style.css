@@ -1,17 +1,19 @@
 #header{
     width: auto;
-    height: 700px;
-    background-image: url("/images/pictures/header2.jpg") ;
+    background-image: url("/images/pictures/header2.png") ;
+    background-position:50% 50%;  /* Sets reference point to scale from */
+    background-size:cover;
+    height: 850px;
+
     background-repeat:no-repeat;
-    background-position: center bottom;
-    background-color: var(--purple);
+    background-position: top ;
 
 }
 
 #header p{
+    color: black;
     font-family: Arial;
     font-size: 18px;
-    color: white;
 
 }
 
@@ -33,15 +35,14 @@
 }
 
 h1{
-    color: white;
+    color: black;
     font-weight: bold;
-    font-family:Bebas;
-    font-size: 5em;
+    font-family:Georgia;
+    font-size: 4em;
     line-height: .9em;
 
 }
 h2{
-    color: white;
     text-transform: uppercase;
     font-family: "Trebuchet MS";
     font-size: 1.5em;
@@ -62,27 +63,11 @@ h4{
 }
 
 
-#wrapper p {
-    margin: 0px!important;
-    padding: 0px!important;
-    position:absolute;
-    background-color: rgba(255, 255, 255, 0.7);
-    bottom:20px;
-    left:0px;
-    width: 50%;
-
-
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 1px;
-    font-family: "Trebuchet MS";
-    font-size: 8px;
-    color: #4e4e4e;
-user-select: none;
+#brands{
+    padding-bottom: 5em;
 }
 
-
-
-
-
+.btn-join{
+    width: 300px!important;
+    font-size: 25px!important;
+}
