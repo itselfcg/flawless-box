@@ -19,7 +19,7 @@
                     <a class="nav-link" href="subscription">THE BOX</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="account">MY ACCOUNT</a>
+                    <a class="nav-link" href="login">ACCOUNT</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="wiki">WIKI</a>

@@ -21,7 +21,7 @@ Route::view('/wiki', 'wiki');
 Route::view('/about', 'about');
 Route::view('/subscription', 'subscription');
 Route::view('/cart', 'cart');
-Route::view('/account', 'account');
+Route::view('/login', 'login');
 
 
 

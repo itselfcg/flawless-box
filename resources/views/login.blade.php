@@ -13,44 +13,42 @@
 
 
 <header>
-    @include('includes.header')
+    @include('includes.header4')
 </header>
 
 <main>
     <section id="header">
-        <div class="container">
-            <div class="row">
-                <div id="banner" class="col-md-6 col-sm-12 order-last order-md-first">
-                    <div class="row align-items-center h-100">
-                        <div class="col-12 ">
+        <div class="row">
+            <div id="banner" class="col-md-6 col-sm-12 order-last order-md-first">
+                <div class="row align-items-center h-100">
+                    <div class="col-12 ">
 
-                            <div class="text-center">
-                                <div class="title ">
+                        <div class="text-center">
+                            <div class="title">
 
+                                <div class="brand-title">
                                     <h2>
-                                        CHECKOUT
-
-                                        <div class="georgia"
-                                             style="font-size: 2.5em; color: var(--mblack)">
-                                            March's
-                                        </div>
-
-
-                                        BRAND
+                                        CHECKOUT <br>
+                                        SPRING'S<br>
+                                        BOX<br>
                                     </h2>
 
+                                    <a class="btn btn-orange w-100" href="subscription">
+                                        TAKE A LOOK
+                                    </a>
                                 </div>
-                                <a class="btn btn-orange" href="subscription">
-                                    TAKE A LOOK
-                                </a>
                             </div>
+
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div id="login" class="col-md-6 col-sm-12 order-first order-md-last ">
-                    <div class="row align-items-center h-100">
-                        <div class="col-10 offset-1 ">
+            <div id="login" class="col-md-6 col-sm-12 order-first order-md-last ">
+                <div class="container h-100">
+
+                    <div class="row h-100 align-items-center">
+                        <div class="col-lg-8 col-md-9 col-10 offset-1 ">
                             <div>
                                 <h1>Login</h1>
                                 <p>
@@ -92,6 +90,7 @@
 </footer>
 
 <script src="{{ mix('/js/app.js') }}" type="text/javascript"></script>
+<script src="/js/script.js" type="text/javascript"></script>
 
 
 </body>

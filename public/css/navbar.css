@@ -16,7 +16,7 @@
 }
 
 
-#navbar1 img {
+#navbar1 img, #navbar4 img {
     width: 320px;
     height: auto;
     padding: 20px;
