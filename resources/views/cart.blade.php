@@ -217,7 +217,7 @@
     @include('includes.footer')
 </footer>
 
-<script src="{{ mix('/js/app.js') }}" type="text/javascript"></script>
+<script src="{{ asset('js/app.js') }}" defer></script>
 
 
 </body>
