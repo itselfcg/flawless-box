@@ -908,7 +908,7 @@
                                             </div>
                                         </div>
                                         <div class="col-md-3 col-4 my-auto">
-                                            <i class="fa fa-plus" aria-hidden="true"></i>
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
                                         </div>
                                     </div>
 
