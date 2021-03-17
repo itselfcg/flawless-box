@@ -5,7 +5,7 @@
 @stop
 
 @section('css-scripts')
-    <link rel="stylesheet" href="css/about-style.css">
+    <link rel="stylesheet" href="css/pages/about.css">
 @stop
 
 @section('headers')

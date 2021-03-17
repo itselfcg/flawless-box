@@ -1,4 +1,3 @@
-<link href="{{ asset('css/navbar.css') }}" rel="stylesheet">
 
 
 <nav id="navbar3" class="navbar navbar-expand-lg ">

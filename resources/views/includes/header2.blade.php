@@ -1,4 +1,3 @@
-<link href="{{ asset('css/navbar.css') }}" rel="stylesheet">
 
 <nav id="navbar2" class="w-100 navbar navbar-expand flex-column text-center mx-auto">
     <div class="menu">

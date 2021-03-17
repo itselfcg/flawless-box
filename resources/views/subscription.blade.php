@@ -5,7 +5,7 @@
 @stop
 
 @section('css-scripts')
-    <link rel="stylesheet" href="css/subscripion-style.css">
+    <link rel="stylesheet" href="css/pages/subscripion.css">
 @stop
 
 @section('headers')

@@ -5,7 +5,7 @@
     <title> Flawless Box | @yield('title')</title>
     <link rel="stylesheet" type="text/css" href="/css/app.css">
     <link rel="stylesheet" href="css/style.css">
-    <link href="{{ asset('css/navbar.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/modules/navbar.css') }}" rel="stylesheet">
     @yield('css-scripts')
 </head>
 

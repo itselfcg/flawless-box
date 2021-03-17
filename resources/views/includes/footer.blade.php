@@ -1,4 +1,4 @@
-<link href="{{ asset('css/footer.css') }}" rel="stylesheet">
+<link href="{{ asset('css/modules/footer.css') }}" rel="stylesheet">
 
 <hr class="pb-4">
 <div id="footer" class="container ">

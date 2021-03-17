@@ -5,7 +5,7 @@
 @stop
 
 @section('css-scripts')
-    <link rel="stylesheet" href="css/cart-style.css">
+    <link rel="stylesheet" href="css/pages/cart.css">
 @stop
 
 @section('headers')

@@ -1,6 +1,3 @@
-<link href="{{ asset('css/navbar.css') }}" rel="stylesheet">
-
-
 <nav id="navbar1" class="navbar navbar-expand-lg navbar-light ">
     <div class="container bg-transparent">
 

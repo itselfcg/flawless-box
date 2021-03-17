@@ -1,4 +1,4 @@
-@import url(../css/colors.css);
+@import url(abstracts/colors.css);
 
 body{
     overflow-x: hidden;

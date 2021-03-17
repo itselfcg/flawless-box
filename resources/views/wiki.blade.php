@@ -5,7 +5,7 @@
 @stop
 
 @section('css-scripts')
-    <link rel="stylesheet" href="css/wiki-style.css">
+    <link rel="stylesheet" href="css/pages/wiki.css">
 @stop
 
 @section('headers')
