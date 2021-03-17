@@ -13,7 +13,7 @@
 @stop
 
 @section('content')
-    <section id="header">
+    <section id="intro">
         <div class="h-100 row align-items-center">
             <div class="col">
                 <div class=" container">

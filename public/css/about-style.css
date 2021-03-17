@@ -1,4 +1,4 @@
-#header{
+#intro{
     width: auto;
     background-image: url("/images/pictures/header2.png") ;
     background-position:50% 50%;  /* Sets reference point to scale from */
@@ -10,7 +10,7 @@
 
 }
 
-#header p{
+#intro p{
     color: black;
     font-family: Arial;
     font-size: 18px;

@@ -4,7 +4,7 @@
 
 }
 
- #header{
+ #intro{
     width: auto;
     height: 600px;
     background-image: url("/images/pictures/header1.jpg") ;
@@ -15,7 +15,7 @@
  @media only screen and (max-width: 768px) {
 
 
-     #header{
+     #intro{
          width: auto;
          height: 600px;
          background-image: url("/images/pictures/header1b.jpg") ;
@@ -66,7 +66,7 @@
      line-height: 25em!important;
  }
 
-#header .link{
+#intro .link{
      color: black;
     text-decoration: underline;
     font-size: 12px;

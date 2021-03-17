@@ -5,7 +5,7 @@
 @stop
 
 @section('css-scripts')
-    <link rel="stylesheet" href="css/intro-style.css">
+    <link rel="stylesheet" href="css/welcome-style.css">
 @stop
 
 @section('headers')
@@ -17,7 +17,7 @@
 @section('content')
 
 
-    <section id="header">
+    <section id="intro">
 
         <div class="h-75 row align-content-end">
             <div class=" col-md-4 offset-md-7 justify-content-center

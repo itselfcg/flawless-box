@@ -3,7 +3,7 @@ main{
     padding: 5em 0 5em;
 }
 
-#header{
+#intro{
 
     padding: 10em 0 5em;
     background-color: white;
@@ -69,14 +69,14 @@ h5{
 
 
 
-#header img,  .products img{
+#intro img,  .products img{
     text-align: center;
     height: 125px;
     width: auto;
 }
 
 
-#header label,  .products label{
+#intro label,  .products label{
     text-align: center;
     padding: 1em 0 1em 0;
     color: var(--darkgray);

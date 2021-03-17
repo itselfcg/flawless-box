@@ -14,7 +14,7 @@
 
 
 @section('content')
-    <section id="header">
+    <section id="intro">
         <div class="container w-75">
             <div class="row ">
                 <div class="col-12">
