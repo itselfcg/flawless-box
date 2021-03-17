@@ -54,14 +54,14 @@
 
     </section>
     <section class="separator">
-        <div class="container">
+        <div class="container w-75">
             <h2><span>HOW IT WORKS</span></h2>
         </div>
     </section>
     <section id="info">
-        <div class="container ">
+        <div class="container w-75">
             <div class="row no-gutters">
-                <div class="col-lg-5 offset-lg-1 col-md-6">
+                <div class=" col-md-6">
                     <h3>01</h3>
 
                     <h4 class="pt-2 pb-2">JOIN</h4>
@@ -71,14 +71,14 @@
                         beauty tools and color cosmetics, each box has an average value over $175.
                     </p>
                 </div>
-                <div class="col-lg-5 col-md-6  text-center">
+                <div class="col-md-6  text-right">
                     <img class="w-75" src="/images/pictures/info3.jpg">
 
                 </div>
 
             </div>
             <div class="row no-gutters">
-                <div class="col-lg-5 offset-lg-1 col-md-6">
+                <div class="col-md-6">
                     <h3>02</h3>
 
                     <h4 class="pt-2 pb-2">ENJOY</h4>
@@ -86,14 +86,14 @@
                         Enjoy exclusive, members-only offers from the best brands in beauty. Win free products through
                         BOXY-Giveaways and receive reward points redeemable in our exclusive Charm Shop!</p>
                 </div>
-                <div class="col-lg-5  col-md-6 text-center">
+                <div class="col-md-6 text-right">
                     <img class="w-75" src="/images/pictures/info.jpg">
 
                 </div>
 
             </div>
             <div class="row no-gutters">
-                <div class="col-lg-5 offset-lg-1 col-md-6">
+                <div class="col-md-6">
                     <h3>03</h3>
 
                     <h4 class="pt-2 pb-2">SHARE LOVE</h4>
@@ -101,7 +101,7 @@
                         Find new and creative ways to use the products in your BOXYCHARM by watching tutorials and looks
                         shared by our Charmer community on social media.</p>
                 </div>
-                <div class="col-lg-5  col-md-6 text-center">
+                <div class="col-md-6 text-right">
                     <img class="w-75" src="/images/pictures/info2.jpg">
 
                 </div>
@@ -118,13 +118,13 @@
         </div>
     </section>
     <section class="separator">
-        <div class="container">
+        <div class="container w-75">
             <h2><span>OUR BRANDS</span></h2>
         </div>
     </section>
     <section id="brands">
 
-        <div class="container ">
+        <div class="container w-75">
             <div class="container text-center my-3">
                 <div class="row mx-auto my-auto">
                     <div id="myCarousel" class="carousel slide w-100" data-ride="carousel">

@@ -18,7 +18,6 @@
 
 <main>
     <section id="header">
-
         <div class="h-100 row align-items-center">
             <div class="col">
                 <div class=" container">
@@ -31,11 +30,11 @@
                                     MARCH 2020
                                 </h1>
 
-                                <img class="w-50" SRC="/images/pictures/drjart-logo.png">
+                                <img class="w-50" SRC="/images/pictures/drjart-logo.png"><br>
 
-                                <h2>
+                                <label style="font-family:'Trebuchet MS';font-size: 1em;font-weight: bold;">
                                     UP TO $210 VALUE FOR $25*
-                                </h2>
+                                </label>
 
                             </div>
 
@@ -50,10 +49,9 @@
 
             </div>
         </div>
-
     </section>
     <section id="info">
-        <div class="container ">
+        <div class="container w-75">
             <div class="row pt-4">
                 <div class="col-lg-5 offset-lg-1 col-md-6 text-left my-auto ">
                     <h4>Dr. Jart+</h4>
@@ -141,13 +139,13 @@
             </div>
         </div>
     </section>
-    <section id="separator1"  class="separator">
-        <div class="container pt-5 pb-4">
+    <section class="separator">
+        <div class="container w-75 pb-5">
             <h2><span>OUR BOX</span></h2>
         </div>
     </section>
     <section id="products">
-        <div class="container">
+        <div class="container w-75">
             <div class="row w-100 no-gutters">
                 <div class="col-lg-4 col-12">
 
@@ -313,23 +311,24 @@
         </div>
     </section>
     <section id="join-now" class="separator">
-        <div class="container pt-5 pb-4"><h2><span>PACKAGES</span></h2>
-        </div>
+        <div class="container w-75">
+            <h2><span>PACKAGES</span></h2>
+        <div class="description">
+            <p>
 
+                    Receive 7 full size, brand name beauty products.<br> Choose a monthly, 3 or 6 month option
+                    below.
+
+            </p>
+
+        </div>
+        </div>
 
     </section>
     <section id="packages">
 
-        <div class="container">
-            <div class="text-center ">
-                <p>
-                    <b>
-                        Receive 7 full size, brand name beauty products.<br> Choose a monthly, 3 or 6 month option
-                        below.
-                    </b>
-                </p>
+        <div class="container w-75">
 
-            </div>
 
             <div class="row text-center no-gutters pt-5 pb-5">
                 <div class="col-md-4 pb-5">
@@ -344,8 +343,8 @@
                         </p>
                         <p>
                             <a class="btn btn-yellow" href="cart">
-                            SELECT
-                        </a>
+                                SELECT
+                            </a>
                         </p>
                         <p>
                             $25 billed monthly<br><br>
@@ -369,8 +368,8 @@
                         </p>
                         <p>
                             <a class="btn btn-yellow" href="cart">
-                            SELECT
-                        </a>
+                                SELECT
+                            </a>
                         </p>
                         <p>
                             Prepay $70 for 3 months<br>
@@ -394,8 +393,8 @@
                         </p>
                         <p>
                             <a class="btn btn-yellow" href="cart">
-                            SELECT
-                        </a>
+                                SELECT
+                            </a>
                         </p>
                         <p>
                             Prepay $138 for 6 months<br>

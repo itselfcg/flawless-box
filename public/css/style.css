@@ -139,20 +139,23 @@ body{
 .separator h2 {
     width: 100%;
     text-align: center;
-    border-bottom: 2px solid var(--darkwhite);
-    line-height: 0.1em;
-    margin: 5em 0em 3em ;
+    border-bottom: 2.5px solid var(--lightblack);
+    margin: 5em 0em .75em ;
 }
 
 .separator h2 span {
-    background:#fff;
-    font-size: 13px;
-    font-weight: bold;
-    color: var(--gray)!important;
+    font-size: 40px;
+    color: var( --lightblack)!important;
     font-family: "Microsoft JhengHei";
-    border: 2px solid var(--darkwhite);
-    padding: 1.5em 3em 1.5em 3em;
     user-select: none;
+}
+
+.separator .description{
+    font-size: 15px;
+    font-family: Arial!important;
+text-align: center;
+    color: var(--darkgray);
+    font-weight: bold;
 }
 
 /* POSITION ALIGNS */
