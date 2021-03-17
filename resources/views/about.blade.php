@@ -133,32 +133,32 @@
                                 <div class="row">
                                     <div class="col-lg-2 col-md-4 col-6">
                                         <a href="https://www.laroche-posay.com/" target="_blank">
-                                            <img class="w-100 hover" src="/images/pictures/info4.png">
+                                            <img class="w-100 hover" src="/images/pictures/brands/brand4.png">
                                         </a>
                                     </div>
                                     <div class="col-lg-2 col-md-4 col-6">
                                         <a href="https://theordinary.deciem.com/" target="_blank">
-                                            <img class="w-100 hover" src="/images/pictures/info5.png">
+                                            <img class="w-100 hover" src="/images/pictures/brands/brand5.png">
                                         </a>
                                     </div>
                                     <div class="col-lg-2 col-md-4 col-6">
                                         <a href="https://www.clinique.com/" target="_blank">
-                                            <img class="w-100 hover" src="/images/pictures/info6.png">
+                                            <img class="w-100 hover" src="/images/pictures/brands/brand6.png">
                                         </a>
                                     </div>
                                     <div class="col-lg-2 col-md-4 col-6">
                                         <a href="https://www.drunkelephant.com/" target="_blank">
-                                            <img class="w-100 hover" src="/images/pictures/info7.png">
+                                            <img class="w-100 hover" src="/images/pictures/brands/brand7.png">
                                         </a>
                                     </div>
                                     <div class="col-lg-2 col-md-4 col-6" >
                                         <a href="https://www.cosrx.com/" target="_blank">
-                                            <img class="w-100 hover" src="/images/pictures/info8.png">
+                                            <img class="w-100 hover" src="/images/pictures/brands/brand8.png">
                                         </a>
                                     </div>
                                     <div class="col-lg-2 col-md-4 col-6">
                                         <a href="https://www.sk-ii.com/" target="_blank">
-                                            <img class="w-100 " src="/images/pictures/info9.png">
+                                            <img class="w-100 " src="/images/pictures/brands/brand9.png">
                                         </a>
                                     </div>
 
@@ -169,32 +169,32 @@
                                 <div class="row">
                                     <div class="col-lg-2 col-md-4 col-6">
                                         <a href="https://www.laroche-posay.com/" target="_blank">
-                                            <img class="w-100 hover" src="/images/pictures/info9.png">
+                                            <img class="w-100 hover" src="/images/pictures/brands/brand9.png">
                                         </a>
                                     </div>
                                     <div class="col-lg-2 col-md-4 col-6">
                                         <a href="https://theordinary.deciem.com/" target="_blank">
-                                            <img class="w-100 hover" src="/images/pictures/info8.png">
+                                            <img class="w-100 hover" src="/images/pictures/brands/brand8.png">
                                         </a>
                                     </div>
                                     <div class="col-lg-2 col-md-4 col-6">
                                         <a href="https://www.clinique.com/" target="_blank">
-                                            <img class="w-100 hover" src="/images/pictures/info7.png">
+                                            <img class="w-100 hover" src="/images/pictures/brands/brand7.png">
                                         </a>
                                     </div>
                                     <div class="col-lg-2 col-md-4 col-6">
                                         <a href="https://www.drunkelephant.com/" target="_blank">
-                                            <img class="w-100 hover" src="/images/pictures/info6.png">
+                                            <img class="w-100 hover" src="/images/pictures/brands/brand6.png">
                                         </a>
                                     </div>
                                     <div class="col-lg-2 col-md-4 col-6" >
                                         <a href="https://www.cosrx.com/" target="_blank">
-                                            <img class="w-100 hover" src="/images/pictures/info5.png">
+                                            <img class="w-100 hover" src="/images/pictures/brands/brand5.png">
                                         </a>
                                     </div>
                                     <div class="col-lg-2 col-md-4 col-6">
                                         <a href="https://www.sk-ii.com/" target="_blank">
-                                            <img class="w-100 " src="/images/pictures/info4.png">
+                                            <img class="w-100 " src="/images/pictures/brands/brand4.png">
                                         </a>
                                     </div>
 

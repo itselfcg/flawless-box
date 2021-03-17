@@ -30,7 +30,7 @@
                                     MARCH 2020
                                 </h1>
 
-                                <img class="w-50" SRC="/images/pictures/drjart-logo.png"><br>
+                                <img class="w-50" SRC="/images/pictures/brands/brand3.png"><br>
 
                                 <label style="font-family:'Trebuchet MS';font-size: 1em;font-weight: bold;">
                                     UP TO $210 VALUE FOR $25*
