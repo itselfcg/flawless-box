@@ -1,21 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Flawless Box | Wiki</title>
-    <link rel="stylesheet" type="text/css" href="/css/app.css">
-    <link rel="stylesheet" href="css/style.css">
+@extends('layout.master')
 
+@section('title')
+    Wiki
+@stop
+
+@section('css-scripts')
     <link rel="stylesheet" href="css/wiki-style.css">
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<header>
+@stop
+
+@section('headers')
     @include('includes.header')
+@stop
 
-</header>
 
-<main>
+@section('content')
     <section id="header">
         <div class="container w-75">
             <div class="row ">
@@ -1053,13 +1051,6 @@
             </div>
         </div>
     </section>
-</main>
-<footer>
-    @include('includes.footer')
+@stop
 
-</footer>
 
-<script src="js/script-wiki.js"></script>
-
-</body>
-</html>

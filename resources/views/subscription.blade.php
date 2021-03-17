@@ -1,22 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title> Flawless Box | About</title>
-    <link rel="stylesheet" type="text/css" href="/css/app.css">
+@extends('layout.master')
+
+@section('title')
+    Subscription
+@stop
+
+@section('css-scripts')
     <link rel="stylesheet" href="css/subscripion-style.css">
-    <link rel="stylesheet" href="css/style.css">
+@stop
 
-</head>
-
-<body>
-
-
-<header>
+@section('headers')
     @include('includes.header')
-</header>
+@stop
 
-<main>
+@section('content')
     <section id="header">
         <div class="h-100 row align-items-center">
             <div class="col">
@@ -313,15 +309,15 @@
     <section id="join-now" class="separator">
         <div class="container w-75">
             <h2><span>PACKAGES</span></h2>
-        <div class="description">
-            <p>
+            <div class="description">
+                <p>
 
                     Receive 7 full size, brand name beauty products.<br> Choose a monthly, 3 or 6 month option
                     below.
 
-            </p>
+                </p>
 
-        </div>
+            </div>
         </div>
 
     </section>
@@ -411,16 +407,6 @@
             </div>
         </div>
     </section>
-
-</main>
-
-<footer>
-    @include('includes.footer')
-</footer>
-
-<script src="{{ asset('js/app.js') }}" defer></script>
+@stop
 
 
-</body>
-
-</html>

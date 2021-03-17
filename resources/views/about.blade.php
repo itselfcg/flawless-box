@@ -1,36 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title> Flawless Box | About</title>
-    <link rel="stylesheet" type="text/css" href="/css/app.css">
+@extends('layout.master')
+
+@section('title')
+    About
+@stop
+
+@section('css-scripts')
     <link rel="stylesheet" href="css/about-style.css">
-    <link rel="stylesheet" href="css/style.css">
+@stop
 
-</head>
-
-<body>
-
-
-<header>
+@section('headers')
     @include('includes.header')
-</header>
+@stop
 
-<main>
+
+@section('content')
     <section id="header">
 
         <div class="h-100 row align-items-center">
             <div class="col">
                 <div class=" container">
-
                     <div class="row">
                         <div class="col-lg-8 col-md-10">
-
                             <div class="title ">
                                 <h1>
                                     Get<br> the skin<br> you deserve
                                 </h1>
-
                                 <p class="pt-3">
                                     FlawlessBox is the simplest way to achive a perfect skin. When you subscribe to
                                     FlawlessBox, you'll recive a monthly package with a mix of skincare luxury samples
@@ -223,18 +217,5 @@
 
         </div>
     </section>
+@stop
 
-</main>
-
-<footer>
-    @include('includes.footer')
-</footer>
-
-<script src="{{ asset('js/app.js') }}" defer></script>
-
-
-</body>
-
-<script src="{{ asset('/js/script.js') }}"></script>
-
-</html>

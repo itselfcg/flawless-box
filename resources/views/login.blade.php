@@ -1,22 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title> Flawless Box | About</title>
-    <link rel="stylesheet" type="text/css" href="/css/app.css">
+@extends('layout.master')
+
+@section('title')
+    Login
+@stop
+
+@section('css-scripts')
     <link rel="stylesheet" href="css/account-style.css">
-    <link rel="stylesheet" href="css/style.css">
+@stop
 
-</head>
-
-<body>
-
-
-<header>
+@section('headers')
     @include('includes.header4')
-</header>
+@stop
 
-<main>
+@section('content')
     <section id="header">
         <div class="row">
             <div id="banner" class="col-md-6 col-sm-12 order-last order-md-first">
@@ -81,18 +77,8 @@
             </div>
         </div>
     </section>
+@stop
 
-
-</main>
-
-<footer>
-    @include('includes.footer')
-</footer>
-
-<script src="{{ asset('js/app.js') }}" defer></script>
-<script src="{{ asset('js/script.js') }}" defer type="text/javascript"></script>
-
-
-</body>
-
-</html>
+@section('js-scripts')
+    <script src="{{ asset('js/script.js') }}" defer type="text/javascript"></script>
+@stop

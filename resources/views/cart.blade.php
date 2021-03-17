@@ -1,21 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title> Flawless Box | About</title>
-    <link rel="stylesheet" type="text/css" href="/css/app.css">
+@extends('layout.master')
+
+@section('title')
+    Cart
+@stop
+
+@section('css-scripts')
     <link rel="stylesheet" href="css/cart-style.css">
-    <link rel="stylesheet" href="css/style.css">
+@stop
 
-</head>
-
-<body>
-
-<header>
+@section('headers')
     @include('includes.header3')
-</header>
+@stop
 
-<main>
+@section('content')
     <section id="cart">
         <div class="container">
             <div class="row">
@@ -55,7 +52,7 @@
                             </div>
                         </div>
                     </div>
- <hr>
+                    <hr>
                     <div class="row">
                         <div class="col-12 ">
                             <h4># ITEMS IN CART</h4>
@@ -202,7 +199,7 @@
                     </div>
                     <div class="row pt-5">
                         <div class="col-6 offset-6">
-                                <a class="btn btn-yellow w-100">PAY NOW</a>
+                            <a class="btn btn-yellow w-100">PAY NOW</a>
                         </div>
                     </div>
                 </div>
@@ -210,16 +207,7 @@
         </div>
     </section>
 
-
-</main>
-
-<footer>
-    @include('includes.footer')
-</footer>
-
-<script src="{{ asset('js/app.js') }}" defer></script>
+@stop
 
 
-</body>
 
-</html>

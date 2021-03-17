@@ -1,22 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title> Flawless Box | Home</title>
-    @include('includes.links')
+@extends('layout.master')
+
+@section('title')
+    Home
+@stop
+
+@section('css-scripts')
     <link rel="stylesheet" href="css/intro-style.css">
+@stop
 
-</head>
-
-<body>
-
-
-<header>
+@section('headers')
     @include('includes.promo')
     @include('includes.header2')
-</header>
+@stop
 
-<main id="intro">
+
+@section('content')
 
 
     <section id="header">
@@ -225,23 +223,6 @@
 
     </section>
 
-    <section id="media">
 
-        <div class="container">
-            &nbsp;
+@stop
 
-        </div>
-
-    </section>
-
-</main>
-
-<footer>
-    @include('includes.footer')
-</footer>
-
-<script src="{{ asset('js/app.js') }}" defer></script>
-
-
-</body>
-</html>
