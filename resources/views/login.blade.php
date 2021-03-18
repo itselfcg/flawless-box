@@ -80,5 +80,5 @@
 @stop
 
 @section('js-scripts')
-    <script src="{{ asset('js/script.js') }}" defer type="text/javascript"></script>
+    <script src="{{ asset('js/login.js') }}" defer type="text/javascript"></script>
 @stop
