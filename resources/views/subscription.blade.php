@@ -1,8 +1,6 @@
 @extends('layout.master')
 
-@section('title')
-    Subscription
-@stop
+@section('title','Subscription')
 
 @section('css-scripts')
     <link rel="stylesheet" href="css/pages/subscripion.css">
@@ -160,134 +158,24 @@
                         </div>
                     </div>
                 </div>
+                @foreach($products as $product)
+
                 <div class="col-lg-4 col-6">
 
                     <div id="wrapper">
-                        <img class="w-100 hover" SRC="images/pictures/products/2.jpg">
+                        <img class="w-100 hover" SRC="{{$product->photo}}">
                         <p class="text">
 
-                            <b>Cryo Rubber™ Masks</b>
+                            <b>{{$product->name}}</b>
 
                             <br>
 
-                            This innovative mask set packs the renewing effect of cryo-therapy in an at-home treatment.
-                            This collection includes the Cryo Rubber™ with Soothing Allantoin to support skin's natural
-                            healing process and protect from environmental irritants, while tiger grass addresses
-                            visible redness and irritation.
+                            {{$product->description}}
 
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-6">
-
-                    <div id="wrapper">
-                        <img class="w-100 hover" SRC="images/pictures/products/2a.jpg">
-                        <p class="text">
-
-                            <b>Cicapair™ Tiger Grass Camo Drops SPF 35</b>
-
-                            <br>
-
-                            A lightweight revitalizing serum and color corrector that neutralize the look of redness and
-                            turn on skin's glow.
-
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-6">
-                    <div id="wrapper">
-                        <img class="w-100 hover" SRC="images/pictures/products/2b.jpg">
-                        <p class="text">
-
-                            <b>V7™ Antioxidant Serum</b>
-
-                            <br>
-
-                            This daily serum uses a vitamin E infused bubble burst combined with an essential vitamin
-                            and antioxidant-rich complex to help brighten and smoothen skin. This serum is also
-                            clinically tested to balance natural melanin production, improve skin brightness, and
-                            deliver antioxidant effects.
-
-                        </p>
-                    </div>
-
-                </div>
-                <div class="col-lg-4 col-6">
-                    <div id="wrapper">
-                        <img class="w-100 hover" SRC="images/pictures/products/7.jpg">
-                        <p class="text">
-
-                            <b>Cicapair™ Tiger Grass Color Correcting Treatment SPF 30
-                            </b>
-
-                            <br>
-
-                            This all-in-one treatment includes a color-changing capsule to cover blemishes and
-                            neutralize redness, restoring fatigued skin for a vibrant appearance. The formula features
-                            Tiger Grass (Centella Asiatica) to help heal sensitive skin exhibiting inflammation,
-                            irritation or discomfort.
-
-                        </p>
-                    </div>
-
-                </div>
-                <div class="col-lg-4 col-6">
-                    <div id="wrapper">
-                        <img class="w-100 hover" SRC="images/pictures/products/3.jpg">
-                        <p class="text">
-
-                            <b>Focuspot™ Micro Tip™ Patches
-                            </b>
-
-                            <br>
-
-                            Inspired by micro-needling procedures, Focuspot’s innovative adhesive patches contain small
-                            micro tips made of hyaluronic acid that melt in contact with the skin. As they
-                            self-dissolve, they deliver actives deep into the skin surface to target and treat stubborn
-                            concerns—without the pain and recovery like similar in-office procedures.
-
-                        </p>
-                    </div>
-
-                </div>
-                <div class="col-lg-4 col-6">
-                    <div id="wrapper">
-                        <img class="w-100 hover" SRC="images/pictures/products/4.jpg">
-                        <p class="text">
-
-                            <b>Every Sun Day™ Sun Fluid SPF 50+
-                            </b>
-
-                            <br>
-
-                            This formula forms a barrier against UVA and UVB rays and environmental aggressors and has a
-                            glide-on texture and an invisible finish. It is moisturizing and refreshing while it cools,
-                            hydrates, and guards against future UV damage and dryness.
-
-
-                        </p>
-                    </div>
-
-                </div>
-                <div class="col-lg-4 col-6">
-
-                    <div id="wrapper">
-                        <img class="w-100 hover" SRC="images/pictures/products/4A.jpg">
-                        <p class="text">
-
-                            <b>Cicapair™ Tiger Grass Cream
-                            </b>
-
-                            <br>
-
-                            This soft cream moisturizes and soothes dry, sensitive skin. It is formulated with
-                            Jartbiome, Dr. Jart’s proprietary microbiome complex to help strengthen and balance while
-                            improving skin’s defenses against dryness. Centella Rx soothes and protects sensitive skin,
-                            as Cicabond helps repair dry skin caused by external stressors.
-
-                        </p>
-                    </div>
-                </div>
+                @endforeach
                 <div class="col-lg-4 col-6">
 
                     <div class="h-100 row no-gutters align-items-center">
@@ -303,6 +191,8 @@
                     </div>
 
                 </div>
+
+
             </div>
         </div>
     </section>
@@ -327,14 +217,16 @@
 
 
             <div class="row text-center no-gutters pt-5 pb-5">
+                @foreach($subscriptions as $subscription)
+
                 <div class="col-md-4 pb-5">
                     <div class="package">
 
-                        <img class="w-75" src="images/pictures/carton-box.jpg">
+                        <img class="w-75" src="{{ $subscription->photo }}">
 
                         <p>
-                        <h6>Monthly</h6>
-                        <h7>$25/Month</h7>
+                        <h6>{{ $subscription->name }}</h6>
+                        <h7>{{ $subscription->monthly_price }}/Month</h7>
 
                         </p>
                         <p>
@@ -343,7 +235,7 @@
                             </a>
                         </p>
                         <p>
-                            $25 billed monthly<br><br>
+                            {{ $subscription->description }}<br><br>
 
                             <b>Non-Refundable</b><br><br>
 
@@ -353,57 +245,8 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-4 pb-5">
-                    <div class="package">
+                @endforeach
 
-                        <img class="w-75" src="images/pictures/carton-box2.jpg">
-                        <p>
-                        <h6>3 MONTHS</h6>
-                        <h7>$23.33/Month</h7>
-
-                        </p>
-                        <p>
-                            <a class="btn btn-yellow" href="cart">
-                                SELECT
-                            </a>
-                        </p>
-                        <p>
-                            Prepay $70 for 3 months<br>
-                            Save $5 compared to monthly!<br><br>
-                            <b>Non-Refundable</b><br><br>
-                            Renews Automatically<br>
-                            Cancel Anytime<br>
-
-                        </p>
-                    </div>
-
-                </div>
-                <div class="col-md-4 pb-5">
-                    <div class="package">
-
-                        <img class="w-75" src="images/pictures/carton-box3.jpg">
-                        <p>
-                        <h6>6 MONTHS</h6>
-                        <h7>$23/Month</h7>
-
-                        </p>
-                        <p>
-                            <a class="btn btn-yellow" href="cart">
-                                SELECT
-                            </a>
-                        </p>
-                        <p>
-                            Prepay $138 for 6 months<br>
-                            Save $12 compared to monthly!<br><br>
-                            <b>Non-Refundable</b><br><br>
-                            Renews Automatically<br>
-                            Cancel Anytime<br>
-
-                        </p>
-                    </div>
-
-
-                </div>
             </div>
         </div>
     </section>

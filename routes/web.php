@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\SubscriptionsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,9 +18,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/subscription', [SubscriptionsController::class, 'index']);
+
 Route::view('/wiki', 'wiki');
 Route::view('/about', 'about');
-Route::view('/subscription', 'subscription');
 Route::view('/cart', 'cart');
 Route::view('/login', 'login');
 
