@@ -10,6 +10,8 @@
 </head>
 
 <body>
+    @include('includes.scroll-up')
+
     <header>
         @yield('headers')
     </header>
@@ -24,5 +26,7 @@
 </body>
 
 <script src="{{ asset('js/app.js') }}" defer></script>
+<script src="{{ asset('js/scroll-up.js') }}" defer></script>
+
 @yield('js-scripts')
 </html>
