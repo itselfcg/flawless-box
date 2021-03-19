@@ -19,7 +19,8 @@ Route::get('/', function () {
 });
 
 Route::get('/subscription', [SubscriptionsController::class, 'index']);
-
+Route::get('/cart', [SubscriptionsController::class, 'cart']);
+Route::get('/add-to-cart/{id}', [SubscriptionsController::class, 'addToCart']);
 Route::view('/wiki', 'wiki');
 Route::view('/about', 'about');
 Route::view('/cart', 'cart');
