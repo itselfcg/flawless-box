@@ -230,7 +230,7 @@
 
                         </p>
                         <p>
-                            <a class="btn btn-yellow" href="cart">
+                            <a class="btn btn-yellow" href="{{ url('add-to-cart/'.$subscription->id) }}">
                                 SELECT
                             </a>
                         </p>

@@ -16,12 +16,22 @@
     <section id="cart">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 col-sm-12 border ">
+                <div id="summary" class="col-md-4 col-sm-12 border ">
+
+                    <?php
+                    $subtotal = 0;
+                    $shipping = 0;
+                    $total = 0;
+                    if (session('cart'))
+                        $details = session('cart');
+                    $shipping = $details["shipping"];
+                    $subtotal = $details["duration"] * $details["price"];
+                    $total = $subtotal + $shipping;
+                    ?>
                     <div class="row pt-3">
                         <div class="col-12 ">
                             <h2>ORDER SUMMARY</h2>
                             <hr class="sep1">
-
                         </div>
                     </div>
                     <div class="row">
@@ -31,7 +41,9 @@
                                     <p>Cart Subtotal</p>
                                 </div>
                                 <div class="col-6 text-right">
-                                    <p> $ X.XX</p>
+                                    <p>
+                                        ${{$subtotal}}
+                                    </p>
                                 </div>
                             </div>
                             <div class="row">
@@ -39,7 +51,7 @@
                                     <p>Shipping</p>
                                 </div>
                                 <div class="col-6 text-right">
-                                    <p> $ 7.99</p>
+                                    <p> ${{$shipping}}</p>
                                 </div>
                             </div>
                             <div class="row">
@@ -47,7 +59,7 @@
                                     <h3><b>ORDER TOTAL</b></h3>
                                 </div>
                                 <div class="col-6 text-right">
-                                    <p> $ X.XX</p>
+                                    <p> $ {{$total}}</p>
                                 </div>
                             </div>
                         </div>
@@ -57,6 +69,63 @@
                         <div class="col-12 ">
                             <h4># ITEMS IN CART</h4>
                             <hr class="sep1">
+
+                            <div class="row">
+                                @if(session('cart'))
+                                    <div class="col-4 text-center">
+                                        <img src="{{ $details['photo'] }}" width="100" height="100"
+                                             class="img-responsive"/>
+                                    </div>
+                                    <div class="col-8">
+                                        <div class="row">
+                                            <div class="col-8">
+                                                <div class="row">
+
+                                                    <div class="col">
+                                                        Flawlessbox subscription ({{$details['duration']}}
+                                                        months)
+                                                    </div>
+
+                                                </div>
+                                                <div class="row">
+
+                                                    <div class="col">
+                                                        Qty: 1
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                            <div class="col-4">
+                                                ${{ $details['price']*$details['duration'] }}
+
+                                            </div>
+                                        </div>
+                                        <div class="row w-100">
+
+                                            <div class="col">
+                                                <a data-toggle="collapse" href="#collapseExample"
+                                                   role="button" aria-expanded="false"
+                                                   aria-controls="collapseExample">
+                                                    Description <i class="fa fa-angle-down"> </i>
+                                                </a>
+                                                <div class="collapse" id="collapseExample">
+                                                    Subscription Start Date:<br> 2021-03-18<br>
+                                                    Billing Period: {{ $details['duration'] }} Month
+                                                    Prepay<br>
+                                                    Repeats until failed or canceled
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                @endif
+
+                            </div>
 
                         </div>
                     </div>
@@ -96,7 +165,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-7 offset-md-1 col-sm-12">
+                <div id="information" class="col-md-7 offset-md-1 col-sm-12">
                     <div class="row">
                         <div class="col-12 ">
                             <h2>CREATE ACCOUNT</h2>
@@ -175,7 +244,7 @@
                             <form>
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="payment1"
-                                           id="payment1" value="card" >
+                                           id="payment1" value="card">
                                     <label class="form-check-label" for="payment1">
                                         Credit card / Debit card
                                     </label>
@@ -203,6 +272,13 @@
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div class="pt-5">
+               <a href="subscription#join-now">
+                <i class="fa fa-arrow-left"></i>
+                Go back
+               </a>
             </div>
         </div>
     </section>
