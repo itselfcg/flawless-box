@@ -20,6 +20,7 @@ class CreateSubscriptionsTable extends Migration
             $table->string("photo", 255)->nullable();
             $table->integer("duration");
             $table->decimal("monthly_price", 6, 2);
+            $table->decimal("shipping", 6, 2);
             $table->timestamps();
         });
     }
