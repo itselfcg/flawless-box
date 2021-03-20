@@ -8,11 +8,6 @@
     <link rel="stylesheet" href="css/pages/wiki.css">
 @stop
 
-@section('headers')
-    @include('includes.header')
-@stop
-
-
 @section('content')
     <section id="intro">
         <div class="container w-75">

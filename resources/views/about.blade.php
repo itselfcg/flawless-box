@@ -8,11 +8,6 @@
     <link rel="stylesheet" href="css/pages/about.css">
 @stop
 
-@section('headers')
-    @include('includes.header')
-@stop
-
-
 @section('content')
     <section id="intro">
 

@@ -10,11 +10,12 @@
 </head>
 
 <body>
+    <header>
+        @include('includes.header')
+    </header>
+
     @include('includes.scroll-up')
 
-    <header>
-        @yield('headers')
-    </header>
 
     <main>
         @yield('content')

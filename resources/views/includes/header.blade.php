@@ -1,46 +1,34 @@
-<nav id="navbar1" class="navbar navbar-expand-lg navbar-light ">
-    <div class="container bg-transparent">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a href="#" class="navbar-brand">
+        <img src="{{asset('images/pictures/logo1.png')}}" alt="FlawlessBox">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".collapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse">
+        <ul class="navbar-nav upper-controls">
 
-        <div class="navbar-collapse collapse w-100 order-1 order-md-1 order-lg-0 dual-collapse2">
-            <ul class="nav navbar-nav">
-                <li>
-                    <a class="nav-link" href="about">ABOUT</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="subscription">THE BOX</a>
-                </li>
-
-                <li>
-                    <a class="nav-link" href="wiki">WIKI</a>
-                </li>
-            </ul>
-        </div>
-
-        <div class="mx-auto order-0 order-md-0 order-lg-1">
-
-                    <a class="navbar-brand" href="{{ url('/') }}">
-                        <img src="{{asset('images/pictures/logo3.png')}}" alt="FlawlessBox">
-                    </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-        </div>
-
-        <div class="navbar-collapse collapse w-100 order-2 order-md-2 order-lg-2 dual-collapse2">
-
-            <ul class="nav navbar-nav ml-auto my-auto">
-                <li>
-                    <a class="nav-link" href="login">ACCOUNT</a>
-                </li>
-                <li>
-                    <a class="nav-link " href="cart">
-                        <i class="fa fa-shopping-bag" aria-hidden="true"></i>
-                        SHOPPING CART
-                    </a>
-
-                </li>
-            </ul>
-        </div>
+            <li class="nav-item">
+                <a class="nav-link" href="cart"><i class="fa fa-user fa-2x" aria-hidden="true"></i></a>            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="cart"><i class="fa fa-shopping-bag fa-2x" aria-hidden="true"></i><sup> 0</sup></a>            </li>
+        </ul>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="subscription">The box</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="wiki">Guide</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="wiki">Resources</a>
+            </li>
+        </ul>
     </div>
 </nav>

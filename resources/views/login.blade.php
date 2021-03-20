@@ -8,10 +8,6 @@
     <link rel="stylesheet" href="css/pages/account.css">
 @stop
 
-@section('headers')
-    @include('includes.header4')
-@stop
-
 @section('content')
     <section id="login">
         <div class="row">
