@@ -19,16 +19,19 @@
                 <div id="summary" class="col-md-4 col-sm-12 border ">
 
                     <?php
+                    $items = 0;
                     $subtotal = 0;
                     $shipping = 0;
                     $total = 0;
-                    if (session('cart'))
+                    if (session('cart')) {
                         $details = session('cart');
-                    $shipping = $details["shipping"];
-                    $subtotal = $details["duration"] * $details["price"];
-                    $total = $subtotal + $shipping;
+                        $shipping = $details["shipping"];
+                        $subtotal = $details["duration"] * $details["price"];
+                        $total = $subtotal + $shipping;
+                        $items = 1;
+                    }
                     ?>
-                    <div class="row pt-3">
+                    <div class="row">
                         <div class="col-12 ">
                             <h2>ORDER SUMMARY</h2>
                             <hr class="sep1">
@@ -67,10 +70,19 @@
                     <hr>
                     <div class="row">
                         <div class="col-12 ">
-                            <h4># ITEMS IN CART</h4>
+                            <h2>{{$items}} ITEMS IN CART</h2>
                             <hr class="sep1">
+                            @if($items==0)
+                                <div class="row">
+                                    <div class="col text-center">
+                                        Your cart is empty. <br>
+                                        Checkout our box subscriptions <a href="subscription#join-now">here.
+                                        </a>
 
-                            <div class="row">
+                                    </div>
+                                </div>
+                            @endif
+                            <div class="row pb-5">
                                 @if(session('cart'))
                                     <div class="col-4 text-center">
                                         <img src="{{ $details['photo'] }}" width="100" height="100"
@@ -185,6 +197,10 @@
                                     </div>
                                 </div>
                             </form>
+<p>Do you have an account already?    <a href="login">
+        Login
+    </a> to manage your subscription.</p>
+
                         </div>
                     </div>
                     <div class="row ">
@@ -227,7 +243,7 @@
                                                 <div class="col">
                                                     <input id="zipcode" class="form-control" type="text"
                                                            name="zipcode-label"
-                                                           placeholder="Zipcode" required/>
+                                                           placeholder="Zip code" required/>
                                                 </div>
                                             </div>
                                         </div>
@@ -244,22 +260,8 @@
                             <form>
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="payment1"
-                                           id="payment1" value="card">
+                                           id="payment1" value="card" checked>
                                     <label class="form-check-label" for="payment1">
-                                        Credit card / Debit card
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="payment2"
-                                           id="payment2" value="paypal">
-                                    <label class="form-check-label" for="payment2">
-                                        Paypal
-                                    </label>
-                                </div>
-                                <div class="form-check disabled">
-                                    <input class="form-check-input" type="radio" name="payment3"
-                                           id="payment3" value="none" checked>
-                                    <label class="form-check-label" for="payment3">
                                         None
                                     </label>
                                 </div>
@@ -268,17 +270,18 @@
                     </div>
                     <div class="row pt-5">
                         <div class="col-6 offset-6">
-                            <a class="btn btn-yellow w-100">PAY NOW</a>
+                            <button class="btn btn-yellow w-100"
+                                {{ $items == '0' ? 'disabled' : '' }}>PAY NOW</button>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="pt-5">
-               <a href="subscription#join-now">
-                <i class="fa fa-arrow-left"></i>
-                Go back
-               </a>
+                <a href="subscription#join-now">
+                    <i class="fa fa-arrow-left"></i>
+                    Go back
+                </a>
             </div>
         </div>
     </section>

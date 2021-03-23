@@ -1,3 +1,8 @@
+<?php
+$items = 0;
+if (session('cart'))
+    $items=1;
+?>
 <nav class="actions-navbar navbar navbar-expand-md navbar-light">
 
     <button class="navbar-toggler" data-toggle="collapse" data-target=".dual-collapse">
@@ -48,7 +53,9 @@
                 <a class="nav-link" href="login"><i class="fa fa-user fa-2x" aria-hidden="true"></i></a>
             </li>
             <li class="nav-item hide-sm" style="width: 60px;">
-                <a class="nav-link" href="cart"><i class="fa fa-shopping-bag fa-2x" aria-hidden="true"></i><sup> 0</sup></a>
+                <a class="nav-link" href="cart"><i class="fa fa-shopping-bag fa-2x" aria-hidden="true"></i>
+                    <sup><b>{{$items}}</b></sup>
+                </a>
             </li>
         </ul>
     </div>
