@@ -14,14 +14,16 @@ class CreateSubscriptionsTable extends Migration
     public function up()
     {
         Schema::create('subscriptions', function (Blueprint $table) {
-            $table->id();
-            $table->string("name", 255)->nullable();
-            $table->text("description")->nullable();
-            $table->string("photo", 255)->nullable();
-            $table->integer("duration");
-            $table->decimal("monthly_price", 6, 2);
-            $table->decimal("shipping", 6, 2);
-            $table->timestamps();
+            $table->increments("id");
+            $table->integer("plan_id")->unsigned();
+            $table->date("starts_at");
+            $table->date("expires_at");
+            $table->boolean("is_active")->default(0);
+            $table->boolean("is_auto_renewal")->default(0);
+        });
+
+        Schema::table('subscriptions', function($table) {
+            $table->foreign('plan_id')->references('id')->on('subscription_plans');
         });
     }
 
