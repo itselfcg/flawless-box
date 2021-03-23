@@ -8,12 +8,6 @@
     <link rel="stylesheet" href="css/pages/welcome.css">
 @stop
 
-@section('headers')
-    @include('includes.promo')
-    @include('includes.header2')
-@stop
-
-
 @section('content')
 
 

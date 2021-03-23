@@ -6,10 +6,6 @@
     <link rel="stylesheet" href="css/pages/subscripion.css">
 @stop
 
-@section('headers')
-    @include('includes.header')
-@stop
-
 @section('content')
     <section id="intro">
         <div class="h-100 row align-items-center">

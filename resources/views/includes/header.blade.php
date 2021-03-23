@@ -1,46 +1,82 @@
-<nav id="navbar1" class="navbar navbar-expand-lg navbar-light ">
-    <div class="container bg-transparent">
+<nav class="actions-navbar navbar navbar-expand-md navbar-light">
 
-        <div class="navbar-collapse collapse w-100 order-1 order-md-1 order-lg-0 dual-collapse2">
-            <ul class="nav navbar-nav">
-                <li>
-                    <a class="nav-link" href="about">ABOUT</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="subscription">THE BOX</a>
-                </li>
+    <button class="navbar-toggler" data-toggle="collapse" data-target=".dual-collapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-nav order-0 brand ">
 
-                <li>
-                    <a class="nav-link" href="wiki">WIKI</a>
-                </li>
-            </ul>
-        </div>
+        <a href="{{ url('/') }}">
+            <img src="{{asset('images/pictures/logo1.png')}}" alt="FlawlessBox">
+        </a>
 
-        <div class="mx-auto order-0 order-md-0 order-lg-1">
 
-                    <a class="navbar-brand" href="{{ url('/') }}">
-                        <img src="{{asset('images/pictures/logo3.png')}}" alt="FlawlessBox">
+    </div>
+    <div class="navbar-nav w-50 order-md-1 order-2 w-100 ">
+
+        <div class="container">
+            <div class="w-100">
+                <div id="carouselContent" class="carousel slide w-100 text-center" data-ride="carousel">
+                    <div class="carousel-inner " role="listbox">
+                        <div class="carousel-item active">
+                            <p>Free shipping in your anual subscription.</p>
+                        </div>
+                        <div class="carousel-item">
+
+                            <p>Checkout our guide for more info about products.</p>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselContent" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
                     </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-        </div>
-
-        <div class="navbar-collapse collapse w-100 order-2 order-md-2 order-lg-2 dual-collapse2">
-
-            <ul class="nav navbar-nav ml-auto my-auto">
-                <li>
-                    <a class="nav-link" href="login">ACCOUNT</a>
-                </li>
-                <li>
-                    <a class="nav-link " href="cart">
-                        <i class="fa fa-shopping-bag" aria-hidden="true"></i>
-                        SHOPPING CART
+                    <a class="carousel-control-next" href="#carouselContent" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon " aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
                     </a>
-
-                </li>
-            </ul>
+                </div>
+            </div>
         </div>
+    </div>
+    <ul class="navbar-nav ml-auto visible-md order-md-2 order-1 ">
+        <li class="nav-item">
+            <a class="nav-link" href="cart"><i class="fa fa-shopping-bag fa-2x" aria-hidden="true"></i><sup> 0</sup></a>
+        </li>
+    </ul>
+    <div class="collapse navbar-collapse dual-collapse  w-25 order-sm-1 order-2" id="collapse_target1">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item hide-sm">
+                <a class="nav-link" href="login"><i class="fa fa-user fa-2x" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item hide-sm" style="width: 60px;">
+                <a class="nav-link" href="cart"><i class="fa fa-shopping-bag fa-2x" aria-hidden="true"></i><sup> 0</sup></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<nav class="navbar navbar-expand-md secondary-navbar">
+
+    <div class="collapse navbar-collapse w-100 dual-collapse" id="collapse_target2">
+        <ul class="navbar-nav mx-auto">
+            <li class="nav-item visible-sm">
+                <a class="nav-link" href="login">ACCOUNT</a>
+            </li>
+            <li>
+                <a class="nav-link" href="/">HOME</a>
+            </li>
+            <li>
+                <a class="nav-link" href="about">ABOUT</a>
+            </li>
+            <li>
+                <a class="nav-link" href="subscription">THE BOX</a>
+            </li>
+            <li>
+                <a class="nav-link" href="wiki">GUIDE</a>
+            </li>
+            <li>
+                <a class="nav-link" href="dev">DEVELOPER</a>
+            </li>
+        </ul>
+
     </div>
 </nav>
