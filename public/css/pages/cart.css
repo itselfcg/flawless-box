@@ -33,7 +33,7 @@ h4 {
 
 }
 
-p, input, .form-check  {
+#cart p, input, .form-check  {
     font-family: Arial!important;
     font-size: 12px!important;
     color: var(--lightblack);

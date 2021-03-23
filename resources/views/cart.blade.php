@@ -9,7 +9,7 @@
 @stop
 
 @section('headers')
-    @include('includes.header3')
+    @include('includes.header')
 @stop
 
 @section('content')
