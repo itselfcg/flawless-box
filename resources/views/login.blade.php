@@ -5,7 +5,7 @@
 @stop
 
 @section('css-scripts')
-    <link rel="stylesheet" href="css/pages/account.css">
+    <link rel="stylesheet" href="css/pages/login.css">
 @stop
 
 @section('content')
