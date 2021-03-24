@@ -59,22 +59,22 @@
     <div class="collapse navbar-collapse w-100 dual-collapse" id="collapse_target2">
         <ul class="navbar-nav mx-auto">
             <li class="nav-item visible-sm">
-                <a class="nav-link" href="login">ACCOUNT</a>
+                <a class="nav-link" href="login">Account</a>
             </li>
             <li>
-                <a class="nav-link" href="/">HOME</a>
+                <a class="nav-link" href="/">Home</a>
             </li>
             <li>
-                <a class="nav-link" href="about">ABOUT</a>
+                <a class="nav-link" href="about">About</a>
             </li>
             <li>
-                <a class="nav-link" href="subscription">THE BOX</a>
+                <a class="nav-link" href="subscription">The Box</a>
             </li>
             <li>
-                <a class="nav-link" href="wiki">GUIDE</a>
+                <a class="nav-link" href="wiki">Guide</a>
             </li>
             <li>
-                <a class="nav-link" href="dev">DEVELOPER</a>
+                <a class="nav-link" href="dev">Developer</a>
             </li>
         </ul>
 
