@@ -1,8 +1,11 @@
 
 #intro{
 
-    padding: 10em 0 5em;
+    padding: 7em 0 7em;
     background-color: white;
+}
+#join{
+    padding-bottom: 5em;
 }
 
 
@@ -17,18 +20,21 @@
 
 }
 
-
-h1{
-    color: var(--gray);
-    font-weight: bold;
-    font-family: "Trebuchet MS";
-    font-size: 1.25em;
+#intro p{
+    color: black;
+    font-family: Arial;
+    font-size: 18px;
 
 }
-h2 {
-    color: var(--lightblack);
-    font-family: Georgia;
-    font-size: 2.5em;
+
+
+h1{
+    color: black;
+    font-weight: bold;
+    font-family:Georgia;
+    font-size: 3.5em;
+    line-height: .9em;
+
 }
 
 
@@ -88,9 +94,7 @@ h5{
     text-align: justify;
 }
 
-#skincare article{
-    padding-top: 10%;
-}
+
 
 .wiki-link img:hover,.wiki-link:hover {
     opacity: 50%;

@@ -19,9 +19,17 @@
 
                                 <div class="header pt-5">
                                     <div class="pb-5">
-                                        <h1>SKINCARE WIKI</h1>
-                                        <h2>INTRODUCTION <br>TO PRODUCTS</h2>
+                                        <h2 style="font-family: 'Trebuchet MS';font-size: 20px">PRODUCT GUIDE</h2>
 
+                                        <h1>Introduction<br>to Skincare</h1>
+
+                                        <p>Achieve a perfect skin following our skincare routine. Follow our instructions to have beautiful skin. Subscribe to FlawlessBox to start receiving the best products available.</p>
+
+
+
+                                        <a class="btn btn-orange w-50 text-white" href="subscription">
+                                            MONTH'S BOX
+                                        </a>
                                     </div>
 
                                     {{--                                    <p>Skin is one of the largest organs of the body. Because of this, caring for your skin can directly affect--}}
