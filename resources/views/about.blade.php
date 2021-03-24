@@ -27,8 +27,8 @@
                                 </p>
                             </div>
 
-                            <p style="font-size: 13px;">
-                                Visit our skincare wiki to learn about skincare products.<br>
+                            <p style="font-size: 15px;">
+                                Visit our skincare wiki to learn about skincare products.<br><br>
                                 <a class="btn btn-yellow " href="wiki">
                                     LEARN MORE</a>
                             </p>
