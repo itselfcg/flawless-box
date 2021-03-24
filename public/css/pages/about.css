@@ -44,14 +44,14 @@ h1{
 }
 
 h3{
-    color: #b3b3b3;
+    color: var(--darkwhite);
     font-weight: bold;
     font-family:"Trebuchet MS";
     font-size: 5em;
 }
 
 h4{
-    color: #5b5b5b;
+    color: var(--darkgray);
     font-weight: bold;
     font-family:"Trebuchet MS";
     font-size: 1.5em;
