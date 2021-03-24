@@ -291,7 +291,7 @@
 
                             <div class="georgia pb-4"> FIND THESE<br> PRODUCTS AT<br>
 
-                                <img class="w-50" src="images/pictures/logo3.png">
+                                <img class="w-50" src="images/pictures/logo1.png">
 
                             </div>
                             <a class="btn btn-join w-75" href="#join-now">JOIN NOW</a>
