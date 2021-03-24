@@ -179,7 +179,7 @@
 
                             <div class="georgia pb-4"> FIND THESE<br> PRODUCTS AT<br>
 
-                                <img class="w-50" src="images/pictures/logo3.png">
+                                <img class="w-50" src="images/pictures/logo1.png">
 
                             </div>
                             <a class="btn btn-join w-75" href="#join-now">JOIN NOW</a>
@@ -213,25 +213,25 @@
 
 
             <div class="row text-center no-gutters pt-5 pb-5">
-                @foreach($subscriptions as $subscription)
+                @foreach($plans as $plan)
 
                 <div class="col-md-4 pb-5">
                     <div class="package">
 
-                        <img class="w-75" src="{{ $subscription->photo }}">
+                        <img class="w-75" src="{{ $plan->photo }}">
 
                         <p>
-                        <h6>{{ $subscription->name }}</h6>
-                        <h7>{{ $subscription->monthly_price }}/Month</h7>
+                        <h6>{{ $plan->name }}</h6>
+                        <h7>{{ $plan->monthly_price }}/Month</h7>
 
                         </p>
                         <p>
-                            <a class="btn btn-yellow" href="{{ url('add-to-cart/'.$subscription->id) }}">
+                            <a class="btn btn-yellow" href="{{ url('add-to-cart/'.$plan->id) }}">
                                 SELECT
                             </a>
                         </p>
                         <p>
-                            {{ $subscription->description }}<br><br>
+                            {{ $plan->description }}<br><br>
 
                             <b>Non-Refundable</b><br><br>
 
