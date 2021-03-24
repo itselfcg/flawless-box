@@ -4,10 +4,6 @@ body{
     overflow-x: hidden;
 }
 
-main{
-    padding-bottom: 2em ;
-
-}
 
 
 /* BUTTONS*/
@@ -185,6 +181,14 @@ main{
 text-align: center;
     color: var(--darkgray);
     font-weight: bold;
+}
+
+
+hr.sep1{
+    padding-top: 0px;
+    padding-bottom: .5em;
+    border-top: 5px solid #f1f1f1;
+
 }
 
 /* POSITION ALIGNS */

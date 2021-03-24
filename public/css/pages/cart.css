@@ -1,74 +1,44 @@
 #cart{
     background-color: white;
+
+}
+
+#summary, #checkout{
     padding: 5em 0 5em;
+}
 
+#summary{
+    background-color: rgba(246,246,246,.5);
 }
 
 
+h3{
+    color: var(--darkwhite);
+    font-weight: bold;
+    font-family:"Trebuchet MS";
+    font-size: 5em;
+}
 
-h2 {
+h4{
     color: var(--darkgray);
     font-weight: bold;
-    font-family: "Microsoft JhengHei";
-    font-size: 18px;
-    line-height: 1.5em;
-
+    font-family:"Trebuchet MS";
+    font-size: 1.5em;
+    text-transform: uppercase;
 }
 
 
-h3 {
-    color: var(--darkgray);
-    font-weight: bold;
-    font-family: "Trebuchet MS";
-    font-size: 16px;
-    line-height: 1.5em;
-
+.form-group .row{
+    padding-top: .5em;
 }
 
-h4 {
-    color: var(--darkgray);
-    font-family: "Trebuchet MS";
-    font-size: 14px;
-    line-height: 1.5em;
 
-}
 
-#cart p, input, .form-check  {
-    font-family: Arial!important;
-    font-size: 12px!important;
+#cart p{
+    font-family: Arial;
+    font-size: 15px;
     color: var(--lightblack);
 
 }
-
-hr.sep1{
-    border-top: 5px solid #f1f1f1;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
