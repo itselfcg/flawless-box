@@ -15,12 +15,13 @@
 
 
 
-h1 {
-    color: var(--darkgray);
+
+h1{
+    color: black;
     font-weight: bold;
-    font-family: "Trebuchet MS";
-    font-size: 2.5em;
-    line-height: 1.5em;
+    font-family:Georgia;
+    font-size: 3.5em;
+
 }
 
 
@@ -51,15 +52,6 @@ h2 {
     user-select: none;
 
 }
-
-.btn-orange{
-    color: white!important;
-}
-
-
-
-
-
 
 
 
