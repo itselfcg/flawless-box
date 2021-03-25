@@ -62,19 +62,19 @@
                 <a class="nav-link" href="login">Account</a>
             </li>
             <li>
-                <a class="nav-link" href="/">Home</a>
+                <a class="nav-link" href="{{asset('')}}">Home</a>
             </li>
             <li>
-                <a class="nav-link" href="about">About</a>
+                <a class="nav-link" href="{{asset('about')}}">About</a>
             </li>
             <li>
-                <a class="nav-link" href="subscription">The Box</a>
+                <a class="nav-link" href="{{asset('subscription')}}">The Box</a>
             </li>
             <li>
-                <a class="nav-link" href="wiki">Guide</a>
+                <a class="nav-link" href="{{asset('wiki')}}">Guide</a>
             </li>
             <li>
-                <a class="nav-link" href="dev">Developer</a>
+                <a class="nav-link" href="{{asset('dev')}}">Developer</a>
             </li>
         </ul>
 
