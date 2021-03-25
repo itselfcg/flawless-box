@@ -67,6 +67,29 @@ body{
     background-color: rgba(var(--pink-rgb),.7);
 }
 
+.btn-outline-green{
+    border-color: var(--green);
+color: var(--green);
+}
+
+.btn-outline-green:hover{
+    background-color: var(--green);
+    color: white;
+}
+
+
+.btn-outline-orange{
+    border-color: var(--orange);
+    color: var(--orange);
+}
+
+.btn-outline-orange:hover{
+    background-color: var(--orange);
+    color: white;
+}
+
+
+
 .btn-green{
     background-color: var(--green);
 }
@@ -145,7 +168,7 @@ body{
     background-color: var(--darkwhite);
 }
 .bg-lightgray{
-    background-color: #f8f8f8;
+    background-color: var(--mmwhite);
 }
 .bg-lightblue{
     background-color: var(--lightblue);
