@@ -13,10 +13,21 @@
 @stop
 
 @section('content')
+    <section id="intro">
+        <div class="container w-75">
+            <div class="row ">
+                <div class="col-12 ">
+                    <div class="title">
+                        <h1>Checkout</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section id="cart">
-        <div class="row">
-            <div id="summary" class="col-lg-6 col-md-7 col-sm-12  w-100">
-                <div class="container w-75">
+        <div class=" container w-75">
+            <div class="row">
+            <div id="summary" class="col-lg-5  col-md-7 col-sm-12  w-100">
 
                 <div class="row">
                     <div class="col-12  h-100">
@@ -76,6 +87,66 @@
 
                                     </div>
                                 </div>
+
+                                <div class="row pb-5">
+                                        <div class="col-4 text-center">
+                                            <img src="images/pictures/carton-box.jpg" width="100" height="100"
+                                                 class="img-responsive"/>
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="row">
+                                                <div class="col-8">
+                                                    <div class="row">
+
+                                                        <div class="col">
+                                                            Flawlessbox subscription (3
+                                                            months)
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="row">
+
+                                                        <div class="col">
+                                                            Qty: 1
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-4">
+33.3
+                                                </div>
+                                            </div>
+                                            <div class="row w-100">
+
+                                                <div class="col">
+                                                    <a data-toggle="collapse" href="#collapseExample"
+                                                       role="button" aria-expanded="false"
+                                                       aria-controls="collapseExample">
+                                                        Description <i class="fa fa-angle-down"> </i>
+                                                    </a>
+                                                    <div class="collapse" id="collapseExample">
+                                                        Subscription Start Date:<br> 2021-03-18<br>
+                                                        Billing Period: 3 Month
+                                                        Prepay<br>
+                                                        Repeats until failed or canceled
+                                                    </div>
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+
+                                </div>
+
+
+
+
+
+
                             </div>
                         </div>
                         <div class="row pt-4">
@@ -112,11 +183,9 @@
                         </div>
                     </div>
                 </div>
-                </div>
             </div>
 
-            <div id="checkout" class="col-lg-6  col-md-5 col-sm-12">
-                <div class="container w-75">
+            <div id="checkout" class="col-lg-6 offset-lg-1 col-md-4  offset-md-1 col-sm-12">
 
                 <form id="create-account">
                     <div class="row">
@@ -245,9 +314,8 @@
 
 
                 </form>
-                </div>
             </div>
-
+            </div>
         </div>
 
     </section>

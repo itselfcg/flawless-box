@@ -4,12 +4,9 @@
 }
 
 #summary, #checkout{
-    padding: 5em 0 5em;
+    padding: 1em 0 5em;
 }
 
-#summary{
-    background-color: rgba(246,246,246,.5);
-}
 
 
 h3{
@@ -41,4 +38,21 @@ h4{
 
 }
 
+h1{
+    color: black;
+    font-weight: bold;
+    font-family:Georgia;
+    font-size: 4em;
+    line-height: .5em;
+
+}
+
+.title h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Trebuchet MS';
+}
+.title{
+    padding: 8em 0 2em;
+}
 
