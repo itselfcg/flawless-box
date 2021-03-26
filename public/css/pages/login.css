@@ -4,7 +4,6 @@
 
 }
 
-
 #banner {
     background-image: url("/images/pictures/info2.jpeg");
     background-color: white;
@@ -13,25 +12,11 @@
     background-size:cover;
 }
 
-
-
-
 h1{
-    color: black;
-    font-weight: bold;
-    font-family:Georgia;
     font-size: 3.5em;
 
 }
 
-
-
-#login p {
-    font-family: Arial;
-    font-size: 15px;
-    color: var(--lightblack);
-
-}
 
 h2 {
     font-family: Helvetica;
