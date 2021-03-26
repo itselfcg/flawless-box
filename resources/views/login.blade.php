@@ -5,7 +5,7 @@
 @stop
 
 @section('css-scripts')
-    <link rel="stylesheet" href="css/pages/account.css">
+    <link rel="stylesheet" href="css/pages/login.css">
 @stop
 
 @section('content')
@@ -64,7 +64,7 @@
                                 <p class="text-right">
                                     <a href="reset">Forgot password?</a>
                                 </p>
-                                <a class="btn btn-login" href="login">LOGIN</a> or <a href="subscription#join-now"> Join
+                                <a class="btn btn-login" href="login">LOGIN</a> or <a href="subscription#join-now" class="link"> Join
                                     now</a>
                             </div>
                         </div>
