@@ -74,7 +74,7 @@
                 <a class="nav-link" href="{{asset('wiki')}}">Guide</a>
             </li>
             <li>
-                <a class="nav-link" href="{{asset('dev')}}">Inspiration</a>
+                <a class="nav-link" href="{{asset('project')}}">Project</a>
             </li>
         </ul>
 

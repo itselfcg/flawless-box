@@ -12,7 +12,7 @@
                 <p>
                     <a href="{{asset('account')}}">Account</a><br>
                     <a href="{{asset('subscription#join-now')}}">Join Now</a><br>
-                    <a href="{{asset('dev#resources')}}">Resources</a>
+                    <a href="{{asset('project')}}">Project</a>
                 </p>
             </div>
             <div class="col-lg-6">

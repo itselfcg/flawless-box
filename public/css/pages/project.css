@@ -1,0 +1,12 @@
+#content{
+    padding: 2em 0 5em;
+    background-color: white;
+}
+
+
+.nav-tabs .nav-link:not(.active) {
+    font-family: "Trebuchet MS";
+    color: var(--lightblack);
+    border-color: transparent !important;
+}
+

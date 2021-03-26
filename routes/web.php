@@ -18,6 +18,8 @@ Route::get('/', function () {
 });
 
 Route::view('/wiki', 'wiki');
+Route::view('/project', 'project');
+
 Route::view('/about', 'about');
 Route::view('/subscription', 'subscription');
 Route::view('/cart', 'cart');

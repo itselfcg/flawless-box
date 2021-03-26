@@ -351,3 +351,9 @@ hr.sep1{
 .title{
     padding-bottom: 1em;
 }
+
+/* BORDERS */
+.border-pink{
+    border-color: var(--gray) !important;
+
+}
