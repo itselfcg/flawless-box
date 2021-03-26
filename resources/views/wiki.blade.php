@@ -19,9 +19,9 @@
 
                                 <div class="header pt-5">
                                     <div class="pb-5">
-                                        <h2 style="font-family: 'Trebuchet MS';font-size: 20px">PRODUCT GUIDE</h2>
 
                                         <h1>Introduction<br>to Skincare</h1>
+                                        <h2>PRODUCT GUIDE</h2>
 
                                         <p>Achieve a perfect skin following our skincare routine. Follow our instructions to have beautiful skin. Subscribe to FlawlessBox to start receiving the best products available.</p>
 
@@ -31,16 +31,6 @@
                                             MONTH'S BOX
                                         </a>
                                     </div>
-
-                                    {{--                                    <p>Skin is one of the largest organs of the body. Because of this, caring for your skin can directly affect--}}
-                                    {{--                                        your--}}
-                                    {{--                                        overall health. Your skin acts as a protective shield and is most vulnerable to outside elements. It’s--}}
-                                    {{--                                        affected by more factors than you may think. </p>--}}
-                                    {{--                                    <p>--}}
-                                    {{--                                        Besides a daily skin care routine, make it a habit to examine your own skin for abnormalities,--}}
-                                    {{--                                        discolorations, or any other changes on a regular basis. Have your skin examined by a doctor or--}}
-                                    {{--                                        dermatologist annually for any changes.--}}
-                                    {{--                                    </p>--}}
                                 </div>
                             </div>
                         </div>
@@ -220,7 +210,7 @@
             <section id="basics">
 
 
-                <div id="basics" class="separator">
+                <div  class="separator">
                     <div class="container">
                         <h2><span>THE BASICS</span></h2>
                     </div>
@@ -366,9 +356,9 @@
 
                     <div class="row center">
                         <div class="col-md-6 col-12 ">
-                            <h4>01</h4>
+                            <h3>01</h3>
 
-                            <h3>CLEANSER</h3>
+                            <h4>CLEANSER</h4>
                             <p>
                                 Oil cleansers can also be part of a multiple-step cleansing process to get the “best
                                 clean”
@@ -425,9 +415,9 @@
                             </div>
                         </div>
                         <div class="col-md-6 offset-md-1 col-12 order-md-last order-first">
-                            <h4>02</h4>
+                            <h3>02</h3>
 
-                            <h3>eye cream</h3>
+                            <h4>eye cream</h4>
 
                             <p>
                                 Eye cream will reduce signs of ageing as long as you apply your product morning and
@@ -459,9 +449,9 @@
                 <article id="spot-treatment">
                     <div class="row center">
                         <div class="col-md-6 col-12 ">
-                            <h4>03</h4>
+                            <h3>03</h3>
 
-                            <h3>spot treatment</h3>
+                            <h4>spot treatment</h4>
                             <p>
                                 Exfoliating is the process of removing dead skin cells from the surface of your skin
                                 using a
@@ -503,9 +493,9 @@
                         </div>
                         <div class="col-md-6 offset-md-1 col-12 order-md-last order-first">
 
-                            <h4>04</h4>
+                            <h3>04</h3>
 
-                            <h3>Moisturizer</h3>
+                            <h4>Moisturizer</h4>
                             <p>
                                 A face moisturizer helps to prevent dryness and moisture loss in skin. A properly
                                 formulated
@@ -539,9 +529,9 @@
                 <article id="sunscreen">
                     <div class="row center">
                         <div class="col-md-6 col-12 ">
-                            <h4>05</h4>
+                            <h3>05</h3>
 
-                            <h3>sunscreen</h3>
+                            <h4>sunscreen</h4>
                             <p>
                                 SPF stands for Sun Protection Factor. It measures the level of protection a product will
                                 give
@@ -714,8 +704,8 @@
                             </div>
                         </div>
                         <div class="col-md-6 offset-md-1 col-12 order-md-last order-first">
-                            <h4>06</h4>
-                            <h3>TONER</h3>
+                            <h3>06</h3>
+                            <h4>TONER</h4>
                             <p>
                                 Toners are often misunderstood and most people don't know if they should use it, or how
                                 to
@@ -755,9 +745,9 @@
                 <article id="serum">
                     <div class="row center">
                         <div class="col-md-6 col-12 ">
-                            <h4>07</h4>
+                            <h3>07</h3>
 
-                            <h3>serum</h3>
+                            <h4>serum</h4>
                             <p>
                                 Serum is a skincare product you can apply to your skin after cleansing but before
                                 moisturizing
@@ -812,8 +802,8 @@
                             </div>
                         </div>
                         <div class="col-md-6 offset-md-1 col-12 order-md-last order-first">
-                            <h4>08</h4>
-                            <h3>essence</h3>
+                            <h3>08</h3>
+                            <h4>essence</h4>
                             <p>
                                 Essences have similar benefits to a serum, and with a lower molecular weight than most
                                 daily
@@ -929,8 +919,8 @@
                     <div class="row center">
                         <div class="col-md-6 col-12 ">
 
-                            <h4>09</h4>
-                            <h3>sheet mask</h3>
+                            <h3>09</h3>
+                            <h4>sheet mask</h4>
                             <p>
                                 Foam cleansers create a foamy lather (hence the name), and are ideal for removing oil,
                                 layers of
@@ -983,9 +973,9 @@
                         </div>
                         <div class="col-md-6 offset-md-1 col-12 order-md-last order-first">
 
-                            <h4>10</h4>
+                            <h3>10</h3>
 
-                            <h3>exfoliant</h3>
+                            <h4>exfoliant</h4>
                             <p>
                                 Exfoliating is the process of removing dead skin cells from the surface of your skin
                                 using a
@@ -1008,9 +998,9 @@
                 <article id="face-mask">
                     <div class="row center">
                         <div class="col-md-6 col-12 ">
-                            <h4>11</h4>
+                            <h3>11</h3>
 
-                            <h3>Face mask</h3>
+                            <h4>Face mask</h4>
                             <p>
                                 Exfoliating is the process of removing dead skin cells from the surface of your skin
                                 using a

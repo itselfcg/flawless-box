@@ -182,6 +182,95 @@ color: var(--green);
 }
 
 
+/* TITLES */
+
+h1{
+    color: black;
+    font-weight: bold;
+    font-family:Georgia;
+    font-size: 4em;
+    line-height: .9em;
+
+}
+
+
+h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Trebuchet MS';
+    text-transform: uppercase;
+
+}
+
+h3{
+    color: var(--darkwhite);
+    font-weight: bold;
+    font-family:"Trebuchet MS";
+    font-size: 5em;
+    text-transform: uppercase;
+}
+
+h4{
+    color: var(--darkgray);
+    font-weight: bold;
+    font-family:"Trebuchet MS";
+    font-size: 1.5em;
+    text-transform: uppercase;
+
+}
+
+
+h5 {
+    color: var(--darkwhite);
+    font-weight: bold;
+    font-family: "Trebuchet MS";
+    font-size: 1em;
+}
+
+h6 {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Trebuchet MS";
+
+
+}
+
+h7 {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: "Trebuchet MS";
+    font-weight: bold;
+}
+
+
+
+
+p,tr{
+    font-family: Arial!important;
+    font-size: 15px!important;
+    color: var(--lightblack) !important;
+
+}
+
+td{
+    font-size: 13px!important;
+}
+
+.link{
+    color: black;
+    text-decoration: underline;
+    font-size: 13px;
+    font-family: "Microsoft JhengHei";
+    font-weight: bold!important;
+}
+
+.link:hover{
+    color: var(--darkgray);
+}
+
+
+
 /* SEPARATORS */
 
 .separator h2 {
@@ -250,4 +339,15 @@ hr.sep1{
 .texture-ylines{
     background-image: linear-gradient(90deg, transparent 50%, rgba(255,255,255,.5) 50%);
     background-size: 50px 50px;
+}
+
+/* TITLES */
+
+.container-title{
+    height: 200px;
+
+}
+
+.title{
+    padding-bottom: 1em;
 }

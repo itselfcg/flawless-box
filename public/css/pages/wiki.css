@@ -4,7 +4,7 @@
     padding: 7em 0 7em;
     background-color: white;
 }
-#join{
+#join,#skincare article{
     padding-bottom: 5em;
 }
 
@@ -19,54 +19,6 @@
 
 
 }
-
-#intro p{
-    color: black;
-    font-family: Arial;
-    font-size: 18px;
-
-}
-
-
-h1{
-    color: black;
-    font-weight: bold;
-    font-family:Georgia;
-    font-size: 3.5em;
-    line-height: .9em;
-
-}
-
-
-h3 {
-    color: var(--darkgray);
-    font-weight: bold;
-    font-family: "Trebuchet MS";
-    font-size: 1.25em;
-    text-transform: uppercase;
-    padding-bottom: 1em;
-}
-
-
-h4 {
-    color: var(--darkwhite);
-    font-weight: bold;
-    font-family: "Trebuchet MS";
-    font-size: 5em;
-
-}
-
-h5{
-    color: var(--lightgray);
-    font-weight: bold;
-    font-family: "Trebuchet MS";
-    font-size: 1em;
-    text-transform: uppercase;
-    padding-bottom: 1em;
-
-}
-
-
 
 
 #intro img,  .products img{

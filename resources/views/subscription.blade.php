@@ -18,9 +18,9 @@
                         <div class="col-lg-8 col-md-10">
 
                             <div class="title ">
-                                <h1>
-                                    MARCH 2020
-                                </h1>
+                                <h3 style="font-size: 2.5em; color: white;">
+                                    MARCH 2021
+                                </h3>
 
                                 <img class="w-50" SRC="/images/pictures/brands/brand3.png"><br>
 
@@ -46,9 +46,9 @@
         <div class="container w-75">
             <div class="row pt-4">
                 <div class="col-lg-5 offset-lg-1 col-md-6 text-left my-auto ">
-                    <h4>Dr. Jart+</h4>
 
-                    <h3>THE FUSION OF SKINCARE, SCIENCE<br> & ART</h3>
+                    <h1 style="font-size: 2.5em;">THE FUSION OF SKINCARE, SCIENCE<br> & ART</h1>
+                    <h2>Dr. Jart+</h2>
 
                 </div>
                 <div class="col-lg-5 col-md-6  text-center">
@@ -78,7 +78,7 @@
                 <div class="col-lg-4 ">
                     <div class="row">
                         <div class="col-lg-12 ">
-                            <h5>01</h5>
+                            <h3>01</h3>
 
                             <h4 class="pt-2 pb-3">BORN IN KOREA</h4>
                             <p>
@@ -104,7 +104,7 @@
 
                     <div class="row">
                         <div class="col-lg-12 ">
-                            <h5>02</h5>
+                            <h3>02</h3>
 
                             <h4 class="pt-2 pb-3">RESULTS DRIVEN</h4>
                             <p>
@@ -120,7 +120,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 ">
-                    <h5>03</h5>
+                    <h3>03</h3>
 
                     <h4 class="pt-2 pb-3">INNOVATION</h4>
                     <p>

@@ -15,8 +15,8 @@
 @section('content')
     <section id="intro">
         <div class="container w-75">
-            <div class="row ">
-                <div class="col-12 ">
+            <div class="row container-title ">
+                <div class="col-12 align-self-end ">
                     <div class="title">
                         <h1>Checkout</h1>
                     </div>
@@ -82,7 +82,7 @@
                                 <div class="row">
                                     <div class="col text-center">
                                         Your cart is empty. <br>
-                                        Checkout our box subscriptions <a href="subscription#join-now">here.
+                                        Checkout our box subscriptions <a href="subscription#join-now" class="link">here.
                                         </a>
 
                                     </div>
@@ -176,9 +176,9 @@
                     </div>
                     <div class="col-12">
                         <div class=" pt-2">
-                            <a href="subscription#join-now">
-                                <i class="fa fa-arrow-left"></i>
-                                Go back
+                            <a href="subscription#join-now" class="link">
+                                <i class="fa fa-angle-left"></i>
+                                Return to Plans
                             </a>
                         </div>
                     </div>
@@ -224,7 +224,7 @@
                             </div>
 
 
-                            <p>Do you have an account already? <a href="login">
+                            <p>Do you have an account already? <a href="login" class="link">
                                     Login
                                 </a> to manage your subscription.</p>
                         </div>

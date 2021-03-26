@@ -2,7 +2,6 @@
 
 #user-info{
     padding: 3em 0 10em;
-
     background-color: white;
 }
 
@@ -12,76 +11,16 @@
     font-size: 18px;
     text-transform: uppercase;
     font-weight: bold;
-
 }
 
 #account .nav-link:hover{
     color: var(--gray);
 }
 
-h1{
-    color: black;
-    font-weight: bold;
-    font-family:Georgia;
-    font-size: 4em;
-    line-height: .5em;
 
-}
-
-.title h2{
-    text-transform: uppercase;
-    font-size: 20px;
-    font-family: 'Trebuchet MS';
-}
-
-.title{
-    padding: 6em 0 2em;
-}
-
-
-
-h3{
-    color: var(--darkwhite);
-    font-weight: bold;
-    font-family:"Trebuchet MS";
-    font-size: 5em;
-}
-
-h4{
-    color: var(--darkgray);
-    font-weight: bold;
-    font-family:"Trebuchet MS";
-    font-size: 1.5em;
-    text-transform: uppercase;
-}
-
-
-#account p,tr,#address p {
-    font-family: Arial!important;
-    font-size: 14px!important;
-
-}
 
 
 .form-group .row{
     padding-top: .5em;
-}
-
-
-h6 {
-    text-transform: uppercase;
-    font-size: 18px;
-    font-weight: bold;
-    font-family: "Trebuchet MS";
-
-
-}
-
-h7 {
-    text-transform: uppercase;
-    font-size: 14px;
-    font-family: "Trebuchet MS";
-
-    font-weight: bold;
 }
 

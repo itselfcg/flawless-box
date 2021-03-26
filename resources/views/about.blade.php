@@ -17,17 +17,18 @@
                     <div class="row">
                         <div class="col-lg-8 col-md-10">
                             <div class="title ">
-                                <h1>
-                                    Get<br> the skin<br> you deserve
-                                </h1>
-                                <p class="pt-3">
+                               <h1>Get  <br>the skin <br> you deserve</h1>
+                                <h2>
+                                    About FlawlessBox
+                                </h2>
+                                <p>
                                     FlawlessBox is the simplest way to achive a perfect skin. When you subscribe to
                                     FlawlessBox, you'll recive a monthly package with a mix of skincare luxury samples
-                                    to create our own 7-step skincare routine.
+                                    to create your own 7-step skincare routine.
                                 </p>
                             </div>
 
-                            <p style="font-size: 15px;">
+                            <p>
                                 Visit our skincare wiki to learn about skincare products.<br><br>
                                 <a class="btn btn-yellow " href="wiki">
                                     LEARN MORE</a>

@@ -17,9 +17,9 @@
     height: auto;
 }
 
-.carousel-item{
-    color: black;
-    font-size: 12px;
+.carousel-item p{
+    color: black!important;
+    font-size: 12px!important;
     font-weight: bold;
     text-transform: uppercase;
     padding: 10px 30px 0 30px;
@@ -32,17 +32,12 @@
     padding: 0px;
     font-size: 16px;
     font-weight: bold;
-
-
-
     background-color: #f3f3f3;
     box-shadow: 0px 10px 25px 0px rgba(0,0,0,0.1);
-
-
 }
 
 .secondary-navbar li a{
-    color:var(--darkgray)!important;
+    color:var(--lightblack)!important;
 }
 .secondary-navbar li a:hover{
     color: var(--gray)!important;

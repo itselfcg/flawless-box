@@ -45,10 +45,10 @@
     <div class="collapse navbar-collapse dual-collapse  w-25 order-sm-1 order-2" id="collapse_target1">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item hide-sm">
-                <a class="nav-link" href="login"><i class="fa fa-user fa-2x" aria-hidden="true"></i></a>
+                <a class="nav-link" href="{{asset('login')}}"><i class="fa fa-user fa-2x" aria-hidden="true"></i></a>
             </li>
             <li class="nav-item hide-sm" style="width: 60px;">
-                <a class="nav-link" href="cart"><i class="fa fa-shopping-bag fa-2x" aria-hidden="true"></i><sup> 0</sup></a>
+                <a class="nav-link" href="{{asset('cart')}}"><i class="fa fa-shopping-bag fa-2x" aria-hidden="true"></i><sup> 0</sup></a>
             </li>
         </ul>
     </div>
@@ -74,7 +74,7 @@
                 <a class="nav-link" href="{{asset('wiki')}}">Guide</a>
             </li>
             <li>
-                <a class="nav-link" href="{{asset('dev')}}">Developer</a>
+                <a class="nav-link" href="{{asset('dev')}}">Inspiration</a>
             </li>
         </ul>
 

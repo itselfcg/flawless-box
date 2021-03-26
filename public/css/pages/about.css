@@ -4,57 +4,18 @@
     background-position:50% 50%;  /* Sets reference point to scale from */
     background-size:cover;
     height: 850px;
-
     background-repeat:no-repeat;
     background-position: top ;
 
 }
 
-#intro p{
-    color: black;
-    font-family: Arial;
-    font-size: 18px;
-
-}
-
-#info p{
-    font-family: Arial;
-    font-size: 15px;
-    color: var(--lightblack);
-
-}
-
 #info .row{
     padding-top: 6em;
-
 }
 
 
 #join{
     height: 10em;
-}
-
-h1{
-    color: black;
-    font-weight: bold;
-    font-family:Georgia;
-    font-size: 4em;
-    line-height: .9em;
-
-}
-
-h3{
-    color: var(--darkwhite);
-    font-weight: bold;
-    font-family:"Trebuchet MS";
-    font-size: 5em;
-}
-
-h4{
-    color: var(--darkgray);
-    font-weight: bold;
-    font-family:"Trebuchet MS";
-    font-size: 1.5em;
 }
 
 

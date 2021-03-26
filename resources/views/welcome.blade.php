@@ -18,10 +18,10 @@
             offset-1 col-11 ">
                 <div class="title">
                     <h1>Skincare to fall in love</h1>
-                    <h2>Chekout our new March's box. free shipping in your first box.</h2>
+                    <p>Chekout our new March's box. free shipping in your first box.</p>
 
                 </div>
-                <a class="link" href="subscription">MORE INFO</a>
+                <a class="link" href="subscription">More info</a>
 
             </div>
         </div>

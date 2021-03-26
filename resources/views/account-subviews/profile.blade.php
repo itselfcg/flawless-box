@@ -13,7 +13,7 @@
                             7602552233</p>
                     </div>
                     <div class="col-2 text-center">
-                        <a href="#" id="btnEditAccount" class="edit-link">
+                        <a href="#" id="btnEditAccount" class="link">
                             Edit
                         </a>
                     </div>
@@ -24,7 +24,7 @@
                         <p>Password</p>
                     </div>
                     <div class="col-2 text-center">
-                        <a href="#" id="btnEditPassword"  class="edit-link">
+                        <a href="#" id="btnEditPassword"  class="link">
                             Edit
                         </a>
                     </div>
@@ -46,7 +46,7 @@
                         <h4>Edit Profile</h4>
                     </div>
                     <div class="col text-right">
-                        <a href="#" class="btnBackProfile">
+                        <a href="#" class="btnBackProfile link">
                             <i class="fa fa-angle-left"></i>
                             Back to Profile
                         </a>
@@ -116,7 +116,7 @@
                         <h4>Change Password</h4>
                     </div>
                     <div class="col text-right">
-                        <a href="#" class="btnBackProfile">
+                        <a href="#" class="btnBackProfile link">
                             <i class="fa fa-angle-left"></i>
                             Back to Profile
                         </a>

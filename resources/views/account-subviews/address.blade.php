@@ -17,7 +17,7 @@
                         </p>
                     </div>
                     <div class="col-2 text-center">
-                        <a href="#" id="btnEditAddress"  class="edit-link">
+                        <a href="#" id="btnEditAddress"  class="link">
                             Edit
                         </a>
                     </div>
@@ -39,7 +39,7 @@
                         <h4>Edit Address</h4>
                     </div>
                     <div class="col text-right">
-                        <a href="#" class="btnBackAddress">
+                        <a href="#" class="btnBackAddress link">
                             <i class="fa fa-angle-left"></i>
                             Back to Address
                         </a>

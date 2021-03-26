@@ -10,9 +10,9 @@
             <div class="col-lg-2">
                 <label>Flawless Box</label>
                 <p>
-                    <a href="#"> Help & FAQ</a><br>
-                    <a href="subscription#join-now">Join Now</a><br>
-                    <a href="#">Resources</a>
+                    <a href="{{asset('account')}}">Account</a><br>
+                    <a href="{{asset('subscription#join-now')}}">Join Now</a><br>
+                    <a href="{{asset('dev#resources')}}">Resources</a>
                 </p>
             </div>
             <div class="col-lg-6">
