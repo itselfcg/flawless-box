@@ -17,7 +17,6 @@ class CreateAccountsTable extends Migration
             $table->increments("id");
             $table->integer("user_id")->unsigned();
             $table->integer("address_id")->unsigned();
-            $table->integer("subscription_id")->unsigned();
             $table->string("referral_code");
             $table->timestamps();
         });
@@ -25,7 +24,6 @@ class CreateAccountsTable extends Migration
         Schema::table('accounts', function($table) {
             $table->foreign('user_id')->references('id')->on('users');
             $table->foreign('address_id')->references('id')->on('addresses');
-            $table->foreign('subscription_id')->references('id')->on('subscriptions');
         });
     }
 

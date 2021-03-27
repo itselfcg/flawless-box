@@ -21,7 +21,7 @@ class CreateSubscriptionPlansTable extends Migration
             $table->integer("duration");
             $table->decimal("monthly_price", 6, 2);
             $table->decimal("shipping", 6, 2);
-            $table->timestamps();
+            $table->integer("billing_period");
         });
     }
 

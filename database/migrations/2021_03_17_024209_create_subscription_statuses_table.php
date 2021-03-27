@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateBoardMessagesTable extends Migration
+class CreateSubscriptionStatusesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,9 +13,9 @@ class CreateBoardMessagesTable extends Migration
      */
     public function up()
     {
-        Schema::create('board_messages', function (Blueprint $table) {
+        Schema::create('subscription_statuses', function (Blueprint $table) {
             $table->increments("id");
-            $table->string("message");
+            $table->string("description");
         });
     }
 
@@ -26,6 +26,6 @@ class CreateBoardMessagesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('board_messages');
+        Schema::dropIfExists('subscription_statuses');
     }
 }

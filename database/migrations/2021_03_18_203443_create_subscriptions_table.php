@@ -16,14 +16,19 @@ class CreateSubscriptionsTable extends Migration
         Schema::create('subscriptions', function (Blueprint $table) {
             $table->increments("id");
             $table->integer("plan_id")->unsigned();
+            $table->integer("account_id")->unsigned();
+            $table->integer("status_id")->unsigned();
+            $table->integer("payment_id")->unsigned();
             $table->date("starts_at");
             $table->date("expires_at");
-            $table->boolean("is_active")->default(0);
-            $table->boolean("is_auto_renewal")->default(0);
         });
 
         Schema::table('subscriptions', function($table) {
             $table->foreign('plan_id')->references('id')->on('subscription_plans');
+            $table->foreign('account_id')->references('id')->on('accounts');
+            $table->foreign('status_id')->references('id')->on('subscription_statuses');
+            $table->foreign('payment_id')->references('id')->on('payments');
+
         });
     }
 
