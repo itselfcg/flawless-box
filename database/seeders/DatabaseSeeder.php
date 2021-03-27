@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\SubscriptionPlan;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -13,6 +14,13 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // \App\Models\User::factory(10)->create();
+        $this->call(BoxStatusesSeeder::class);
+        $this->call(BoardMessagesSeeder::class);
+        $this->call(PaymentMethodsSeeder::class);
+        $this->call(ProductsSeeder::class);
+        $this->call(SubscriptionStatusesSeeder::class);
+        $this->call(SubscriptionPlansSeeder::class);
+        $this->call(SubscriptionSeeder::class);
+
     }
 }
