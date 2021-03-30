@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\SubscriptionsController;
+use App\Http\Controllers\PlansController;
+use App\Http\Controllers\CartController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,9 +19,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/subscription', [SubscriptionsController::class, 'index']);
-Route::get('/cart', [SubscriptionsController::class, 'cart']);
-Route::get('/add-to-cart/{id}', [SubscriptionsController::class, 'addToCart']);
+Route::get('/subscription', [PlansController::class, 'index']);
+Route::get('/add-to-cart/{id}', [CartController::class, 'addToCart']);
+Route::post('/apply-cupon', [CartController::class, 'applyCupon']);
+
+Route::get('/delete-cupon/{code}', [CartController::class, 'deleteCupon']);
+
+
+
 Route::view('/wiki', 'wiki');
 Route::view('/project', 'project');
 

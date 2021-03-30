@@ -181,6 +181,9 @@ color: var(--green);
     font-weight: normal;
 }
 
+.text-yellow{
+    color: var(--pink);
+}
 
 /* TITLES */
 

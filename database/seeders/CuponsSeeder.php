@@ -19,5 +19,11 @@ class CuponsSeeder extends Seeder
             'discount' => '1.99'
 
         ]);
+        \DB::table('cupons')->insert([
+            'code' => 'DEVCODE',
+            'description' => 'Free shipping in your anual subscription. CODE:FREE12SHIP',
+            'discount' => '10'
+
+        ]);
     }
 }
