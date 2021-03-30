@@ -14,9 +14,6 @@ class BoardMessagesSeeder extends Seeder
     public function run()
     {
         \DB::table('board_messages')->insert([
-            'message' => 'Free shipping in your anual subscription.'
-        ]);
-        \DB::table('board_messages')->insert([
             'message' => 'Checkout our guide for more info about products.'
         ]);
     }
