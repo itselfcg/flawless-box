@@ -14,6 +14,8 @@
                         <p>Itzel Contreras <br>
                             123 Main Street,<br>
                             New York, NY 10030<br>
+
+                            7602552233
                         </p>
                     </div>
                     <div class="col-2 text-center">
@@ -93,7 +95,14 @@
                                             </div>
 
                                         </div>
+                                        <div class="row ">
 
+                                            <div class="col-12">
+                                                <input id="phone" class="form-control" type="text"
+                                                       name="phone-label"
+                                                       placeholder="Phone number" required/>
+                                            </div>
+                                        </div>
 
                                     </div>
                                 </div>

@@ -9,8 +9,7 @@
                 <div class="row pt-2">
                     <div class="col-10">
                         <p>Itzel Contreras <br>
-                            itzelgpec@gmail.com <br>
-                            7602552233</p>
+                            itzelgpec@gmail.com </p>
                     </div>
                     <div class="col-2 text-center">
                         <a href="#" id="btnEditAccount" class="link">
@@ -86,14 +85,7 @@
                                                    placeholder="Email" required/>
                                         </div>
                                     </div>
-                                    <div class="row ">
 
-                                        <div class="col-12">
-                                            <input id="phone" class="form-control" type="text"
-                                                   name="phone-label"
-                                                   placeholder="Phone number" required/>
-                                        </div>
-                                    </div>
 
 
                                 </div>
