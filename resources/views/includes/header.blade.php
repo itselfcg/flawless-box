@@ -50,13 +50,16 @@ if (session('cart'))
     <div class="collapse navbar-collapse dual-collapse  w-25 order-sm-1 order-2" id="collapse_target1">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item hide-sm">
-                <a class="nav-link" href="{{asset('login')}}"><i class="fa fa-user fa-2x" aria-hidden="true"></i></a>
+                <a class="nav-link" href="{{asset('home')}}"><i class="fa fa-user fa-2x" aria-hidden="true"></i></a>
             </li>
+
+            @guest
             <li class="nav-item hide-sm" style="width: 60px;">
                 <a class="nav-link" href="{{asset('cart')}}"><i class="fa fa-shopping-bag fa-2x" aria-hidden="true"></i>
                     <sup><b>{{$items}}</b></sup>
                 </a>
             </li>
+            @endguest
         </ul>
     </div>
 </nav>

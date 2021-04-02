@@ -1,4 +1,5 @@
-@extends('layout.account')
+@extends('layout.home')
+
 @section('account-section')
     <div id="profile">
         <div class="row">

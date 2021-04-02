@@ -31,21 +31,26 @@
                         <ul class="navbar-nav">
 
                             <li>
-                                <a class="nav-link" href="{{ url('account')}}">Profile</a>
+                                <a class="nav-link" href="{{ url('home')}}">Profile</a>
                             </li>
                             <li>
-                                <a class="nav-link" href="{{ url('account/subscription')}}">Subscription</a>
+                                <a class="nav-link" href="{{ url('home/subscription')}}">Subscription</a>
                             </li>
                             <li>
-                                <a class="nav-link" href="{{ url('account/address')}}">Address</a>
+                                <a class="nav-link" href="{{ url('home/address')}}">Address</a>
                             </li>
                             <li>
-                                <a class="nav-link" href="{{ url('account/purchases')}}">BOXES HISTORY</a>
+                                <a class="nav-link" href="{{ url('home/purchases')}}">BOXES HISTORY</a>
                             </li>
 
                         </ul>
                         <div class="pt-5">
-                            <button class="btn btn-outline-orange">SIGN OUT</button>
+
+
+                            <form id="logout-form" action="{{ route('logout') }}" method="POST">
+                                @csrf
+                                <button type="submit" class="btn btn-outline-orange">SIGN OUT</button>
+                            </form>
                         </div>
                     </div>
                     <div class="col-12 col-md-8 ">

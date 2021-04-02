@@ -10,7 +10,7 @@
             <div class="col-lg-2">
                 <label>Flawless Box</label>
                 <p>
-                    <a href="{{asset('account')}}">Account</a><br>
+                    <a href="{{asset('home')}}">Account</a><br>
                     <a href="{{asset('subscription#join-now')}}">Join Now</a><br>
                     <a href="{{asset('project')}}">Project</a>
                 </p>

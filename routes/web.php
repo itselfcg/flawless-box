@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PlansController;
 use App\Http\Controllers\CartController;
+use App\Http\Controllers\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -32,16 +33,15 @@ Route::view('/project', 'project');
 
 Route::view('/about', 'about');
 Route::view('/cart', 'cart');
-Route::view('/account', '/account-subviews/profile');
-Route::view('/account/subscription', '/account-subviews/subscription');
-Route::view('/account/address', '/account-subviews/address');
-Route::view('/account/purchases', '/account-subviews/purchase-history');
-
-
 
 
 
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/home', [HomeController::class, 'index'])->name('home');
+Route::get('/home/subscription', [HomeController::class, 'subscription'])->name('subscription');
+Route::get('/home/address', [HomeController::class, 'address'])->name('address');
+Route::get('/home/purchases', [HomeController::class, 'purchases'])->name('purchase-history');
+
+
