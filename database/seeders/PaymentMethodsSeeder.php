@@ -14,11 +14,9 @@ class PaymentMethodsSeeder extends Seeder
     public function run()
     {
         \DB::table('payment_methods')->insert([
-            'description' => 'Credit card'
+            'description' => 'Credit card / Debit card'
         ]);
-        \DB::table('payment_methods')->insert([
-            'description' => 'Debit card'
-        ]);
+
         \DB::table('payment_methods')->insert([
             'description' => 'Paypal'
         ]);

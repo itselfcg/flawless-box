@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Payment;
 use App\Models\SubscriptionPlan;
 use Illuminate\Database\Seeder;
 
@@ -14,14 +15,21 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        $this->call(BoxStatusesSeeder::class);
         $this->call(BoardMessagesSeeder::class);
         $this->call(PaymentMethodsSeeder::class);
         $this->call(ProductsSeeder::class);
-        $this->call(SubscriptionStatusesSeeder::class);
         $this->call(SubscriptionPlansSeeder::class);
-        $this->call(SubscriptionSeeder::class);
         $this->call(CuponsSeeder::class);
+        $this->call(UsersSeeeder::class);
+        $this->call(AddressesSeeder::class);
+        $this->call(PaymentsSeeder::class);
+        $this->call(AccountsSeeder::class);
+        $this->call(SubscriptionSeeder::class);
+        $this->call(PurchasesSeeder::class);
+
+
+
+
 
     }
 }
