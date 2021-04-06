@@ -107,7 +107,7 @@
                                                 {{ __('Login') }}
                                             </button>
                                             or <a
-                                                href="subscription#join-now" class="link"> Join
+                                                href="box#join-now" class="link"> Join
                                                 now</a>
                                         </div>
                                     </div>

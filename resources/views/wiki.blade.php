@@ -1040,7 +1040,7 @@
     <section id="join" style="padding-top: 10%">
         <div class="h-100 row align-items-center ">
             <div class="col text-center">
-                <a class="btn btn-join" href="subscription#join-now">JOIN NOW</a>
+                <a class="btn btn-join" href="box#join-now">JOIN NOW</a>
             </div>
         </div>
     </section>

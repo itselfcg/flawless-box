@@ -194,7 +194,7 @@
     </section>
     <section id="join-now" class="separator">
         <div class="container w-75">
-            <h2><span>PACKAGES</span></h2>
+            <h2><span>SUBSCRIPTION PLANS</span></h2>
             <div class="description">
                 <p>
 

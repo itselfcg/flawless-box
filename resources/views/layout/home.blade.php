@@ -15,7 +15,7 @@
                     <div class="col-12 align-self-end ">
                         <div class="title">
                             <h1>Account</h1>
-                            <h2>Hello, Itzel contreras!</h2>
+                            <h2>Hello, {{$name}} {{$lastname}}</h2>
                         </div>
 
                     </div>
@@ -31,16 +31,16 @@
                         <ul class="navbar-nav">
 
                             <li>
-                                <a class="nav-link" href="{{ url('home')}}">Profile</a>
+                                <a class="nav-link" href="{{ url('profile')}}">Profile</a>
                             </li>
                             <li>
-                                <a class="nav-link" href="{{ url('home/subscription')}}">Subscription</a>
+                                <a class="nav-link" href="{{ url('subscription')}}">Subscription</a>
                             </li>
                             <li>
-                                <a class="nav-link" href="{{ url('home/address')}}">Address</a>
+                                <a class="nav-link" href="{{ url('address')}}">Address</a>
                             </li>
                             <li>
-                                <a class="nav-link" href="{{ url('home/purchases')}}">BOXES HISTORY</a>
+                                <a class="nav-link" href="{{ url('purchases')}}">BOXES HISTORY</a>
                             </li>
 
                         </ul>
@@ -54,8 +54,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-md-8 ">
-                        @yield('account-section')
-                        @yield('edit-sections')
+                        @yield('section-content')
                     </div>
                 </div>
 

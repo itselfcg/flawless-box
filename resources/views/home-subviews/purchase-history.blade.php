@@ -1,7 +1,7 @@
 @extends('layout.home')
 
 
-@section('account-section')
+@section('section-content')
     <div id="history">
         <div class="row">
             <div class="col">
@@ -17,7 +17,7 @@
                         <table class="table  ">
                             <thead>
                             <tr class="bg-lightgray">
-                                <th scope="col">Plan code</th>
+                                <th scope="col">Code</th>
                                 <th scope="col">Month</th>
 
                                 <th scope="col">Status</th>
@@ -27,22 +27,15 @@
                             </tr>
                             </thead>
                             <tbody>
+                            @foreach($purchases as $purchase)
                             <tr>
-                                <td>XGAHS</td>
-                                <td>APRIL</td>
-                                <td>Waiting to be ship</td>
-                                <td>2021-04-18</td>
-                                <td></td>
+                                <td>{{$purchase->subscription_id}}</td>
+                                <td>{{$purchase->description}}</td>
+                                <td>{{$purchase->status}}</td>
+                                <td>{{$purchase->shipping_date}}</td>
+                                <td>{{$purchase->tracking_number}}</td>
                             </tr>
-                            <tr>
-                                <td>XGAHS</td>
-                                <td>MARCH</td>
-                                <td>Sent to:<br> 123 Main Street,<br>New York, NY 10030
-
-                                </td>
-                                <td>2021-03-18</td>
-                                <td>0151000001552</td>
-                            </tr>
+                            @endforeach
 
                             </tbody>
                         </table>

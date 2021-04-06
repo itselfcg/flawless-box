@@ -50,16 +50,14 @@ if (session('cart'))
     <div class="collapse navbar-collapse dual-collapse  w-25 order-sm-1 order-2" id="collapse_target1">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item hide-sm">
-                <a class="nav-link" href="{{asset('home')}}"><i class="fa fa-user fa-2x" aria-hidden="true"></i></a>
+                <a class="nav-link" href="{{asset('profile')}}"><i class="fa fa-user fa-2x" aria-hidden="true"></i></a>
             </li>
 
-            @guest
             <li class="nav-item hide-sm" style="width: 60px;">
                 <a class="nav-link" href="{{asset('cart')}}"><i class="fa fa-shopping-bag fa-2x" aria-hidden="true"></i>
                     <sup><b>{{$items}}</b></sup>
                 </a>
             </li>
-            @endguest
         </ul>
     </div>
 </nav>
@@ -69,7 +67,7 @@ if (session('cart'))
     <div class="collapse navbar-collapse w-100 dual-collapse" id="collapse_target2">
         <ul class="navbar-nav mx-auto">
             <li class="nav-item visible-sm">
-                <a class="nav-link" href="login">Account</a>
+                <a class="nav-link" href="{{asset('profile')}}">Account</a>
             </li>
             <li>
                 <a class="nav-link" href="{{asset('')}}">Home</a>
@@ -78,7 +76,7 @@ if (session('cart'))
                 <a class="nav-link" href="{{asset('about')}}">About</a>
             </li>
             <li>
-                <a class="nav-link" href="{{asset('subscription')}}">The Box</a>
+                <a class="nav-link" href="{{asset('box')}}">The Box</a>
             </li>
             <li>
                 <a class="nav-link" href="{{asset('wiki')}}">Guide</a>

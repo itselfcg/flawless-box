@@ -5,7 +5,10 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class SubscriptionStatuses extends Model
+class SubscriptionStatus extends Model
 {
-    use HasFactory;
+    public const AUTO_RENEWAL = 'Auto renewal';
+    public const VALID = 'Valid';
+    public const CANCELED = 'Canceled';
+    public const FINISHED = 'Finished';
 }
