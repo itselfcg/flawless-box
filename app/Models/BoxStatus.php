@@ -7,5 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class BoxStatus extends Model
 {
-    use HasFactory;
+    public const WAITING = 'Waiting to be shipped';
+    public const SENT = 'Sent to:';
+    public const PREPARING = 'Preparing box';
 }

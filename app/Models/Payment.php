@@ -8,4 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class Payment extends Model
 {
     use HasFactory;
+    public $timestamps = false;
+
+    public function paymentMethod()
+    {
+        return $this->hasOne('App\Models\PaymentMethods','id','payment_method_id');
+    }
 }
