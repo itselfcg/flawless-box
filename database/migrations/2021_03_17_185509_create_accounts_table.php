@@ -17,7 +17,7 @@ class CreateAccountsTable extends Migration
             $table->increments("id");
             $table->integer("user_id")->unsigned();
             $table->integer("address_id")->unsigned();
-            $table->string("referral_code");
+            $table->string("referral_code")->nullable();
             $table->timestamps();
         });
 

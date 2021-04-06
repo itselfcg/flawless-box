@@ -15,21 +15,20 @@ class CreatePurchaseHistoriesTable extends Migration
     {
         Schema::create('purchase_histories', function (Blueprint $table) {
             $table->increments("id");
-            $table->integer("user_id")->unsigned();
+            $table->integer("account_id")->unsigned();
             $table->integer("subscription_id")->unsigned();
             $table->integer("address_id")->unsigned();
-            $table->integer("box_status_id")->unsigned();
+            $table->string("status");
             $table->string("description");
-            $table->integer("shipping_date");
-            $table->integer("tracking_number");
+            $table->dateTime("shipping_date");
+            $table->string("tracking_number")->nullable();
 
         });
 
         Schema::table('purchase_histories', function($table) {
-            $table->foreign('user_id')->references('id')->on('users');
+            $table->foreign('account_id')->references('id')->on('accounts');
             $table->foreign('subscription_id')->references('id')->on('subscriptions');
             $table->foreign('address_id')->references('id')->on('addresses');
-            $table->foreign('box_status_id')->references('id')->on('box_statuses');
 
         });
     }

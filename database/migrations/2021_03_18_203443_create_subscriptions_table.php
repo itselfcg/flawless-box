@@ -17,16 +17,16 @@ class CreateSubscriptionsTable extends Migration
             $table->increments("id");
             $table->integer("plan_id")->unsigned();
             $table->integer("account_id")->unsigned();
-            $table->integer("status_id")->unsigned();
+            $table->string("status");
             $table->integer("payment_id")->unsigned();
-            $table->date("starts_at");
-            $table->date("expires_at");
+            $table->dateTime("starts_at");
+            $table->dateTime("expires_at");
+            $table->dateTime("billing_date");
         });
 
         Schema::table('subscriptions', function($table) {
             $table->foreign('plan_id')->references('id')->on('subscription_plans');
             $table->foreign('account_id')->references('id')->on('accounts');
-            $table->foreign('status_id')->references('id')->on('subscription_statuses');
             $table->foreign('payment_id')->references('id')->on('payments');
 
         });
