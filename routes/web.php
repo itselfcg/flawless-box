@@ -19,29 +19,49 @@ use App\Http\Controllers\HomeController;
 Route::get('/', function () {
     return view('welcome');
 });
-
-Route::get('/subscription', [PlansController::class, 'index']);
-Route::get('/add-to-cart/{id}', [CartController::class, 'addToCart']);
-Route::post('/apply-cupon', [CartController::class, 'applyCupon']);
-
-Route::get('/delete-cupon/{code}', [CartController::class, 'deleteCupon']);
-
-
-
+// BASIC ROUTES
 Route::view('/wiki', 'wiki');
 Route::view('/project', 'project');
-
 Route::view('/about', 'about');
-Route::view('/cart', 'cart');
 
 
+// SHOPPING CART'S ROUTES
+Route::get('/box', [PlansController::class, 'index']);
+Route::get('/cart', [CartController::class, 'index'])->name('cart');
+Route::get('/add-to-cart/{id}', [CartController::class, 'addToCart']);
+Route::post('/apply-cupon', [CartController::class, 'applyCupon']);
+Route::get('/delete-cupon/{code}', [CartController::class, 'deleteCupon']);
 
+//RESTRINGED ROUTES
 
 Auth::routes();
+View::composer('layout.home', function ($view) {
+    $view->with('name', Auth::check() ? Auth::user()->name : '')
+        ->with('lastname', Auth::check() ? Auth::user()->last_name : '');
+}
+);
 
-Route::get('/home', [HomeController::class, 'index'])->name('home');
-Route::get('/home/subscription', [HomeController::class, 'subscription'])->name('subscription');
-Route::get('/home/address', [HomeController::class, 'address'])->name('address');
-Route::get('/home/purchases', [HomeController::class, 'purchases'])->name('purchase-history');
+
+Route::group(['middleware' => ['auth']], function () {
+
+   Route::view('/profile', '/home-subviews/profile')->name('profile');
+    Route::view('/address', '/home-subviews/address')->name('address');
+    Route::view('/profile-edit', '/home-subviews/profile-edit');
+    Route::view('/password-edit', '/home-subviews/password-edit');
+    Route::view('/address-edit', '/home-subviews/address-edit');
+});
+
+
+/* CUSTOMER DASHBOARD ROUTES*/
+Route::get('/subscription', [HomeController::class, 'showSubscription'])->name('subscription');
+Route::get('/purchases', [HomeController::class, 'showPurchases'])->name('purchase-history');
+Route::post('/subscription-edit/{id}', 'App\Http\Controllers\HomeController@showSubscriptionPlanUpgrade');
+Route::post('/update-profile/{id}', 'App\Http\Controllers\HomeController@updateProfile');
+Route::post('/update-address/{id}', 'App\Http\Controllers\HomeController@updateAddress');
+Route::post('/cancel-subscription/{id}', 'App\Http\Controllers\HomeController@cancelSubscription');
+
+
+Route::post('/payment', 'App\Http\Controllers\CartController@payment');
+Route::post('/change-subscription/{id}', 'App\Http\Controllers\CartController@changeSubscription');
 
 
