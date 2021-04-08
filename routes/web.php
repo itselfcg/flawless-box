@@ -16,6 +16,7 @@ use App\Http\Controllers\HomeController;
 |
 */
 
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -35,6 +36,13 @@ Route::get('/delete-cupon/{code}', [CartController::class, 'deleteCupon']);
 //RESTRINGED ROUTES
 
 Auth::routes();
+Route::get('/register', function() {
+    return redirect('/login');
+});
+
+Route::post('/register', function() {
+    return redirect('/login');
+});
 View::composer('layout.home', function ($view) {
     $view->with('name', Auth::check() ? Auth::user()->name : '')
         ->with('lastname', Auth::check() ? Auth::user()->last_name : '');
@@ -64,4 +72,7 @@ Route::post('/cancel-subscription/{id}', 'App\Http\Controllers\HomeController@ca
 Route::post('/payment', 'App\Http\Controllers\CartController@payment');
 Route::post('/change-subscription/{id}', 'App\Http\Controllers\CartController@changeSubscription');
 
+Route::any('{query}',
+    function() { return redirect('/'); })
+    ->where('query', '.*');
 
