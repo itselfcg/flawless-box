@@ -68,6 +68,10 @@
 
             </div>
             <div class="row no-gutters">
+                <div class="col-md-6 text-left">
+                    <img class="w-75" src="/images/pictures/info.jpg">
+
+                </div>
                 <div class="col-md-6">
                     <h3>02</h3>
 
@@ -76,10 +80,7 @@
                         Enjoy exclusive, members-only offers from the best brands in beauty. Win free products through
                         BOXY-Giveaways and receive reward points redeemable in our exclusive Charm Shop!</p>
                 </div>
-                <div class="col-md-6 text-right">
-                    <img class="w-75" src="/images/pictures/info.jpg">
 
-                </div>
 
             </div>
             <div class="row no-gutters">
