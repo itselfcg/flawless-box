@@ -10,4 +10,9 @@ class PurchaseHistory extends Model
     use HasFactory;
     public $timestamps = false;
 
+    public function subscription()
+    {
+        return $this->hasOne('App\Models\Subscription','id','payment_id');
+    }
+
 }

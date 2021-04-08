@@ -33,11 +33,19 @@ class HomeController extends Controller
         $userId = Auth::id();
         $account = Account::where('user_id', $userId)->get()->first();
         $subscriptions = Subscription::where('account_id', $account->id)
+            ->whereNotIn('status', [SubscriptionStatus::AUTO_RENEWAL])
             ->with(['plan', 'account', 'payment'])->orderBy('id', 'desc')
             ->get();
+        $activeSubscription = Subscription::where('account_id', $account->id)
+            ->where('status', SubscriptionStatus::AUTO_RENEWAL)
+            ->with(['plan', 'account', 'payment'])->orderBy('id', 'desc')
+            ->get()->first();
         $autoRenewal = Subscription::where('account_id', $account->id)->where('status', SubscriptionStatus::AUTO_RENEWAL)->get()->first();
-        $activeFlag= $autoRenewal!=null;
-        return view('/home-subviews/subscription')->with('subscriptions', $subscriptions)->with('activeFlag',$activeFlag);
+        $activeFlag = $autoRenewal != null;
+        return view('/home-subviews/subscription')
+            ->with('subscriptions', $subscriptions)
+            ->with('activeFlag', $activeFlag)
+            ->with('activeSubscription', $activeSubscription);
     }
 
     public function showSubscriptionPlanUpgrade($id)
@@ -60,7 +68,16 @@ class HomeController extends Controller
     public function cancelSubscription($id)
     {
         $subcription = Subscription::find($id);
-        $subcription->status = SubscriptionStatus::CANCELED;
+
+        $purchases = PurchaseHistory::where('subscription_id', $subcription->id)
+            ->where('status',BoxStatus::WAITING)->get();
+        if ($purchases == null) {
+            $subcription->status = SubscriptionStatus::CANCELED;
+        } else {
+            $subcription->status = SubscriptionStatus::VALID;
+
+        }
+
         $subcription->update();
         return redirect()->route('subscription');
     }
