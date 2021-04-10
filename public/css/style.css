@@ -280,7 +280,7 @@ td{
     width: 100%;
     text-align: center;
     border-bottom: 2.5px solid var(--lightblack);
-    margin: 2em 0em .75em ;
+    margin: 5em 0em .75em ;
 }
 
 .separator h2 span {
@@ -311,9 +311,19 @@ hr.sep1{
     align-items: center;
 }
 
+.anchor-lg{
+    display: block;
+    height: 6em; /*same height as header*/
+    margin-top: -6em; /*same height as header*/
+    visibility: hidden;
+}
 
-
-
+.anchor-sm{
+    display: block;
+    height: .5em; /*same height as header*/
+    margin-top: -.5em; /*same height as header*/
+    visibility: hidden;
+}
 
 /* BACKGROUNDS PATTERNS*/
 

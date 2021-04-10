@@ -23,8 +23,9 @@
                                         <h1>Introduction<br>to Skincare</h1>
                                         <h2>PRODUCT GUIDE</h2>
 
-                                        <p>Achieve a perfect skin following our skincare routine. Follow our instructions to have beautiful skin. Subscribe to FlawlessBox to start receiving the best products available.</p>
-
+                                        <p>Achieve a perfect skin following our skincare routine. Follow our
+                                            instructions to have beautiful skin. Subscribe to FlawlessBox to start
+                                            receiving the best products available.</p>
 
 
                                         <a class="btn btn-orange w-50 text-white" href="subscription">
@@ -208,9 +209,7 @@
         <div class="container w-75">
 
             <section id="basics">
-
-
-                <div  class="separator">
+                <div class="separator">
                     <div class="container">
                         <h2><span>THE BASICS</span></h2>
                     </div>
@@ -353,7 +352,7 @@
 
                 </div>
                 <article id="cleanser">
-
+                    <span class="anchor-lg" ></span>
                     <div class="row center">
                         <div class="col-md-6 col-12 ">
                             <h3>01</h3>
@@ -404,6 +403,7 @@
 
                 </article>
                 <article id="eye-cream">
+                    <span class="anchor-lg" ></span>
                     <div class="row center ">
                         <div class="col-md-5  col-12 order-md-first order-last ">
                             <div class="row no-gutters">
@@ -447,6 +447,7 @@
                     </div>
                 </article>
                 <article id="spot-treatment">
+                    <span class="anchor-lg" ></span>
                     <div class="row center">
                         <div class="col-md-6 col-12 ">
                             <h3>03</h3>
@@ -481,6 +482,7 @@
                     </div>
                 </article>
                 <article id="moisturizer">
+                    <span class="anchor-lg" ></span>
                     <div class="row center">
                         <div class="col-md-5 col-12  order-md-first order-last ">
                             <div class="row no-gutters">
@@ -527,6 +529,7 @@
 
                 </article>
                 <article id="sunscreen">
+                    <span class="anchor-lg" ></span>
                     <div class="row center">
                         <div class="col-md-6 col-12 ">
                             <h3>05</h3>
@@ -693,6 +696,7 @@
 
                 </div>
                 <article id="toner">
+                    <span class="anchor-lg" ></span>
                     <div class="row center ">
                         <div class="col-md-5 col-12  order-md-first order-last ">
                             <div class="row no-gutters">
@@ -743,6 +747,7 @@
 
                 </article>
                 <article id="serum">
+                    <span class="anchor-lg" ></span>
                     <div class="row center">
                         <div class="col-md-6 col-12 ">
                             <h3>07</h3>
@@ -791,6 +796,7 @@
                     </div>
                 </article>
                 <article id="essence">
+                    <span class="anchor-lg" ></span>
                     <div class="row center">
                         <div class=" col-md-5 col-12  order-md-first order-last ">
                             <div class="row no-gutters">
@@ -916,6 +922,7 @@
 
                 </div>
                 <article id="sheet-mask">
+                    <span class="anchor-lg" ></span>
                     <div class="row center">
                         <div class="col-md-6 col-12 ">
 
@@ -960,7 +967,7 @@
 
                 </article>
                 <article id="exfoliant">
-
+                    <span class="anchor-lg" ></span>
                     <div class="row center">
                         <div class="col-md-5 col-12  order-md-first order-last ">
                             <div class="row no-gutters">
@@ -996,6 +1003,7 @@
                     </div>
                 </article>
                 <article id="face-mask">
+                    <span class="anchor-lg" ></span>
                     <div class="row center">
                         <div class="col-md-6 col-12 ">
                             <h3>11</h3>
@@ -1037,7 +1045,7 @@
 
         </div>
     </section>
-    <section id="join" style="padding-top: 10%">
+    <section id="join" class="pb-5">
         <div class="h-100 row align-items-center ">
             <div class="col text-center">
                 <a class="btn btn-join" href="box#join-now">JOIN NOW</a>

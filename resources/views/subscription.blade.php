@@ -193,9 +193,12 @@
         </div>
     </section>
     <section id="join-now" class="separator">
+
         <div class="container w-75">
+            <span class="anchor-sm" ></span>
             <h2><span>SUBSCRIPTION PLANS</span></h2>
             <div class="description">
+
                 <p>
 
                     Receive 7 full size, brand name beauty products.<br> Choose a monthly, 3 or 6 month option
