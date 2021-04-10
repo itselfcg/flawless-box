@@ -2,23 +2,12 @@
 #intro{
 
     padding: 7em 0 7em;
-    background-color: white;
 }
+
 #join,#skincare article{
     padding-top: 6em;
 }
 
-
-
-#skincare{
-    background-image: url("/images/pictures/header4b.png") ;
-    background-position: top center;
-    background-repeat: repeat-x;
-    padding-top: 10%;
-    background-size: 50%;
-
-
-}
 
 
 #intro img,  .products img{
@@ -56,4 +45,24 @@
 .btn-join{
     width: 300px!important;
     font-size: 25px!important;
+}
+
+
+a:hover{
+    text-decoration: none;
+}
+
+#intro .separator h4 {
+    border-bottom: 1.5px solid var(--lightblack);
+    margin: .5em 0em .5em ;
+    line-height: .1em!important;
+
+}
+
+#intro .separator h4 span {
+    font-size: 14px;
+    padding: 5px 20px 5px 20px;
+    background-color: black;
+    color: white;
+
 }

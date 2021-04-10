@@ -9,7 +9,7 @@
 @stop
 
 @section('content')
-    <section id="intro">
+    <section id="intro" class="bg-lightgray texture-xlines">
         <div class="container w-75">
             <div class="row ">
                 <div class="col-12">
@@ -23,8 +23,7 @@
                                         <h1>Introduction<br>to Skincare</h1>
                                         <h2>PRODUCT GUIDE</h2>
 
-                                        <p>Achieve a perfect skin following our skincare routine. Follow our
-                                            instructions to have beautiful skin. Subscribe to FlawlessBox to start
+                                        <p>Achieve a perfect skin following our skincare routine. Subscribe to FlawlessBox to start
                                             receiving the best products available.</p>
 
 
@@ -35,166 +34,219 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6   ">
-                            <div class="row text-center">
-                                <div class="col-3">
+                        <div class="col-lg-6">
+                            <div class="row text-center ">
+                                <div class="col-12 ">
                                     <div class="row">
-                                        <div class="col-12">
-                                            <a class="wiki-link" href="wiki#cleanser">
-                                                <img src="images/pictures/vector/cleanser.png">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-12">
-                                            <label class="products">Cleanser</label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-3">
-                                    <div class="row">
-                                        <div class="col-12">
-                                            <a class="wiki-link" href="wiki#toner">
-                                                <img src="images/pictures/vector/toner.png">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-12 ">
-                                            <label class="products">Toner</label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-3">
-                                    <div class="row ">
-                                        <div class="col-12">
-                                            <a class="wiki-link" href="wiki#serum">
-                                                <img src="images/pictures/vector/serum.png">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="row ">
-                                        <div class="col-12">
-                                            <label class="products">Serum</label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-3 ">
-                                    <div class="row ">
-                                        <div class="col-12">
-                                            <a class="wiki-link" href="wiki#essence">
-                                                <img src="images/pictures/vector/essence.png">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="row ">
-                                        <div class="col-12">
-                                            <label class="products">Essence</label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-3">
-                                    <div class="row">
-                                        <div class="col-12">
-                                            <a class="wiki-link" href="wiki#sheet-mask">
-                                                <img src="images/pictures/vector/masksheet.png">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-12">
-                                            <label class="products">Sheet mask</label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-3 ">
-                                    <div class="row ">
-                                        <div class="col-12">
-                                            <a class="wiki-link" href="wiki#eye-cream">
-                                                <img src="images/pictures/vector/eyecream.png">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="row ">
-                                        <div class="col-12">
-                                            <label class="products">Eye cream</label>
-                                        </div>
-                                    </div>
+                                        <div class="col ">
+                                            <div class="separator">
+                                                <div class="container">
+                                                    <a href="wiki#basics">
 
-                                </div>
-                                <div class="col-3 ">
-                                    <div class="row ">
-                                        <div class="col-12">
-                                            <a class="wiki-link" href="wiki#spot-treatment">
-                                                <img src="images/pictures/vector/spot-treatment.png">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="row ">
-                                        <div class="col-12">
-                                            <label class="products">Spot treatment</label>
-                                        </div>
-                                    </div>
+                                                    <h4><span>ONCE A WEEK</span></h4>
+                                                    </a>
+                                                </div>
+                                            </div>
 
-                                </div>
-                                <div class="col-3 ">
-                                    <div class="row ">
-                                        <div class="col-12">
-                                            <a class="wiki-link" href="wiki#moisturizer">
-                                                <img src="images/pictures/vector/moisturizer.png">
-                                            </a>
                                         </div>
                                     </div>
-                                    <div class="row ">
-                                        <div class="col-12">
-                                            <label class="products">Moisturizer</label>
-                                        </div>
-                                    </div>
+                                    <div class="row">
 
-                                </div>
-                                <div class="col-3 ">
-                                    <div class="row ">
-                                        <div class="col-12">
-                                            <a class="wiki-link" href="wiki#sunscreen">
-                                                <img src="images/pictures/vector/sunscreen.png">
-                                            </a>
+                                        <div class="col">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <a class="wiki-link" href="wiki#cleanser">
+                                                        <img src="images/pictures/vector/cleanser.png">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <label class="products">Cleanser</label>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="row ">
-                                        <div class="col-12">
-                                            <label class="products">Sunscreen</label>
+                                        <div class="col">
+                                            <div class="row ">
+                                                <div class="col-12">
+                                                    <a class="wiki-link" href="wiki#eye-cream">
+                                                        <img src="images/pictures/vector/eyecream.png">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="row ">
+                                                <div class="col-12">
+                                                    <label class="products">Eye cream</label>
+                                                </div>
+                                            </div>
+
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="col-3 ">
-                                    <div class="row ">
-                                        <div class="col-12">
-                                            <a class="wiki-link" href="wiki#exfoliant">
-                                                <img src="images/pictures/vector/exfoliant.png">
-                                            </a>
+                                        <div class="col">
+                                            <div class="row ">
+                                                <div class="col-12">
+                                                    <a class="wiki-link" href="wiki#spot-treatment">
+                                                        <img src="images/pictures/vector/spot-treatment.png">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="row ">
+                                                <div class="col-12">
+                                                    <label class="products">Spot treatment</label>
+                                                </div>
+                                            </div>
+
                                         </div>
-                                    </div>
-                                    <div class="row ">
-                                        <div class="col-12">
-                                            <label class="products">Exfoliant</label>
+                                        <div class="col">
+                                            <div class="row ">
+                                                <div class="col-12">
+                                                    <a class="wiki-link" href="wiki#moisturizer">
+                                                        <img src="images/pictures/vector/moisturizer.png">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="row ">
+                                                <div class="col-12">
+                                                    <label class="products">Moisturizer</label>
+                                                </div>
+                                            </div>
+
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="col-3 ">
-                                    <div class="row ">
-                                        <div class="col-12">
-                                            <a class="wiki-link" href="wiki#face-mask">
-                                                <img src="images/pictures/vector/face-mask.png">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="row ">
-                                        <div class="col-12">
-                                            <label class="products">Face mask</label>
+                                        <div class="col">
+                                            <div class="row ">
+                                                <div class="col-12">
+                                                    <a class="wiki-link" href="wiki#sunscreen">
+                                                        <img src="images/pictures/vector/sunscreen.png">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="row ">
+                                                <div class="col-12">
+                                                    <label class="products">sunscreen</label>
+                                                </div>
+                                            </div>
+
                                         </div>
                                     </div>
                                 </div>
 
+                                <div class="col-12 ">
+
+                                    <div class="row">
+                                        <div class="col ">
+                                            <div class="separator">
+                                                <div class="container">
+                                                    <a href="wiki#extras">
+
+                                                    <h4><span>EXTRA CARE</span></h4>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <a class="wiki-link" href="wiki#toner">
+                                                        <img src="images/pictures/vector/toner.png">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12 ">
+                                                    <label class="products">Toner</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="row ">
+                                                <div class="col-12">
+                                                    <a class="wiki-link" href="wiki#serum">
+                                                        <img src="images/pictures/vector/serum.png">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="row ">
+                                                <div class="col-12">
+                                                    <label class="products">Serum</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="row ">
+                                                <div class="col-12">
+                                                    <a class="wiki-link" href="wiki#essence">
+                                                        <img src="images/pictures/vector/essence.png">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="row ">
+                                                <div class="col-12">
+                                                    <label class="products">Essence</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 ">
+                                    <div class="row ">
+                                        <div class="col">
+                                            <div class="separator">
+                                                <a href="wiki#weekly">
+
+                                                <div class="container">
+                                                    <h4><span>ONCE A WEEK</span></h4>
+                                                </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <a class="wiki-link" href="wiki#sheet-mask">
+                                                        <img src="images/pictures/vector/masksheet.png">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <label class="products">Sheet mask</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="row ">
+                                                <div class="col-12">
+                                                    <a class="wiki-link" href="wiki#exfoliant">
+                                                        <img src="images/pictures/vector/exfoliant.png">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="row ">
+                                                <div class="col-12">
+                                                    <label class="products">Exfoliant</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="row ">
+                                                <div class="col-12">
+                                                    <a class="wiki-link" href="wiki#face-mask">
+                                                        <img src="images/pictures/vector/face-mask.png">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="row ">
+                                                <div class="col-12">
+                                                    <label class="products">Face mask</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -206,9 +258,12 @@
 
     </section>
     <section id="skincare">
+
         <div class="container w-75">
 
             <section id="basics">
+                <span class="anchor-sm"></span>
+
                 <div class="separator">
                     <div class="container">
                         <h2><span>THE BASICS</span></h2>
@@ -352,7 +407,7 @@
 
                 </div>
                 <article id="cleanser">
-                    <span class="anchor-lg" ></span>
+                    <span class="anchor-lg"></span>
                     <div class="row center">
                         <div class="col-md-6 col-12 ">
                             <h3>01</h3>
@@ -403,7 +458,7 @@
 
                 </article>
                 <article id="eye-cream">
-                    <span class="anchor-lg" ></span>
+                    <span class="anchor-lg"></span>
                     <div class="row center ">
                         <div class="col-md-5  col-12 order-md-first order-last ">
                             <div class="row no-gutters">
@@ -447,7 +502,7 @@
                     </div>
                 </article>
                 <article id="spot-treatment">
-                    <span class="anchor-lg" ></span>
+                    <span class="anchor-lg"></span>
                     <div class="row center">
                         <div class="col-md-6 col-12 ">
                             <h3>03</h3>
@@ -472,7 +527,7 @@
                         </div>
                         <div class="col-md-5 offset-md-1 col-12 ">
                             <div class="row no-gutters ">
-                                <div class="col-lg-12 bg-green texture-tablecloth">
+                                <div class="col-lg-12 ">
                                     <img class="w-100" src="/images/pictures/products/wiki//spottreatment.png">
                                 </div>
 
@@ -482,7 +537,7 @@
                     </div>
                 </article>
                 <article id="moisturizer">
-                    <span class="anchor-lg" ></span>
+                    <span class="anchor-lg"></span>
                     <div class="row center">
                         <div class="col-md-5 col-12  order-md-first order-last ">
                             <div class="row no-gutters">
@@ -529,7 +584,7 @@
 
                 </article>
                 <article id="sunscreen">
-                    <span class="anchor-lg" ></span>
+                    <span class="anchor-lg"></span>
                     <div class="row center">
                         <div class="col-md-6 col-12 ">
                             <h3>05</h3>
@@ -571,6 +626,8 @@
             </section>
 
             <section id="extras">
+                <span class="anchor-sm"></span>
+
                 <div class="separator">
                     <div class="container">
                         <h2><span>+ EXTRA CARE</span></h2>
@@ -696,7 +753,7 @@
 
                 </div>
                 <article id="toner">
-                    <span class="anchor-lg" ></span>
+                    <span class="anchor-lg"></span>
                     <div class="row center ">
                         <div class="col-md-5 col-12  order-md-first order-last ">
                             <div class="row no-gutters">
@@ -747,7 +804,7 @@
 
                 </article>
                 <article id="serum">
-                    <span class="anchor-lg" ></span>
+                    <span class="anchor-lg"></span>
                     <div class="row center">
                         <div class="col-md-6 col-12 ">
                             <h3>07</h3>
@@ -796,7 +853,7 @@
                     </div>
                 </article>
                 <article id="essence">
-                    <span class="anchor-lg" ></span>
+                    <span class="anchor-lg"></span>
                     <div class="row center">
                         <div class=" col-md-5 col-12  order-md-first order-last ">
                             <div class="row no-gutters">
@@ -831,6 +888,8 @@
             </section>
 
             <section id="weekly">
+                <span class="anchor-sm"></span>
+
                 <div class="separator">
                     <div class="container">
                         <h2><span>ONCE A WEEK</span></h2>
@@ -922,7 +981,7 @@
 
                 </div>
                 <article id="sheet-mask">
-                    <span class="anchor-lg" ></span>
+                    <span class="anchor-lg"></span>
                     <div class="row center">
                         <div class="col-md-6 col-12 ">
 
@@ -967,7 +1026,7 @@
 
                 </article>
                 <article id="exfoliant">
-                    <span class="anchor-lg" ></span>
+                    <span class="anchor-lg"></span>
                     <div class="row center">
                         <div class="col-md-5 col-12  order-md-first order-last ">
                             <div class="row no-gutters">
@@ -1003,7 +1062,7 @@
                     </div>
                 </article>
                 <article id="face-mask">
-                    <span class="anchor-lg" ></span>
+                    <span class="anchor-lg"></span>
                     <div class="row center">
                         <div class="col-md-6 col-12 ">
                             <h3>11</h3>
