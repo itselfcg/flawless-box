@@ -3,7 +3,7 @@
 @section('title','Subscription')
 
 @section('css-scripts')
-    <link rel="stylesheet" href="css/pages/subscripion.css">
+    <link rel="stylesheet" href="{{asset('css/pages/subscripion.css')}}">
 @stop
 
 @section('content')

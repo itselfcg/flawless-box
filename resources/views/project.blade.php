@@ -2,7 +2,7 @@
 @section('title','Inspiration')
 
 @section('css-scripts')
-    <link rel="stylesheet" href="css/pages/project.css">
+    <link rel="stylesheet" href="{{asset('css/pages/project.css')}}">
 
 @stop
 
