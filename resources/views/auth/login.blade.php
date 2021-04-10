@@ -51,30 +51,41 @@
                                     @csrf
                                     <div class="form-group row">
                                         <div class="col-sm-12">
-                                            <input id="email" type="email" placeholder="Email address"
-                                                   class="form-control @error('email') is-invalid @enderror"
-                                                   name="email" value="{{ old('email') }}" required autocomplete="email"
-                                                   autofocus>
-                                            @error('email')
-                                            <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                            @enderror
+                                            <div class="form-floating mb-2">
+
+                                                <input id="email" name="email"
+                                                       type="email"
+                                                       class="form-control @error('email') is-invalid @enderror"
+                                                       value="{{ old('email') }}"
+                                                       autocomplete="email"
+                                                       placeholder="Email address" autofocus required>
+                                                <label for="email">Email address</label>
+
+                                                @error('email')
+                                                <span class="invalid-feedback" role="alert">
+                                                    <strong>{{ $message }}</strong>
+                                                </span>
+                                                @enderror
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="form-group row">
                                         <div class="col-sm-12">
-                                            <input id="password"
-                                                   type="password" placeholder="Password"
-                                                   class="form-control
-@                                                  @error('password') is-invalid @enderror"
-                                                   name="password" required autocomplete="current-password">
+                                            <div class="form-floating mb-2">
 
-                                            @error('password')
-                                            <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                            @enderror
+                                                <input id="password" name="password"
+                                                       type="password"
+                                                       class="form-control @error('password') is-invalid @enderror"
+                                                       autocomplete="current-password"
+                                                       placeholder="Password" required>
+                                                <label for="password">Password</label>
+
+                                                @error('password')
+                                                <span class="invalid-feedback" role="alert">
+                                                    <strong>{{ $message }}</strong>
+                                                </span>
+                                                @enderror
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="form-group row">
@@ -89,7 +100,7 @@
                                             </div>
                                         </div>
                                         <div class="col-6 col-sm-7 ">
-                                            <p class="text-right">
+                                            <p class="text-end">
 
                                                 @if (Route::has('password.request'))
                                                     <a href="{{ route('password.request') }}">

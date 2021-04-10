@@ -9,7 +9,7 @@
                 <div class="col">
                     <h4>CHANGE plan</h4>
                 </div>
-                <div class="col text-right">
+                <div class="col text-end">
                     <a href="{{asset('subscription')}}" class="btnBackPlan link">
                         <i class="fa fa-angle-left"></i>
                         Back to Subscription

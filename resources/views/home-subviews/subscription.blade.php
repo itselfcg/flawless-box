@@ -88,7 +88,7 @@
                             <div class="row">
 
 
-                                <div class="col text-right ">
+                                <div class="col text-end ">
 
 
                                     <form action="subscription-edit/{{$activeSubscription->plan->id}}"

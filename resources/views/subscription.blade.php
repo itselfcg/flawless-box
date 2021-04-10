@@ -43,7 +43,7 @@
     <section id="info">
         <div class="container w-75">
             <div class="row pt-4">
-                <div class="col-lg-5 offset-lg-1 col-md-6 text-left my-auto ">
+                <div class="col-lg-5 offset-lg-1 col-md-6 text-start my-auto ">
 
                     <h1 style="font-size: 2.5em;">THE FUSION OF SKINCARE, SCIENCE<br> & ART</h1>
                     <h2>Dr. Jart+</h2>

@@ -61,14 +61,14 @@
                         beauty tools and color cosmetics, each box has an average value over $175.
                     </p>
                 </div>
-                <div class="col-md-6  text-right">
+                <div class="col-md-6  text-end">
                     <img class="w-75" src="/images/pictures/info3.jpg">
 
                 </div>
 
             </div>
             <div class="row no-gutters">
-                <div class="col-md-6 text-left">
+                <div class="col-md-6 text-start">
                     <img class="w-75" src="/images/pictures/info.jpg">
 
                 </div>
@@ -92,7 +92,7 @@
                         Find new and creative ways to use the products in your BOXYCHARM by watching tutorials and looks
                         shared by our Charmer community on social media.</p>
                 </div>
-                <div class="col-md-6 text-right">
+                <div class="col-md-6 text-end">
                     <img class="w-75" src="/images/pictures/info2.jpg">
 
                 </div>

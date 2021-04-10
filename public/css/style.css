@@ -260,6 +260,9 @@ td{
     font-size: 13px!important;
 }
 
+a{
+    text-decoration: none;
+}
 .link{
     color: black;
     text-decoration: underline;
