@@ -5,7 +5,7 @@
 @stop
 
 @section('css-scripts')
-    <link rel="stylesheet" href="css/pages/wiki.css">
+    <link rel="stylesheet" href="{{asset('css/pages/wiki.css')}}">
 @stop
 
 @section('content')

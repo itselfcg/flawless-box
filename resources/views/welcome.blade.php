@@ -5,7 +5,7 @@
 @stop
 
 @section('css-scripts')
-    <link rel="stylesheet" href="css/pages/welcome.css">
+    <link rel="stylesheet" href="{{asset('css/pages/welcome.css')}}">
 @stop
 
 @section('content')
