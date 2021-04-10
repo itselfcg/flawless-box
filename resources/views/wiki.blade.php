@@ -43,7 +43,7 @@
                                                 <div class="container">
                                                     <a href="wiki#basics">
 
-                                                    <h4><span>ONCE A WEEK</span></h4>
+                                                    <h4><span>THE BASICS</span></h4>
                                                     </a>
                                                 </div>
                                             </div>
