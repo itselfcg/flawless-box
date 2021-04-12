@@ -16,7 +16,7 @@ class UsersSeeeder extends Seeder
         \DB::table('users')->insert([
             'name' => 'Itzzy',
             'last_name' => 'Contreras',
-            'email' => 'itzelgpec@gmail.com',
+            'email' => 'itselfcg@gmail.com',
             'password' => '$2y$10$z8WAhVUnqyCDm59xzf4VOOhYkRi3uL19XxNUfaBd8BxYmJS4EEBSa'
         ]);
     }
