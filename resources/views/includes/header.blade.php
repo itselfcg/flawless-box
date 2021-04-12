@@ -8,9 +8,9 @@ if (session('cart'))
     <button class="navbar-toggler" data-toggle="collapse" data-target=".dual-collapse">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="navbar-nav order-0 brand ">
+    <div class="navbar-nav order-0 brand">
 
-        <a href="{{ url('/') }}">
+        <a href="{{ url('/') }}" >
             <img src="{{asset('images/pictures/logo1.png')}}" alt="FlawlessBox">
         </a>
 
@@ -47,7 +47,7 @@ if (session('cart'))
             <a class="nav-link" href="cart"><i class="fa fa-shopping-bag fa-2x" aria-hidden="true"></i><sup> 0</sup></a>
         </li>
     </ul>
-    <div class="collapse navbar-collapse dual-collapse  w-25 order-sm-1 order-2" id="collapse_target1">
+    <div class="collapse navbar-collapse dual-collapse order-sm-1 order-2" id="collapse_target1">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item hide-sm">
                 <a class="nav-link" href="{{asset('profile')}}"><i class="fa fa-user fa-2x" aria-hidden="true"></i></a>
