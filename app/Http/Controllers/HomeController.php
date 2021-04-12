@@ -15,6 +15,7 @@ use App\Models\Subscription;
 use DateTime;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Log;
 
 class HomeController extends Controller
@@ -70,7 +71,7 @@ class HomeController extends Controller
         $subcription = Subscription::find($id);
 
         $purchases = PurchaseHistory::where('subscription_id', $subcription->id)
-            ->where('status',BoxStatus::WAITING)->get();
+            ->where('status', BoxStatus::WAITING)->get();
         if ($purchases == null) {
             $subcription->status = SubscriptionStatus::CANCELED;
         } else {
@@ -126,9 +127,18 @@ class HomeController extends Controller
         return redirect()->route('address');
     }
 
-    public
-    function upgradePlan(Request $request, $id)
+    public function updatePassword(Request $request)
     {
+        $request->validate([
+            'password' => ['required', 'string', 'confirmed:password_confirmation', 'min:6', 'different:old_password'],
+            'old_password' => ['required', 'password']
+        ]);
+
+        $user = Auth::user();
+        $user->password = Hash::make($request->password);
+        $user->save();
+        return redirect()->route('profile')->withInput();;
+
 
     }
 
