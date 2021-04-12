@@ -1,0 +1,52 @@
+
+h2 {
+    font-family: Helvetica;
+    font-size: 40px;
+    font-weight: bolder;
+    line-height: .8em;
+    color: white;
+}
+
+
+.ad{
+
+    background-color: rgba(var(--orange-rgb),.5);
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    align-content: center;
+    user-select: none;
+text-align: right;
+}
+
+#carouselAd a{
+    color: white;
+}
+
+
+#carouselAd .carousel-item{
+    height: 700px;
+
+}
+#carouselAd .carousel-item img{
+    max-width:100%;
+    max-height:100%;
+    min-height: 700px;
+
+
+}
+
+#carouselAd  .carousel-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
