@@ -1,11 +1,11 @@
 @section('css-scripts')
     <link rel="stylesheet" href="{{asset('css/pages/ad.css')}}">
 @endsection
-<div id="carouselAd" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-        <li data-target="#carouselAd" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselAd" data-slide-to="1"></li>
-    </ol>
+<div id="carouselAd" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselAd" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#carouselAd" data-bs-slide-to="1" ></button>
+    </div>
     <div class="carousel-inner">
         <div class="carousel-item active">
             <div class="carousel-container">

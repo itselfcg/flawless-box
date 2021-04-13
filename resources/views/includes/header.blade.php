@@ -5,7 +5,7 @@ if (session('cart'))
 ?>
 <nav class="actions-navbar navbar navbar-expand-md navbar-light">
 
-    <button class="navbar-toggler" data-toggle="collapse" data-target=".dual-collapse">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".dual-collapse" >
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="navbar-nav order-0 brand">
@@ -20,7 +20,7 @@ if (session('cart'))
 
         <div class="container">
             <div class="w-100">
-                <div id="carouselContent" class="carousel slide w-100 text-center" data-ride="carousel">
+                <div id="carouselContent" class="carousel slide w-100 text-center" data-bs-ride="carousel">
                     <div class="carousel-inner " role="listbox">
                         <div class="carousel-item active">
                             <p>Free shipping in your anual subscription.</p>
@@ -30,14 +30,14 @@ if (session('cart'))
                             <p>Checkout our guide for more info about products.</p>
                         </div>
                     </div>
-                    <a class="carousel-control-prev" href="#carouselContent" role="button" data-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselContent" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselContent" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon " aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselContent" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
             </div>
         </div>
