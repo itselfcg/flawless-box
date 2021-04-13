@@ -54,8 +54,8 @@ Route::group(['middleware' => ['auth']], function () {
 
    Route::view('/profile', '/home-subviews/profile')->name('profile');
     Route::view('/address', '/home-subviews/address')->name('address');
-    Route::view('/profile-edit', '/home-subviews/profile-edit');
-    Route::view('/password-edit', '/home-subviews/password-edit');
+    Route::view('/profile-edit', '/home-subviews/profile-edit')->name('profile-edit');;
+    Route::view('/password-edit', '/home-subviews/password-edit')->name('password-edit');
     Route::view('/address-edit', '/home-subviews/address-edit');
 });
 
@@ -66,6 +66,7 @@ Route::get('/purchases', [HomeController::class, 'showPurchases'])->name('purcha
 Route::post('/subscription-edit/{id}', 'App\Http\Controllers\HomeController@showSubscriptionPlanUpgrade');
 Route::post('/update-profile/{id}', 'App\Http\Controllers\HomeController@updateProfile');
 Route::post('/update-address/{id}', 'App\Http\Controllers\HomeController@updateAddress');
+Route::post('/update-password', 'App\Http\Controllers\HomeController@updatePassword');
 Route::post('/cancel-subscription/{id}', 'App\Http\Controllers\HomeController@cancelSubscription');
 
 

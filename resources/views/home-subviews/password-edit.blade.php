@@ -22,20 +22,43 @@
                 <div class="row">
                     <div class="col">
 
-                        <form id="create-account">
-
+                        <form action="update-password" method="post">
+                            @csrf
                             <div class="form-contain">
                                 <div class="form-group">
                                     <div class="row ">
                                         <div class="col-12">
                                             <div class="form-floating">
+                                                <input
+                                                    name="old_password"
+                                                    type="password"
+                                                    class="form-control @error('old_password') is-invalid @enderror"
+                                                    placeholder="Current password">
+                                                    <label for="old_password">Current Password</label>
 
-                                                <input name="password"
-                                                       class="form-control"
-                                                       type="text"
-                                                       placeholder="Current Password" required/>
-                                                <label for="password">Current Password</label>
+                                                    @error('old_password')
+                                                <span class="invalid-feedback" role="alert">
+                                                    <strong>{{ $message }}</strong>
+                                                </span>
+                                                @enderror
+                                            </div>
+                                        </div>
+                                    </div>
 
+                                    <div class="row ">
+                                        <div class="col-12">
+                                            <div class="form-floating">
+                                                <input
+                                                    name="password"
+                                                    type="password"
+                                                    class="form-control @error('password') is-invalid @enderror"
+                                                    placeholder="Password">
+                                                <label for="password">New Password</label>
+                                                @error('password')
+                                                <span class="invalid-feedback" role="alert">
+                                                    <strong>{{ $message }}</strong>
+                                                </span>
+                                                @enderror
                                             </div>
                                         </div>
                                     </div>
@@ -43,35 +66,28 @@
 
                                         <div class="col-12">
                                             <div class="form-floating">
-                                                <input name="newPassword"
-                                                       class="form-control"
-                                                       type="text"
-                                                       placeholder="New Password" required/>
-                                                <label for="newPassword">New Password</label>
+                                                <input
+                                                    name="password_confirmation"
+                                                    type="password"
+                                                    class="form-control"
+                                                    placeholder="Confirm password">
+                                                    <label for="password_confirmation">New Password</label>
+
+                                                    @error('password_confirmation')
+                                                    <span class="invalid-feedback" role="alert">
+                                                        <strong>{{ $message }}</strong>
+                                                    </span>
+                                                @enderror
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="row ">
-
-                                        <div class="col-12">
-                                            <div class="form-floating">
-
-                                                <input name="newPassword_confirmation"
-                                                       class="form-control"
-                                                       type="text"
-                                                       placeholder="Confirm password" required/>
-                                                <label for="newPassword_confirmation">Confirm password</label>
-
-                                            </div>
-                                        </div>
-                                    </div>
-
 
                                 </div>
                             </div>
 
-                            <button class="btn btn-yellow w-100 mt-3">SAVE</button>
+                            <button type="submit" class="btn btn-yellow w-100 mt-3">SAVE</button>
                         </form>
+
                     </div>
                 </div>
             </div>
