@@ -61,12 +61,14 @@
                             <h4>About</h4>
                             <p>This page is the V2.5.? of Flawless Box.</p>
                             <p>
-                                Flawless Box V1 started as a store, showing some products without any real functionality.
+                                Flawless Box V1 started as a store, showing some products without any real
+                                functionality.
                                 After all it was born in codepen.io.
                             </p>
 
                             <p>
-                                Flawless Box V2 took that idea. Create a real subscription system, and let the user do almost all thing you can do in a real page.
+                                Flawless Box V2 took that idea. Create a real subscription system, and let the user do
+                                almost all thing you can do in a real page.
                                 The design has been change and might still change. I'm still learning. :)
                             </p>
                         </div>
@@ -77,13 +79,15 @@
                                 Flawless Box v1
                                 <br>
                                 <a class="link" href="https://github.com/itselfcg/flawless-box" target="_blank"><i
-                                        class="fa fa-codepen "></i>  Codepen</a>, Bootstrap v4.
+                                        class="fa fa-codepen "></i> Codepen</a>, Bootstrap v4.
 
                             </p>
 
                             <p>
                                 Flawless Box v2
-                                <br> Laravel, Bootstrap v4.5, <a class="link"  href="https://github.com/itselfcg/flawless-box" target="_blank"><i
+                                <br> Laravel, Bootstrap v4.5, <a class="link"
+                                                                 href="https://github.com/itselfcg/flawless-box"
+                                                                 target="_blank"><i
                                         class="fa fa-github"></i> Git</a> , Heroku.
                             </p>
 
@@ -92,30 +96,42 @@
                             <h3>04</h3>
                             <h4>Sketches</h4>
 
-                            <nav>
-                                <div class="nav nav-tabs border-0 " id="nav-tab" role="tablist">
-                                    <a class="nav-link active border-pink border border-dark border-bottom-0"
-                                       id="nav-sketch1-tab" data-toggle="tab"
-                                       href="#nav-sketch1" role="tab" aria-controls="nav-sketch1"
-                                       aria-selected="true">
-                                        v1</a>
-                                    <a class="nav-link border border-pink border-bottom-0"
-                                       id="nav-sketch2-tab" data-toggle="tab"
-                                       href="#nav-sketch2" role="tab"
-                                       aria-controls="nav-sketch2" aria-selected="false">
-                                        v2</a>
-                                </div>
-                            </nav>
+                            <ul class="nav nav-tabs border-0" id="nav-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button
+                                        class="nav-link active border-pink border border-dark border-bottom-0"
+                                        id="version1-tab"
+                                        data-bs-toggle="tab" data-bs-target="#version1"
+                                        role="tab" type="button"
+                                        aria-controls="version1"
+                                        aria-selected="true">
+                                        v1
+                                    </button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link border border-pink border-bottom-0"
+                                            id="version2-tab"
+                                            data-bs-toggle="tab" data-bs-target="#version2"
+                                            role="tab" type="button"
+                                            aria-controls="version2" aria-selected="false">
+                                        v2
+                                    </button>
+                                </li>
+                            </ul>
                             <div class="tab-content" id="nav-tabContent">
                                 <div class="tab-pane fade show active p-3 active border border-pink"
-                                     id="nav-sketch1" role="tabpanel" aria-labelledby="nav-sketch1-tab">
+                                     id="version1" role="tabpanel" aria-labelledby="version1-tab">
                                     <div id="crslSketch1" class="carousel slide" data-ride="carousel">
-                                        <ol class="carousel-indicators">
-                                            <li data-target="#crslSketch1" data-slide-to="0" class="active"></li>
-                                            <li data-target="#crslSketch1" data-slide-to="1"></li>
-                                            <li data-target="#crslSketch1" data-slide-to="2"></li>
-                                            <li data-target="#crslSketch1" data-slide-to="3"></li>
-                                        </ol>
+                                        <div class="carousel-indicators">
+                                            <button type="button" data-bs-target="#crslSketch1" data-bs-slide-to="0"
+                                                    class="active"></button>
+                                            <button type="button" data-bs-target="#crslSketch1"
+                                                    data-bs-slide-to="1"></button>
+                                            <button type="button" data-bs-target="#crslSketch1"
+                                                    data-bs-slide-to="2"></button>
+                                            <button type="button" data-bs-target="#crslSketch1"
+                                                    data-bs-slide-to="3"></button>
+                                        </div>
                                         <div class="carousel-inner">
                                             <div class="carousel-item active">
                                                 <img class="d-block w-100" src="images/page-sketches/v1-1.jpg">
@@ -134,11 +150,13 @@
 
                                             </div>
                                         </div>
-                                        <a class="carousel-control-prev" href="#crslSketch1" role="button" data-slide="prev">
+                                        <a class="carousel-control-prev" data-bs-target="#crslSketch1" role="button"
+                                           data-bs-slide="prev">
                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                             <span class="sr-only">Previous</span>
                                         </a>
-                                        <a class="carousel-control-next" href="#crslSketch1" role="button" data-slide="next">
+                                        <a class="carousel-control-next" data-bs-target="#crslSketch1" role="button"
+                                           data-bs-slide="next">
                                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                             <span class="sr-only">Next</span>
                                         </a>
@@ -146,21 +164,32 @@
 
                                 </div>
                                 <div class="tab-pane fade p-3 border border-pink"
-                                     id="nav-sketch2" role="tabpanel" aria-labelledby="nav-sketch2-tab">
-                                    <div id="crslSketch" class="carousel slide" data-ride="carousel">
-                                        <ol class="carousel-indicators">
-                                            <li data-target="#crslSketch" data-slide-to="0" class="active"></li>
-                                            <li data-target="#crslSketch" data-slide-to="1"></li>
-                                            <li data-target="#crslSketch" data-slide-to="2"></li>
-                                            <li data-target="#crslSketch" data-slide-to="3"></li>
-                                            <li data-target="#crslSketch" data-slide-to="4"></li>
-                                            <li data-target="#crslSketch" data-slide-to="5"></li>
-                                            <li data-target="#crslSketch" data-slide-to="6"></li>
-                                            <li data-target="#crslSketch" data-slide-to="7"></li>
-                                            <li data-target="#crslSketch" data-slide-to="8"></li>
-                                            <li data-target="#crslSketch" data-slide-to="9"></li>
-                                            <li data-target="#crslSketch" data-slide-to="10"></li>
-                                        </ol>
+                                     id="version2" role="tabpanel" aria-labelledby="version2-tab">
+                                    <div id="crslSketch" class="carousel slide" data-bs-ride=="carousel">
+                                        <div class="carousel-indicators">
+                                            <button type="button" data-bs-target="#crslSketch" data-bs-slide-to="0"
+                                                    class="active"></button>
+                                            <button type="button" data-bs-target="#crslSketch"
+                                                    data-bs-slide-to="1"></button>
+                                            <button type="button" data-bs-target="#crslSketch"
+                                                    data-bs-slide-to="2"></button>
+                                            <button type="button" data-bs-target="#crslSketch"
+                                                    data-bs-slide-to="3"></button>
+                                            <button type="button" data-bs-target="#crslSketch"
+                                                    data-bs-slide-to="4"></button>
+                                            <button type="button" data-bs-target="#crslSketch"
+                                                    data-bs-slide-to="5"></button>
+                                            <button type="button" data-bs-target="#crslSketch"
+                                                    data-bs-slide-to="6"></button>
+                                            <button type="button" data-bs-target="#crslSketch"
+                                                    data-bs-slide-to="7"></button>
+                                            <button type="button" data-bs-target="#crslSketch"
+                                                    data-bs-slide-to="8"></button>
+                                            <button type="button" data-bs-target="#crslSketch"
+                                                    data-bs-slide-to="9"></button>
+                                            <button type="button" data-bs-target="#crslSketch"
+                                                    data-bs-slide-to="10"></button>
+                                        </div>
                                         <div class="carousel-inner">
                                             <div class="carousel-item active">
                                                 <img class="d-block w-100" src="images/page-sketches/v2-1.jpg">
@@ -181,7 +210,7 @@
                                             </div>
                                             <div class="carousel-item ">
 
-                                                <img class="d-block w-100" src="images/page-sketches/6v2-.jpg">
+                                                <img class="d-block w-100" src="images/page-sketches/v2-6.jpg">
                                             </div>
                                             <div class="carousel-item ">
                                                 <img class="d-block w-100" src="images/page-sketches/v2-7.jpg">
@@ -196,11 +225,13 @@
                                                 <img class="d-block w-100" src="images/page-sketches/v2-10.jpg">
                                             </div>
                                         </div>
-                                        <a class="carousel-control-prev" href="#crslSketch" role="button" data-slide="prev">
+                                        <a class="carousel-control-prev" data-bs-target="#crslSketch" type="button"
+                                           data-bs-slide="prev">
                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                             <span class="sr-only">Previous</span>
                                         </a>
-                                        <a class="carousel-control-next" href="#crslSketch" role="button" data-slide="next">
+                                        <a class="carousel-control-next" data-bs-target="#crslSketch" type="button"
+                                           data-bs-slide="next">
                                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                             <span class="sr-only">Next</span>
                                         </a>
@@ -208,9 +239,6 @@
 
                                 </div>
                             </div>
-                            </p>
-
-
                         </div>
                     </div>
 
