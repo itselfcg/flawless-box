@@ -136,14 +136,14 @@
     </section>
     <section id="products">
         <div class="container w-75">
-            <div class="row w-100 no-gutters">
+            <div class="row g-0">
                 <div class="col-lg-4 col-12">
 
 
-                    <div class="h-100 row no-gutters align-items-center bg-green">
+                    <div class="h-100 row g-0 align-items-center bg-green">
                         <div class="col text-center pt-4 pb-4">
                             <h4 style="color: black; line-height: 2.25em;">
-                                checkout
+                                check out
 
                                 <div class="georgia" style="font-size: 2.5em; ">
                                     March's
@@ -156,25 +156,28 @@
                 </div>
                 @foreach($products as $product)
 
-                <div class="col-lg-4 col-6">
+                    <div class="col-lg-4 col-6">
 
-                    <div id="wrapper">
-                        <img class="w-100 hover" SRC="{{$product->photo}}">
-                        <p class="text">
+                        <div class="wrapper">
+                            <img class="image" SRC="{{$product->photo}}">
+                            <div class="overlay">
+                                <div class="text">
+                                    <b>{{$product->name}}</b>
 
-                            <b>{{$product->name}}</b>
+                                    <br>
+                                    <div class="description">
+                                        {{$product->description}}
+                                    </div>
 
-                            <br>
+                                </div>
+                            </div>
+                        </div>
 
-                            {{$product->description}}
-
-                        </p>
                     </div>
-                </div>
                 @endforeach
                 <div class="col-lg-4 col-6">
 
-                    <div class="h-100 row no-gutters align-items-center">
+                    <div class="h-100 row gx-0 align-items-center">
                         <div class="col text-center">
 
                             <div class="georgia pb-4"> FIND THESE<br> PRODUCTS AT<br>
@@ -195,7 +198,7 @@
     <section id="join-now" class="separator">
 
         <div class="container w-75">
-            <span class="anchor-sm" ></span>
+            <span class="anchor-sm"></span>
             <h2><span>SUBSCRIPTION PLANS</span></h2>
             <div class="description">
 
@@ -215,35 +218,35 @@
         <div class="container w-75">
 
 
-            <div class="row text-center no-gutters pt-5 pb-5">
+            <div class="row text-center gx-0 pt-5 pb-5">
                 @foreach($plans as $plan)
 
-                <div class="col-md-4 pb-5">
-                    <div class="package">
+                    <div class="col-md-4 pb-5">
+                        <div class="package">
 
-                        <img class="w-75" src="{{ $plan->photo }}">
+                            <img class="w-75" src="{{ $plan->photo }}">
 
-                        <p>
-                        <h6>{{ $plan->name }}</h6>
-                        <h7>{{ $plan->monthly_price }}/Month</h7>
+                            <p>
+                            <h6>{{ $plan->name }}</h6>
+                            <h7>{{ $plan->monthly_price }}/Month</h7>
 
-                        </p>
-                        <p>
-                            <a class="btn btn-yellow" href="{{ url('add-to-cart/'.$plan->id) }}">
-                                SELECT
-                            </a>
-                        </p>
-                        <p>
-                            {{ $plan->description }}<br><br>
+                            </p>
+                            <p>
+                                <a class="btn btn-yellow" href="{{ url('add-to-cart/'.$plan->id) }}">
+                                    SELECT
+                                </a>
+                            </p>
+                            <p>
+                                {{ $plan->description }}<br><br>
 
-                            <b>Non-Refundable</b><br><br>
+                                <b>Non-Refundable</b><br><br>
 
-                            Renews Automatically<br>
-                            Cancel Anytime<br>
+                                Renews Automatically<br>
+                                Cancel Anytime<br>
 
-                        </p>
+                            </p>
+                        </div>
                     </div>
-                </div>
                 @endforeach
 
             </div>

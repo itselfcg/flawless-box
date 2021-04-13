@@ -22,28 +22,44 @@
     height: 100%;
 }
 
-#wrapper .text {
-    background: rgba(236, 236, 236, 0.85);
+
+.wrapper {
+    position: relative;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
     height: 100%;
-    position:absolute;
-    top:0rem;
-    padding: 2rem 2rem 2rem 2rem;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #ffffff;
+}
 
-    visibility:hidden;
-    text-align: justify;
+.overlay:hover {
+    opacity: .9;
+}
+
+.text {
     color: black;
+    font-size: 1.25vh;
+    position: absolute;
+    margin: 35px;
+}
+@media (max-width: 767px) {
 
-    font-size: 1.5vmin;
+    .wrapper .description {
+        display: none;
+    }
 
 }
-
-#wrapper:hover .text {
-    visibility:visible;
-
-
-}
-
-
 
 
 
