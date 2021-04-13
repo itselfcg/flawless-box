@@ -13,10 +13,10 @@
 
         <div class="h-100 row align-items-center">
             <div class="col">
-                <div class=" container">
+                <div class=" container w-75">
                     <div class="row">
-                        <div class="col-lg-8 col-md-10">
-                            <div class="title ">
+                        <div class="col-lg-6 col-md-10 title">
+                            <div>
                                <h1>Get  <br>the skin <br> you deserve</h1>
                                 <h2>
                                     About FlawlessBox
@@ -29,9 +29,9 @@
                             </div>
 
                             <p>
-                                Visit our skincare wiki to learn about skincare products.<br><br>
-                                <a class="btn btn-yellow " href="wiki">
-                                    LEARN MORE</a>
+                                Visit our skincare wiki to learn about skincare products.
+                                <a class="link " href="wiki">
+                                    Learn more</a>
                             </p>
                         </div>
                     </div>
@@ -117,95 +117,93 @@
 
         <div class="container w-75">
             <div class="container text-center my-3">
-                <div class="row mx-auto my-auto">
-                    <div id="myCarousel" class="carousel slide w-100" data-ride="carousel">
-                        <div class="carousel-inner" role="listbox">
-                            <div class="carousel-item py-5 active">
-                                <div class="row">
-                                    <div class="col-lg-2 col-md-4 col-6">
-                                        <a href="https://www.laroche-posay.com/" target="_blank">
-                                            <img class="w-100 hover" src="/images/pictures/brands/brand4.png">
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-2 col-md-4 col-6">
-                                        <a href="https://theordinary.deciem.com/" target="_blank">
-                                            <img class="w-100 hover" src="/images/pictures/brands/brand5.png">
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-2 col-md-4 col-6">
-                                        <a href="https://www.clinique.com/" target="_blank">
-                                            <img class="w-100 hover" src="/images/pictures/brands/brand6.png">
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-2 col-md-4 col-6">
-                                        <a href="https://www.drunkelephant.com/" target="_blank">
-                                            <img class="w-100 hover" src="/images/pictures/brands/brand7.png">
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-2 col-md-4 col-6" >
-                                        <a href="https://www.cosrx.com/" target="_blank">
-                                            <img class="w-100 hover" src="/images/pictures/brands/brand8.png">
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-2 col-md-4 col-6">
-                                        <a href="https://www.sk-ii.com/" target="_blank">
-                                            <img class="w-100 " src="/images/pictures/brands/brand9.png">
-                                        </a>
-                                    </div>
 
+                        <div id="brandsCarousel" class="carousel slide w-100" data-bs-ride="carousel">
+                            <div class="carousel-inner pb-6" role="listbox">
+                                <div class="carousel-item py-5 active">
+                                    <div class="row">
+                                        <div class="col-lg-2 col-md-4 col-6">
+                                            <a href="https://www.laroche-posay.com/" target="_blank">
+                                                <img class="w-100 hover" src="/images/pictures/brands/brand4.png">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-2 col-md-4 col-6">
+                                            <a href="https://theordinary.deciem.com/" target="_blank">
+                                                <img class="w-100 hover" src="/images/pictures/brands/brand5.png">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-2 col-md-4 col-6">
+                                            <a href="https://www.clinique.com/" target="_blank">
+                                                <img class="w-100 hover" src="/images/pictures/brands/brand6.png">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-2 col-md-4 col-6">
+                                            <a href="https://www.drunkelephant.com/" target="_blank">
+                                                <img class="w-100 hover" src="/images/pictures/brands/brand7.png">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-2 col-md-4 col-6" >
+                                            <a href="https://www.cosrx.com/" target="_blank">
+                                                <img class="w-100 hover" src="/images/pictures/brands/brand8.png">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-2 col-md-4 col-6">
+                                            <a href="https://www.sk-ii.com/" target="_blank">
+                                                <img class="w-100 " src="/images/pictures/brands/brand9.png">
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item py-5">
+                                    <div class="row">
+                                        <div class="col-lg-2 col-md-4 col-6">
+                                            <a href="https://www.laroche-posay.com/" target="_blank">
+                                                <img class="w-100 hover" src="/images/pictures/brands/brand9.png">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-2 col-md-4 col-6">
+                                            <a href="https://theordinary.deciem.com/" target="_blank">
+                                                <img class="w-100 hover" src="/images/pictures/brands/brand8.png">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-2 col-md-4 col-6">
+                                            <a href="https://www.clinique.com/" target="_blank">
+                                                <img class="w-100 hover" src="/images/pictures/brands/brand7.png">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-2 col-md-4 col-6">
+                                            <a href="https://www.drunkelephant.com/" target="_blank">
+                                                <img class="w-100 hover" src="/images/pictures/brands/brand6.png">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-2 col-md-4 col-6" >
+                                            <a href="https://www.cosrx.com/" target="_blank">
+                                                <img class="w-100 hover" src="/images/pictures/brands/brand5.png">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-2 col-md-4 col-6">
+                                            <a href="https://www.sk-ii.com/" target="_blank">
+                                                <img class="w-100 " src="/images/pictures/brands/brand4.png">
+                                            </a>
+                                        </div>
+
+                                    </div>
                                 </div>
                             </div>
+                            <button class="carousel-control-prev text-dark" data-bs-target="#brandsCarousel" role="button" data-bs-slide="prev">
+                                <span class="fa fa-chevron-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </button>
+                            <button class="carousel-control-next text-dark" data-bs-target="#brandsCarousel" role="button" data-bs-slide="next">
+                                <span class="fa fa-chevron-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </button>
 
-                            <div class="carousel-item py-5">
-                                <div class="row">
-                                    <div class="col-lg-2 col-md-4 col-6">
-                                        <a href="https://www.laroche-posay.com/" target="_blank">
-                                            <img class="w-100 hover" src="/images/pictures/brands/brand9.png">
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-2 col-md-4 col-6">
-                                        <a href="https://theordinary.deciem.com/" target="_blank">
-                                            <img class="w-100 hover" src="/images/pictures/brands/brand8.png">
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-2 col-md-4 col-6">
-                                        <a href="https://www.clinique.com/" target="_blank">
-                                            <img class="w-100 hover" src="/images/pictures/brands/brand7.png">
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-2 col-md-4 col-6">
-                                        <a href="https://www.drunkelephant.com/" target="_blank">
-                                            <img class="w-100 hover" src="/images/pictures/brands/brand6.png">
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-2 col-md-4 col-6" >
-                                        <a href="https://www.cosrx.com/" target="_blank">
-                                            <img class="w-100 hover" src="/images/pictures/brands/brand5.png">
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-2 col-md-4 col-6">
-                                        <a href="https://www.sk-ii.com/" target="_blank">
-                                            <img class="w-100 " src="/images/pictures/brands/brand4.png">
-                                        </a>
-                                    </div>
-
-                                </div>
-                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <a class="carousel-control-prev text-dark" href="#myCarousel" role="button" data-slide="prev">
-                            <span class="fa fa-chevron-left" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next text-dark" href="#myCarousel" role="button" data-slide="next">
-                            <span class="fa fa-chevron-right" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div>
-                </div>
+
+
             </div>
 
 
