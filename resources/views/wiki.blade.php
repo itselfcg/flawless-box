@@ -445,7 +445,7 @@
                             </p>
                         </div>
                         <div class="col-md-5 offset-md-1 col-12  ">
-                            <div class="row no-gutters">
+                            <div class="row g-0">
                                 <div class="col-lg-12 bg-pink texture-45lines">
                                     <img class="w-100" src="/images/pictures/products/wiki/cleanser.png">
                                 </div>
@@ -461,7 +461,7 @@
                     <span class="anchor-lg"></span>
                     <div class="row center ">
                         <div class="col-md-5  col-12 order-md-first order-last ">
-                            <div class="row no-gutters">
+                            <div class="row g-0">
                                 <div class="col-lg-12 bg-blue ">
                                     <img class="w-100" src="/images/pictures/products/wiki/eyecream.png">
                                 </div>
@@ -526,7 +526,7 @@
                             </p>
                         </div>
                         <div class="col-md-5 offset-md-1 col-12 ">
-                            <div class="row no-gutters ">
+                            <div class="row g-0">
                                 <div class="col-lg-12 ">
                                     <img class="w-100" src="/images/pictures/products/wiki//spottreatment.png">
                                 </div>
@@ -540,7 +540,7 @@
                     <span class="anchor-lg"></span>
                     <div class="row center">
                         <div class="col-md-5 col-12  order-md-first order-last ">
-                            <div class="row no-gutters">
+                            <div class="row g-0">
                                 <div class="col-lg-12 bg-purple texture-xlines">
                                     <img class="w-100" src="/images/pictures/products/wiki/moisturizer.png">
                                 </div>
@@ -611,7 +611,7 @@
                         </div>
                         <div class="col-md-5 offset-md-1 col-12 ">
                             <div class="col text-center">
-                                <div class="row no-gutters">
+                                <div class="row g-0">
                                     <div class="col-lg-12 bg-yellow texture-45lines">
                                         <img class="w-100" src="/images/pictures/products/wiki//sunscreen.png">
                                     </div>
@@ -756,7 +756,7 @@
                     <span class="anchor-lg"></span>
                     <div class="row center ">
                         <div class="col-md-5 col-12  order-md-first order-last ">
-                            <div class="row no-gutters">
+                            <div class="row g-0">
                                 <div class="col-lg-12 bg-green texture-dots">
                                     <img class="w-100" src="/images/pictures/products/wiki/toner.png">
                                 </div>
@@ -842,7 +842,7 @@
                             </div>
                         </div>
                         <div class="col-md-5 offset-md-1 col-12">
-                            <div class="row no-gutters">
+                            <div class="row g-0">
                                 <div class="col-lg-12 bg-purple texture-tablecloth">
                                     <img class="w-100" src="/images/pictures/products/wiki//serum.png">
                                 </div>
@@ -856,7 +856,7 @@
                     <span class="anchor-lg"></span>
                     <div class="row center">
                         <div class=" col-md-5 col-12  order-md-first order-last ">
-                            <div class="row no-gutters">
+                            <div class="row g-0">
                                 <div class="col-lg-12 bg-yellow texture-xlines">
                                     <img class="w-100" src="/images/pictures/products/wiki/essence.png">
                                 </div>
@@ -1014,7 +1014,7 @@
                             </div>
                         </div>
                         <div class="col-md-5 offset-md-1 col-12 ">
-                            <div class="row no-gutters">
+                            <div class="row g-0">
                                 <div class="col-lg-12 bg-gray">
                                     <img class="w-100" src="/images/pictures/products/wiki//sheetmask.png">
                                 </div>
@@ -1029,7 +1029,7 @@
                     <span class="anchor-lg"></span>
                     <div class="row center">
                         <div class="col-md-5 col-12  order-md-first order-last ">
-                            <div class="row no-gutters">
+                            <div class="row g-0">
                                 <div class="col-lg-12 bg-pink texture-dots">
                                     <img class="w-100" src="/images/pictures/products/wiki/exfoliator.png">
                                 </div>
@@ -1087,7 +1087,7 @@
 
                         </div>
                         <div class="col-md-5 offset-md-1 col-12 ">
-                            <div class="row no-gutters">
+                            <div class="row g-0">
                                 <div class="col-lg-12 bg-gray texture-tablecloth">
                                     <img class="w-100" src="/images/pictures/products/wiki/facemask.png">
                                 </div>

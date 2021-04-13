@@ -18,7 +18,7 @@
 
             </div>
             <hr class="sep1">
-            <div class="row text-center no-gutters pt-5 pb-5">
+            <div class="row text-center g-0 pt-5 pb-5">
                 @foreach($plans as $plan)
 
                     <div class="col-md-6 pb-5">

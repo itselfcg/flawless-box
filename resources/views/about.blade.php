@@ -50,7 +50,7 @@
     </section>
     <section id="info">
         <div class="container w-75">
-            <div class="row no-gutters">
+            <div class="row gx-0">
                 <div class=" col-md-6">
                     <h3>01</h3>
 
@@ -67,7 +67,7 @@
                 </div>
 
             </div>
-            <div class="row no-gutters">
+            <div class="row g-0">
                 <div class="col-md-6 text-start">
                     <img class="w-75" src="/images/pictures/info.jpg">
 
@@ -83,7 +83,7 @@
 
 
             </div>
-            <div class="row no-gutters">
+            <div class="row g-0">
                 <div class="col-md-6">
                     <h3>03</h3>
 
