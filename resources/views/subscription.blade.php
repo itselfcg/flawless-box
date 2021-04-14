@@ -138,6 +138,8 @@
         </div>
     </section>
     <section id="products">
+        <span class="anchor-md"></span>
+
         <div class="container w-75">
             <div class="row g-0">
                 <div class="col-lg-4 col-12">

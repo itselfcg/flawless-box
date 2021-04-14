@@ -328,6 +328,13 @@ hr.sep1{
     visibility: hidden;
 }
 
+.anchor-md{
+    display: block;
+    height: 3em; /*same height as header*/
+    margin-top: -3em; /*same height as header*/
+    visibility: hidden;
+}
+
 .anchor-sm{
     display: block;
     height: .5em; /*same height as header*/

@@ -23,13 +23,17 @@
                                         <h1>Introduction<br>to Skincare</h1>
                                         <h2>PRODUCT GUIDE</h2>
 
-                                        <p>Achieve a perfect skin following our skincare routine. Subscribe to FlawlessBox to start
+                                        <p>Achieve a perfect skin following our skincare routine. Subscribe to
+                                            FlawlessBox to start
                                             receiving the best products available.</p>
 
+                                        <p>
+                                            Take a look to this month box. We had worked with one of the best skincare brand.
+                                            <a class="link" href="box#products">
+                                                Learn more
+                                            </a>
+                                        </p>
 
-                                        <a class="btn btn-orange w-50 text-white" href="subscription">
-                                            MONTH'S BOX
-                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -43,7 +47,7 @@
                                                 <div class="container">
                                                     <a href="wiki#basics">
 
-                                                    <h4><span>THE BASICS</span></h4>
+                                                        <h4><span>THE BASICS</span></h4>
                                                     </a>
                                                 </div>
                                             </div>
@@ -137,7 +141,7 @@
                                                 <div class="container">
                                                     <a href="wiki#extras">
 
-                                                    <h4><span>EXTRA CARE</span></h4>
+                                                        <h4><span>EXTRA CARE</span></h4>
                                                     </a>
                                                 </div>
                                             </div>
@@ -195,9 +199,9 @@
                                             <div class="separator">
                                                 <a href="wiki#weekly">
 
-                                                <div class="container">
-                                                    <h4><span>ONCE A WEEK</span></h4>
-                                                </div>
+                                                    <div class="container">
+                                                        <h4><span>ONCE A WEEK</span></h4>
+                                                    </div>
                                                 </a>
                                             </div>
                                         </div>
