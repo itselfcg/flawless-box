@@ -10,27 +10,30 @@
     <section id="intro">
         <div class="h-100 row align-items-center">
             <div class="col">
-                <div class=" container">
+                <div class=" container w-75">
 
                     <div class="row">
                         <div class="col-lg-8 col-md-10">
 
                             <div class="title ">
-                                <h3 style="font-size: 2.5em; color: white;">
-                                    MARCH 2021
-                                </h3>
+                                <h1>
+                                    <img class="w-50" SRC="/images/pictures/logo1.png">
+                                    <br> &
+                                    <img class="w-50" SRC="/images/pictures/brands/brand3.png">
 
-                                <img class="w-50" SRC="/images/pictures/brands/brand3.png"><br>
+                                </h1>
 
-                                <label style="font-family:'Trebuchet MS';font-size: 1em;font-weight: bold;">
-                                    UP TO $210 VALUE FOR $25*
-                                </label>
+
+                                <h2>
+                                    March 2021
+                                </h2>
+                                <a class="link" href="#info">
+                                    More info
+                                </a>
 
                             </div>
 
-                            <a class="btn btn-join " href="#join-now">
-                                JOIN NOW
-                            </a>
+
                         </div>
                     </div>
 
@@ -42,8 +45,8 @@
     </section>
     <section id="info">
         <div class="container w-75">
-            <div class="row pt-4">
-                <div class="col-lg-5 offset-lg-1 col-md-6 text-start my-auto ">
+            <div class="row pt-6 ">
+                <div class="col-lg-5 offset-lg-1 col-md-6 text-start my-auto pb-4">
 
                     <h1 style="font-size: 2.5em;">THE FUSION OF SKINCARE, SCIENCE<br> & ART</h1>
                     <h2>Dr. Jart+</h2>
@@ -142,7 +145,7 @@
 
                     <div class="h-100 row g-0 align-items-center bg-green">
                         <div class="col text-center pt-4 pb-4">
-                            <h4 style="color: black; line-height: 2.25em;">
+                            <h4 style="color: black; line-height: 2.25em; font-size: 1em;">
                                 check out
 
                                 <div class="georgia" style="font-size: 2.5em; ">
