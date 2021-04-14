@@ -19,9 +19,9 @@
                 <div class="title">
                     <h1>Skincare to fall in love</h1>
                     <p>Chekout our new March's box. free shipping in your first box.</p>
+                    <a class="link" href="subscription">More info</a>
 
                 </div>
-                <a class="link" href="subscription">More info</a>
 
             </div>
         </div>

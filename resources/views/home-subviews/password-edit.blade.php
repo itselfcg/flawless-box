@@ -25,8 +25,7 @@
                         <form action="update-password" method="post">
                             @csrf
                             <div class="form-contain">
-                                <div class="form-group">
-                                    <div class="row ">
+                                    <div class="form-group row ">
                                         <div class="col-12">
                                             <div class="form-floating">
                                                 <input
@@ -44,8 +43,7 @@
                                             </div>
                                         </div>
                                     </div>
-
-                                    <div class="row ">
+                                    <div class="form-group row ">
                                         <div class="col-12">
                                             <div class="form-floating">
                                                 <input
@@ -62,7 +60,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="row ">
+                                    <div class="form-group row ">
 
                                         <div class="col-12">
                                             <div class="form-floating">
@@ -81,11 +79,9 @@
                                             </div>
                                         </div>
                                     </div>
-
-                                </div>
                             </div>
 
-                            <button type="submit" class="btn btn-yellow w-100 mt-3">SAVE</button>
+                            <button type="submit" class="btn btn-yellow w-100">SAVE</button>
                         </form>
 
                     </div>

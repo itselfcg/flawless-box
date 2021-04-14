@@ -4,6 +4,8 @@
 
 @section('css-scripts')
     <link rel="stylesheet" href="{{asset('css/pages/account.css')}}">
+    <link rel="stylesheet" href="{{asset('css/modules/form.css')}}">
+
 @stop
 
 @section('content')

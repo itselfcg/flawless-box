@@ -6,6 +6,8 @@
 
 @section('css-scripts')
     <link rel="stylesheet" href="{{asset('css/pages/cart.css')}}">
+    <link rel="stylesheet" href="{{asset('css/modules/form.css')}}">
+
 @stop
 
 @section('headers')
@@ -260,93 +262,91 @@
                                     <hr class="sep1">
 
                                     <div class="form-contain">
-                                        <div class="form-group">
-                                            <div class="row ">
-                                                <div class="col-6 col-lg-6  col-md-12">
-                                                    <div class="form-floating">
+                                        <div class="form-group row ">
+                                            <div class="col-6 col-lg-6  col-md-12">
+                                                <div class="form-floating">
 
-                                                        <input name="name"
-                                                               class="form-control @error('name') is-invalid @enderror"
-                                                               type="text"
-                                                               placeholder="First name"/>
-                                                        <label for="name">First name</label>
-                                                        @error('name')
-                                                        <span class="invalid-feedback" role="alert">
+                                                    <input name="name"
+                                                           class="form-control @error('name') is-invalid @enderror"
+                                                           type="text"
+                                                           placeholder="First name"/>
+                                                    <label for="name">First name</label>
+                                                    @error('name')
+                                                    <span class="invalid-feedback" role="alert">
                                                             <strong>{{ $message }}</strong>
                                                         </span>
-                                                        @enderror
-                                                    </div>
-                                                </div>
-                                                <div class="col-6 col-lg-6 col-md-12">
-                                                    <div class="form-floating">
-
-                                                        <input name="lastName"
-                                                               class="form-control @error('lastName') is-invalid @enderror"
-                                                               type="text"
-                                                               placeholder="Last name"/>
-                                                        <label for="lastName">Last name</label>
-                                                        @error('lastName')
-                                                        <span class="invalid-feedback" role="alert">
-                                                            <strong>{{ $message }}</strong>
-                                                        </span>
-                                                        @enderror
-                                                    </div>
+                                                    @enderror
                                                 </div>
                                             </div>
+                                            <div class="col-6 col-lg-6 col-md-12">
+                                                <div class="form-floating">
 
-                                            <div class="row">
-                                                <div class="col">
-                                                    <div class="form-floating">
-
-                                                        <input type="email"
-                                                               class="form-control @error('email') is-invalid @enderror"
-                                                               name="email"
-                                                               aria-describedby="emailHelp"
-                                                               placeholder="Email address">
-                                                        <label for="email">Email address</label>
-
-                                                        @error('email')
-                                                        <span class="invalid-feedback" role="alert">
+                                                    <input name="lastName"
+                                                           class="form-control @error('lastName') is-invalid @enderror"
+                                                           type="text"
+                                                           placeholder="Last name"/>
+                                                    <label for="lastName">Last name</label>
+                                                    @error('lastName')
+                                                    <span class="invalid-feedback" role="alert">
                                                             <strong>{{ $message }}</strong>
                                                         </span>
-                                                        @enderror
-                                                    </div>
+                                                    @enderror
                                                 </div>
                                             </div>
-                                            <div class="row">
-                                                <div class="col">
-                                                    <div class="form-floating">
-                                                        <input
-                                                            name="password"
-                                                            type="password"
-                                                            class="form-control @error('password') is-invalid @enderror"
-                                                            placeholder="Password">
-                                                        <label for="password">Password</label>
+                                        </div>
 
-                                                        @error('password')
-                                                        <span class="invalid-feedback" role="alert">
+                                        <div class="form-group row">
+                                            <div class="col">
+                                                <div class="form-floating">
+
+                                                    <input type="email"
+                                                           class="form-control @error('email') is-invalid @enderror"
+                                                           name="email"
+                                                           aria-describedby="emailHelp"
+                                                           placeholder="Email address">
+                                                    <label for="email">Email address</label>
+
+                                                    @error('email')
+                                                    <span class="invalid-feedback" role="alert">
                                                             <strong>{{ $message }}</strong>
                                                         </span>
-                                                        @enderror
-                                                    </div>
+                                                    @enderror
                                                 </div>
                                             </div>
-                                            <div class="row">
-                                                <div class="col">
-                                                    <div class="form-floating">
-                                                        <input
-                                                            name="password_confirmation"
-                                                            type="password"
-                                                            class="form-control @error('password_confirmation') is-invalid @enderror"
-                                                            placeholder="Confirm password">
-                                                        <label for="password_confirmation">Confirm password</label>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col">
+                                                <div class="form-floating">
+                                                    <input
+                                                        name="password"
+                                                        type="password"
+                                                        class="form-control @error('password') is-invalid @enderror"
+                                                        placeholder="Password">
+                                                    <label for="password">Password</label>
 
-                                                        @error('password_confirmation')
-                                                        <span class="invalid-feedback" role="alert">
+                                                    @error('password')
+                                                    <span class="invalid-feedback" role="alert">
                                                             <strong>{{ $message }}</strong>
                                                         </span>
-                                                        @enderror
-                                                    </div>
+                                                    @enderror
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col">
+                                                <div class="form-floating">
+                                                    <input
+                                                        name="password_confirmation"
+                                                        type="password"
+                                                        class="form-control @error('password_confirmation') is-invalid @enderror"
+                                                        placeholder="Confirm password">
+                                                    <label for="password_confirmation">Confirm password</label>
+
+                                                    @error('password_confirmation')
+                                                    <span class="invalid-feedback" role="alert">
+                                                            <strong>{{ $message }}</strong>
+                                                        </span>
+                                                    @enderror
                                                 </div>
                                             </div>
                                         </div>
@@ -369,137 +369,135 @@
                                     <hr class="sep1">
 
                                     <div class="form-contain">
-                                        <div class="form-group">
-                                            <div class="row ">
-                                                <div class="col-6 col-lg-6 col-md-12">
-                                                    <div class="form-floating">
+                                        <div class="form-group row ">
+                                            <div class="col-6 col-lg-6 col-md-12">
+                                                <div class="form-floating">
 
-                                                        <input name="nameAddress"
-                                                               class="form-control @error('nameAddress') is-invalid @enderror"
-                                                               type="text"
-                                                               value="{{Auth::check()?$address->name:''}}"
-                                                               placeholder="First name"/>
-                                                        <label for="nameAddress">Name</label>
+                                                    <input name="nameAddress"
+                                                           class="form-control @error('nameAddress') is-invalid @enderror"
+                                                           type="text"
+                                                           value="{{Auth::check()?$address->name:''}}"
+                                                           placeholder="First name"/>
+                                                    <label for="nameAddress">Name</label>
 
-                                                        @error('nameAddress')
-                                                        <span class="invalid-feedback" role="alert">
+                                                    @error('nameAddress')
+                                                    <span class="invalid-feedback" role="alert">
                                                             <strong>{{ $message }}</strong>
                                                         </span>
-                                                        @enderror
-                                                    </div>
-                                                </div>
-                                                <div class="col-6 col-lg-6 col-md-12">
-                                                    <div class="form-floating">
-
-                                                        <input name="lastNameForAddress"
-                                                               class="form-control @error('lastNameForAddress') is-invalid @enderror"
-                                                               type="text"
-                                                               value="{{Auth::check()?$address->last_name:''}}"
-                                                               placeholder="Last name"/>
-                                                        <label for="lastNameForAddress">Last name</label>
-
-                                                        @error('lastNameForAddress')
-                                                        <span class="invalid-feedback" role="alert">
-                                                            <strong>{{ $message }}</strong>
-                                                        </span>
-                                                        @enderror
-                                                    </div>
+                                                    @enderror
                                                 </div>
                                             </div>
-                                            <div class="row ">
-                                                <div class="col-8 col-lg-8 col-md-12">
-                                                    <div class="form-floating">
+                                            <div class="col-6 col-lg-6 col-md-12">
+                                                <div class="form-floating">
 
-                                                        <input name="street"
-                                                               class="form-control @error('street') is-invalid @enderror"
-                                                               type="text"
-                                                               value="{{Auth::check()?$address->street:''}}"
-                                                               placeholder="Street"/>
-                                                        <label for="street">Street</label>
+                                                    <input name="lastNameForAddress"
+                                                           class="form-control @error('lastNameForAddress') is-invalid @enderror"
+                                                           type="text"
+                                                           value="{{Auth::check()?$address->last_name:''}}"
+                                                           placeholder="Last name"/>
+                                                    <label for="lastNameForAddress">Last name</label>
 
-                                                        @error('street')
-                                                        <span class="invalid-feedback" role="alert">
+                                                    @error('lastNameForAddress')
+                                                    <span class="invalid-feedback" role="alert">
                                                             <strong>{{ $message }}</strong>
                                                         </span>
-                                                        @enderror
-                                                    </div>
-                                                </div>
-                                                <div class="col-4 col-lg-4 col-md-12">
-                                                    <div class="form-floating">
-
-                                                        <input name="zipcode"
-                                                               class="form-control @error('zipcode') is-invalid @enderror"
-                                                               type="text"
-                                                               value="{{Auth::check()?$address->zip_code:''}}"
-                                                               placeholder="Zipcode"/>
-                                                        <label for="zipcode">Zipcode</label>
-
-                                                        @error('zipcode')
-                                                        <span class="invalid-feedback" role="alert">
-                                                            <strong>{{ $message }}</strong>
-                                                        </span>
-                                                        @enderror
-                                                    </div>
+                                                    @enderror
                                                 </div>
                                             </div>
-                                            <div class="row ">
-                                                <div class="col-6 col-lg-6 col-md-12">
-                                                    <div class="form-floating">
-
-                                                        <input name="city"
-                                                               class="form-control @error('city') is-invalid @enderror"
-                                                               type="text"
-                                                               value="{{Auth::check()?$address->city:''}}"
-                                                               placeholder="City"/>
-                                                        <label for="city">City</label>
-
-                                                        @error('city')
-                                                        <span class="invalid-feedback" role="alert">
-                                                            <strong>{{ $message }}</strong>
-                                                        </span>
-                                                        @enderror
-                                                    </div>
-                                                </div>
-                                                <div class="col-6 col-lg-6 col-md-12">
-                                                    <div class="form-floating">
-
-                                                        <input name="state"
-                                                               class="form-control @error('state') is-invalid @enderror"
-                                                               type="text"
-                                                               value="{{Auth::check()?$address->state:''}}"
-                                                               placeholder="State / Providence"/>
-                                                        <label for="state">State / Providence</label>
-
-                                                        @error('state')
-                                                        <span class="invalid-feedback" role="alert">
-                                                            <strong>{{ $message }}</strong>
-                                                        </span>
-                                                        @enderror
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="row ">
-
-                                                <div class="col-12">
-                                                    <div class="form-floating">
-
-                                                        <input name="phoneNumber"
-                                                               class="form-control @error('phoneNumber') is-invalid @enderror"
-                                                               type="text"
-                                                               value="{{Auth::check()?$address->phone_number:''}}"
-                                                               placeholder="Phone number"/>
-                                                        <label for="phoneNumber">Phone number</label>
-
-                                                        @error('phoneNumber')
-                                                        <span class="invalid-feedback" role="alert">
-                                                            <strong>{{ $message }}</strong>
-                                                        </span>
-                                                        @enderror
-                                                    </div>
-                                                </div>
-                                            </div>
-
                                         </div>
+                                        <div class="form-group row ">
+                                            <div class="col-8 col-lg-8 col-md-12">
+                                                <div class="form-floating">
+
+                                                    <input name="street"
+                                                           class="form-control @error('street') is-invalid @enderror"
+                                                           type="text"
+                                                           value="{{Auth::check()?$address->street:''}}"
+                                                           placeholder="Street"/>
+                                                    <label for="street">Street</label>
+
+                                                    @error('street')
+                                                    <span class="invalid-feedback" role="alert">
+                                                            <strong>{{ $message }}</strong>
+                                                        </span>
+                                                    @enderror
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-4 col-md-12">
+                                                <div class="form-floating">
+
+                                                    <input name="zipcode"
+                                                           class="form-control @error('zipcode') is-invalid @enderror"
+                                                           type="text"
+                                                           value="{{Auth::check()?$address->zip_code:''}}"
+                                                           placeholder="Zipcode"/>
+                                                    <label for="zipcode">Zipcode</label>
+
+                                                    @error('zipcode')
+                                                    <span class="invalid-feedback" role="alert">
+                                                            <strong>{{ $message }}</strong>
+                                                        </span>
+                                                    @enderror
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row ">
+                                            <div class="col-6 col-lg-6 col-md-12">
+                                                <div class="form-floating">
+
+                                                    <input name="city"
+                                                           class="form-control @error('city') is-invalid @enderror"
+                                                           type="text"
+                                                           value="{{Auth::check()?$address->city:''}}"
+                                                           placeholder="City"/>
+                                                    <label for="city">City</label>
+
+                                                    @error('city')
+                                                    <span class="invalid-feedback" role="alert">
+                                                            <strong>{{ $message }}</strong>
+                                                        </span>
+                                                    @enderror
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-lg-6 col-md-12">
+                                                <div class="form-floating">
+
+                                                    <input name="state"
+                                                           class="form-control @error('state') is-invalid @enderror"
+                                                           type="text"
+                                                           value="{{Auth::check()?$address->state:''}}"
+                                                           placeholder="State / Providence"/>
+                                                    <label for="state">State / Providence</label>
+
+                                                    @error('state')
+                                                    <span class="invalid-feedback" role="alert">
+                                                            <strong>{{ $message }}</strong>
+                                                        </span>
+                                                    @enderror
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row ">
+
+                                            <div class="col-12">
+                                                <div class="form-floating">
+
+                                                    <input name="phoneNumber"
+                                                           class="form-control @error('phoneNumber') is-invalid @enderror"
+                                                           type="text"
+                                                           value="{{Auth::check()?$address->phone_number:''}}"
+                                                           placeholder="Phone number"/>
+                                                    <label for="phoneNumber">Phone number</label>
+
+                                                    @error('phoneNumber')
+                                                    <span class="invalid-feedback" role="alert">
+                                                            <strong>{{ $message }}</strong>
+                                                        </span>
+                                                    @enderror
+                                                </div>
+                                            </div>
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>
@@ -509,9 +507,8 @@
                                 <h3>{{Auth::check()?'02':'03'}}</h3>
                                 <h4>Payment Method</h4>
                                 <hr class="sep1">
-                                <div class="form-contain">
                                     <div class="form-group">
-                                        <div class="row ">
+                                        <div class="form-group row ">
 
                                             <div class="col-12">
                                                 @foreach($paymentMethods as $paymentMethod)
@@ -531,7 +528,7 @@
                                                 @endforeach
                                             </div>
                                         </div>
-                                        <div id="info" class="row pt-3">
+                                        <div id="info" class="form-group row">
 
                                             <div class="col-8">
                                                 <div class="form-floating">
@@ -564,7 +561,6 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
                             </div>
                         </div>
                         @if (session('cart'))

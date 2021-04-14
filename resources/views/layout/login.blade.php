@@ -1,5 +1,7 @@
 @extends('layout.master')
-
+@section('css-scripts')
+    <link rel="stylesheet" href="{{asset('css/modules/form.css')}}">
+@stop
 
 
 @section('content')

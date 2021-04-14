@@ -8,7 +8,7 @@ if (session('cart'))
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".dual-collapse" >
         <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="navbar-nav order-0 brand">
+    <div class="navbar-nav order-0 brand px-4">
 
         <a href="{{ url('/') }}" >
             <img src="{{asset('images/pictures/logo1.png')}}" alt="FlawlessBox">

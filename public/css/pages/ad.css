@@ -10,7 +10,7 @@ h2 {
 
 .ad{
 
-    background-color: rgba(var(--orange-rgb),.5);
+    background-color: rgba(var(--orange-rgb),.3);
     margin: auto;
     width: 250px;
     height: 250px;

@@ -1,6 +1,6 @@
 @section('css-scripts')
     <link rel="stylesheet" href="{{asset('css/pages/ad.css')}}">
-@endsection
+@append
 <div id="carouselAd" class="carousel slide carousel-fade" data-ride="carousel">
     <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselAd" data-bs-slide-to="0" class="active"></button>

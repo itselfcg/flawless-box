@@ -20,7 +20,7 @@
                                 <div class="header pt-5">
                                     <div class="pb-5">
 
-                                        <h1>Introduction<br>to Skincare</h1>
+                                        <h1>Intro<br>to Skincare</h1>
                                         <h2>PRODUCT GUIDE</h2>
 
                                         <p>Achieve a perfect skin following our skincare routine. Subscribe to
