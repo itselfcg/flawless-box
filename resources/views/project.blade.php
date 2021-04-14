@@ -14,7 +14,7 @@
                     <div class="col-12 align-self-end ">
                         <div class="title">
                             <h1>Project</h1>
-                            <h2> Info / Resources</h2>
+                            <h2> Info </h2>
                         </div>
                     </div>
                 </div>
@@ -35,44 +35,42 @@
             <div class="row">
                 <div class="col-12">
                     <div class="row text-justify">
-                        <div class="col-md-6">
+                        <div class="col-md-4">
                             <h3>01</h3>
                             <h4>History</h4>
-                            <p>Flawless Box is a personal project to challenge myself.</p>
+                            <p>Flawless Box is a personal project to challenge myself.
+                            </p>
                             <p>
                                 A couple of months ago I started to practice my frontend skills.
-                                I made a bunch of webpages in codepen experimenting with html and css; this project is
-                                one of
-                                those webpages.
+                                I made a bunch of webpages in codepen experimenting with html and css; this project is one of those webpages —if we can call it that because it is completely different—.
+
+
                             </p>
 
                             <p>
-
-                                The hardest part of starting a personal project is finding a topic.
-                                I remember that when I decided to started this project I wanted to practice but also
-                                make
-                                something that made me proud.
-                                So I chose a topic that I love; It make learning/experimenting a incredible experience.
+                                My objetive it's still improve my frontend skills
+                                but to make thing more interesting I added some backend.
                             </p>
                         </div>
 
-                        <div class="col-md-6">
+                        <div class="col-md-4">
                             <h3>02</h3>
                             <h4>About</h4>
-                            <p>This page is the V2.5.? of Flawless Box.</p>
+                            <p>This page is the v2.?</p>
                             <p>
-                                Flawless Box V1 started as a store, showing some products without any real
+                                Flawless Box v1 started as a store, showing some products without any real
                                 functionality.
                                 After all it was born in codepen.io.
                             </p>
 
                             <p>
-                                Flawless Box V2 took that idea. Create a real subscription system, and let the user do
-                                almost all thing you can do in a real page.
-                                The design has been change and might still change. I'm still learning. :)
+                                Flawless Box v2 took the idea above and upgraded it. Not just the design improve
+                                I created a real subscription system.
+                                Customers can choose a plan, pay for it and manage their subscription. — Just for functionality, I don't sell anything —
                             </p>
+
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-4">
                             <h3>03</h3>
                             <h4>Tecnologies</h4>
                             <p>
@@ -85,14 +83,16 @@
 
                             <p>
                                 Flawless Box v2
-                                <br> Laravel, Bootstrap v4.5, <a class="link"
-                                                                 href="https://github.com/itselfcg/flawless-box"
-                                                                 target="_blank"><i
-                                        class="fa fa-github"></i> Git</a> , Heroku.
+                                <br> Laravel, Bootstrap v5, PostgreSQL, Heroku, <a class="link"
+                                                                                   href="https://github.com/itselfcg/flawless-box"
+                                                                                   target="_blank"><i
+                                        class="fa fa-github"></i> Git</a>.
                             </p>
 
+
+
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-8">
                             <h3>04</h3>
                             <h4>Sketches</h4>
 
@@ -239,6 +239,20 @@
 
                                 </div>
                             </div>
+                        </div>
+                        <div class="col-md-4">
+                            <h3>05</h3>
+                            <h4>Future</h4>
+
+                            <p>
+                                Flawless Box is not finished.
+                                There're still a bunch of thing that could improve —like the payment system— I'm working on it.
+                            </p>
+
+                            <p>
+                                The design has been changing and might still change. I'm experimenting. :)
+
+                            </p>
                         </div>
                     </div>
 
