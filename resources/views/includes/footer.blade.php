@@ -12,7 +12,6 @@
                 <p>
                     <a href="{{asset('home')}}">Account</a><br>
                     <a href="{{asset('box#join-now')}}">Join Now</a><br>
-                    <a href="{{asset('project')}}">Project</a>
                 </p>
             </div>
             <div class="col-lg-6">

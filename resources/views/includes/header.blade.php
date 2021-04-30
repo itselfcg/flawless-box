@@ -81,9 +81,6 @@ if (session('cart'))
             <li>
                 <a class="nav-link" href="{{asset('wiki')}}">Guide</a>
             </li>
-            <li>
-                <a class="nav-link" href="{{asset('project')}}">Project</a>
-            </li>
         </ul>
 
     </div>

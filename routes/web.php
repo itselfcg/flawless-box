@@ -22,7 +22,6 @@ Route::get('/', function () {
 });
 // BASIC ROUTES
 Route::view('/wiki', 'wiki');
-Route::view('/project', 'project');
 Route::view('/about', 'about');
 
 
